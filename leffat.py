@@ -9,6 +9,7 @@ from collections import defaultdict
 
 OMDB_API_KEY = os.getenv('OMDB_API_KEY', 'SINUN_OMDB_AVAIMESI_TÄHÄN')
 
+
 def get_kinoon_movies(page):
     """Hakee Kinoon.fi:n elokuvat."""
     print("Haetaan Kinoon.fi näytöksiä (selainmoottorilla)...")
@@ -231,6 +232,43 @@ def fetch_omdb_data(movie_list):
         except Exception as e:
             print(f"  [{i}/{len(movie_list)}] {search_title}: Virhe")
 
+def get_kinoon_showtimes(page, movie_url):
+    """Hakee yhden elokuvan esitysajat Kinoon.fi:stä."""
+    showtimes = []
+    
+    try:
+        page.goto(movie_url, wait_until="domcontentloaded", timeout=15000)
+        page.wait_for_timeout(2000)  # Anna sivun renderöityä
+        
+        html_content = page.content()
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        # Etsi kaikki näytökset
+        showtime_divs = soup.find_all('div', class_=lambda x: x and 'flex items-center gap-3 px-3 py-3' in x)
+        
+        for div in showtime_divs:
+            # Hae kellonaika
+            time_span = div.find('span', class_=lambda x: x and 'tabular-nums text-white' in x)
+            if not time_span:
+                continue
+            time_str = time_span.get_text(strip=True)
+            
+            # Hae teatteri
+            theatre_span = div.find('span', class_=lambda x: x and 'text-zinc-200' in x)
+            if not theatre_span:
+                continue
+            theatre = theatre_span.get_text(strip=True)
+            
+            showtimes.append({
+                "theatre": theatre,
+                "time": time_str
+            })
+    
+    except Exception as e:
+        print(f"  Virhe esitysaikojen haussa: {e}")
+    
+    return showtimes
+
 def main():
     print("🎬 Elokuvahaku käynnistyy...\n")
     print("Käynnistetään selainmoottori (Playwright)...")
@@ -242,52 +280,69 @@ def main():
         kinoon_data = get_kinoon_movies(page)
         kinot_data = get_kinot_movies(page)
         
+        all_movies = kinoon_data + kinot_data
+        
+        if not all_movies:
+            print("\n❌ Yhtään elokuvaa ei löydetty.")
+            browser.close()
+            return
+        
+        # Yhdistetään duplikaatit
+        unique_movies = merge_duplicates(all_movies)
+        
+        print(f"\n📊 Yhteensä {len(unique_movies)} uniikkia elokuvaa")
+        
+        # Haetaan OMDb-tiedot kaikille
+        fetch_omdb_data(unique_movies)
+        
+        # Järjestetään IMDb-arvosanan mukaan
+        unique_movies.sort(
+            key=lambda x: (
+                float(x.get("imdb_rating", 0)) if x.get("imdb_rating") and x.get("imdb_rating") != "N/A" else -1.0
+            ), 
+            reverse=True
+        )
+        
+        # Haetaan esitysajat vain TOP 30:lle
+        print(f"\n🎟️  Haetaan esitysajat TOP 30 elokuvalle...\n")
+        top_30 = [m for m in unique_movies if m.get("imdb_rating") and m.get("imdb_rating") != "N/A"][:30]
+        
+        for i, movie in enumerate(top_30, 1):
+            if movie.get("source") == "Kinoon.fi" and movie.get("url"):
+                print(f"  [{i}/30] {movie['title']}...")
+                kinoon_showtimes = get_kinoon_showtimes(page, movie["url"])
+                
+                # Yhdistä Kinoon esitysajat olemassa oleviin
+                existing = movie.get("showtimes", [])
+                all_showtimes = existing + kinoon_showtimes
+                movie["showtimes"] = all_showtimes
+        
         browser.close()
-    
-    all_movies = kinoon_data + kinot_data
-    
-    if not all_movies:
-        print("\n❌ Yhtään elokuvaa ei löydetty.")
-        return
-    
-    # Yhdistetään duplikaatit
-    unique_movies = merge_duplicates(all_movies)
-    
-    print(f"\n📊 Yhteensä {len(unique_movies)} uniikkia elokuvaa")
-    
-    fetch_omdb_data(unique_movies)
     
     # Muotoillaan esitysajat
     for movie in unique_movies:
         movie["showtimes"] = format_showtimes(movie)
     
-    # Järjestetään IMDb-arvosanan mukaan
-    unique_movies.sort(
-        key=lambda x: (
-            float(x.get("imdb_rating", 0)) if x.get("imdb_rating") and x.get("imdb_rating") != "N/A" else -1.0
-        ), 
-        reverse=True
-    )
-    
     output_filename = "leffat.json"
     with open(output_filename, "w", encoding="utf-8") as f:
         json.dump(unique_movies, f, ensure_ascii=False, indent=2)
     
-    # Tulostetaan TOP 5 (nyt ilman duplikaatteja!)
+    # Tulostetaan TOP 5
     print("\n🏆 TOP 5 ELOKUVAA (IMDb):")
     count = 0
     for movie in unique_movies:
         rating = movie.get('imdb_rating')
         if rating and rating != 'N/A':
             rt = movie.get('rt_rating', 'N/A')
+            showtime_count = len(movie.get('showtimes', []))
             print(f"  {count+1}. {movie['title']}")
-            print(f"     IMDb: {rating} | RT: {rt}")
+            print(f"     IMDb: {rating} | RT: {rt} | Teattereita: {showtime_count}")
             count += 1
             if count >= 5:
                 break
     
     print(f"\n✅ Valmis! Tiedot tallennettu: {output_filename}")
-    print(f"📍 Elokuvat sisältävät nyt teatterikohtaiset esitysajat")
+    print(f"📍 TOP 30 elokuvalla on nyt Kinoon.fi esitysajat")
 
 if __name__ == "__main__":
     main()
