@@ -1,0 +1,1478 @@
+[
+  {
+    "title": "Twin Peaks",
+    "search_title": "Twin Peaks",
+    "url": "https://kinoon.fi/esitysajat/twin-peaks",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/b7d0bc0c-daed-41a8-99e5-fc6349517774/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "8.7",
+    "imdb_votes": "243,494",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "1990–1991",
+    "rated": "TV-MA",
+    "runtime": "1 min",
+    "genre": "Crime, Drama, Mystery",
+    "director": "N/A",
+    "actors": "Kyle MacLachlan, Michael Ontkean, Mädchen Amick",
+    "plot": "An idiosyncratic FBI agent investigates the murder of a young woman in the even more idiosyncratic town of Twin Peaks.",
+    "language": "English, Icelandic, Afrikaans, Norwegian",
+    "country": "United States",
+    "awards": "Won 2 Primetime Emmys. 19 wins & 45 nominations total",
+    "box_office": null
+  },
+  {
+    "title": "The Odyssey",
+    "search_title": "The Odyssey",
+    "url": "https://kinoon.fi/esitysajat/the-odyssey",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/43351e4e-7505-4ae8-95ab-a9fd74d2ea0b-6bd46563/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Cinema Orion",
+        "times": [
+          "17:00"
+        ]
+      },
+      {
+        "theatre": "RIVIERA Kallio",
+        "times": [
+          "18:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Gilda",
+        "times": [
+          "19:00",
+          "16:15"
+        ]
+      }
+    ],
+    "imdb_rating": "8.5",
+    "imdb_votes": "377,702",
+    "rt_rating": null,
+    "metacritic": "88/100",
+    "year": "2026",
+    "rated": "R",
+    "runtime": "172 min",
+    "genre": "Action, Adventure, Fantasy",
+    "director": "Christopher Nolan",
+    "actors": "Matt Damon, Tom Holland, Anne Hathaway",
+    "plot": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way.",
+    "language": "English, Greek",
+    "country": "United Kingdom, United States, Canada, New Zealand, Iceland",
+    "awards": "2 wins total",
+    "box_office": "$461,172,890"
+  },
+  {
+    "title": "Aliens",
+    "search_title": "Aliens",
+    "url": "https://kinoon.fi/esitysajat/aliens",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/d98e34cf-cdd8-40bf-858a-c0a401355cd7/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "8.4",
+    "imdb_votes": "839,261",
+    "rt_rating": "93%",
+    "metacritic": "84/100",
+    "year": "1986",
+    "rated": "R",
+    "runtime": "137 min",
+    "genre": "Action, Adventure, Horror",
+    "director": "James Cameron",
+    "actors": "Sigourney Weaver, Michael Biehn, Carrie Henn",
+    "plot": "Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring.",
+    "language": "English, Spanish",
+    "country": "United Kingdom, United States",
+    "awards": "Won 2 Oscars. 20 wins & 25 nominations total",
+    "box_office": "$85,160,248"
+  },
+  {
+    "title": "Blue Lock",
+    "search_title": "Blue Lock",
+    "url": "https://kinoon.fi/esitysajat/blue-lock",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F90abbb63-61e1-4ce1-a2e7-87fac6d65327.jpg&w=2560&q=75",
+    "showtimes": [],
+    "imdb_rating": "8.1",
+    "imdb_votes": "27,972",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2022–",
+    "rated": "TV-14",
+    "runtime": "1 min",
+    "genre": "Animation, Sport, Thriller",
+    "director": "N/A",
+    "actors": "Ricco Fajardo, Drew Breedlove, Nobunaga Shimazaki",
+    "plot": "High school soccer players from across Japan gather for a controversial project designed to create the best and most egoistic striker in the world.",
+    "language": "Japanese, English",
+    "country": "Japan",
+    "awards": "2 wins & 5 nominations total",
+    "box_office": null
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "search_title": "Spider-Man: Brand New Day",
+    "url": "https://kinoon.fi/esitysajat/spider-man-brand-new-day",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/e7e10ab8-b0a8-4dec-9b3e-570f3469caea-d762bcc6/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "8.1",
+    "imdb_votes": "183,571",
+    "rt_rating": null,
+    "metacritic": "66/100",
+    "year": "2026",
+    "rated": "PG-13",
+    "runtime": "145 min",
+    "genre": "Action, Adventure, Sci-Fi",
+    "director": "Destin Daniel Cretton",
+    "actors": "Tom Holland, Zendaya, Mark Ruffalo",
+    "plot": "A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous change and a powerful new enemy emerges.",
+    "language": "English",
+    "country": "United States, Canada, United Kingdom, Germany",
+    "awards": "1 nomination total",
+    "box_office": "$655,088,528"
+  },
+  {
+    "title": "Obsession",
+    "search_title": "Obsession",
+    "url": "https://kinoon.fi/esitysajat/obsession",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/68a4d871-d8a0-4a76-bfb3-306f7817b14a/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.9",
+    "imdb_votes": "291,494",
+    "rt_rating": "94%",
+    "metacritic": "77/100",
+    "year": "2026",
+    "rated": "R",
+    "runtime": "109 min",
+    "genre": "Horror, Romance, Thriller",
+    "director": "Curry Barker",
+    "actors": "Michael Johnston, Inde Navarrette, Cooper Tomlinson",
+    "plot": "Baron \"Bear\" Bailey breaks a novelty charm to force his co-worker Nikki Freeman to love him, but the supernatural compulsion warps her mind into violent obsession, trapping him in a nightmare he cannot wish away.",
+    "language": "English",
+    "country": "United States",
+    "awards": "7 wins & 15 nominations total",
+    "box_office": "$262,774,890"
+  },
+  {
+    "title": "Millennium Actress",
+    "search_title": "Millennium Actress",
+    "url": "https://kinoon.fi/esitysajat/millennium-actress",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F14433512-043a-4a7c-9cb9-9dba04bb39e6.jpg&w=2560&q=75",
+    "showtimes": [],
+    "imdb_rating": "7.8",
+    "imdb_votes": "36,172",
+    "rt_rating": "93%",
+    "metacritic": "70/100",
+    "year": "2001",
+    "rated": "PG",
+    "runtime": "87 min",
+    "genre": "Animation, Drama, Fantasy",
+    "director": "Satoshi Kon",
+    "actors": "Miyoko Shôji, Shôzô Îzuka, Mami Koyama",
+    "plot": "A TV interviewer and his cameraman meet a former actress and travel through her memories and career.",
+    "language": "Japanese, English",
+    "country": "Japan",
+    "awards": "6 wins & 8 nominations total",
+    "box_office": "$262,891"
+  },
+  {
+    "title": "The Invite",
+    "search_title": "The Invite",
+    "url": "https://kinoon.fi/esitysajat/the-invite",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F3a7755bb-b089-49b2-aec0-6f2166ff5742.jpg&w=2560&q=75",
+    "showtimes": [
+      {
+        "theatre": "Gilda",
+        "times": [
+          "15:00",
+          "17:30",
+          "20:00",
+          "12:20",
+          "15:00",
+          "17:30"
+        ]
+      },
+      {
+        "theatre": "Kino Konepaja",
+        "times": [
+          "17:00",
+          "19:45",
+          "17:00"
+        ]
+      },
+      {
+        "theatre": "RIVIERA Punavuori",
+        "times": [
+          "17:15",
+          "20:15",
+          "17:20"
+        ]
+      },
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "18:30"
+        ]
+      }
+    ],
+    "imdb_rating": "7.8",
+    "imdb_votes": "27,141",
+    "rt_rating": null,
+    "metacritic": "82/100",
+    "year": "2026",
+    "rated": "R",
+    "runtime": "107 min",
+    "genre": "Comedy, Drama, Romance",
+    "director": "Olivia Wilde",
+    "actors": "Seth Rogen, Olivia Wilde, Penélope Cruz",
+    "plot": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places.",
+    "language": "English, Spanish",
+    "country": "United States",
+    "awards": "2 wins & 6 nominations total",
+    "box_office": "$24,275,757"
+  },
+  {
+    "title": "Hamnet",
+    "search_title": "Hamnet",
+    "url": "https://kinoon.fi/esitysajat/hamnet",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/1cb2fe8d-8b81-466d-b880-020d22c355d4/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "RIVIERA Punavuori",
+        "times": [
+          "17:00"
+        ]
+      }
+    ],
+    "imdb_rating": "7.8",
+    "imdb_votes": "109,507",
+    "rt_rating": "87%",
+    "metacritic": "84/100",
+    "year": "2025",
+    "rated": "PG-13",
+    "runtime": "125 min",
+    "genre": "Biography, Drama, History",
+    "director": "Chloé Zhao",
+    "actors": "Jessie Buckley, Paul Mescal, Zac Wishart",
+    "plot": "In late 16th-century England, Agnes, a healer sensitive to the world around her, builds a home with William, a local tutor and aspiring playwright. As their lives fracture, they are tested by distance, silence, and grief.",
+    "language": "English, Latin, French, Greek, Ancient (to 1453)",
+    "country": "United Kingdom, United States",
+    "awards": "Won 1 Oscar. 97 wins & 301 nominations total",
+    "box_office": "$24,208,900"
+  },
+  {
+    "title": "Neil Young: Heart of Gold",
+    "search_title": "Neil Young: Heart of Gold",
+    "url": "https://kinoon.fi/esitysajat/neil-young-heart-of-gold",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/0dd9f067-669f-411c-a3e0-1aec028d6493/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.7",
+    "imdb_votes": "3,343",
+    "rt_rating": "90%",
+    "metacritic": "85/100",
+    "year": "2006",
+    "rated": "PG",
+    "runtime": "103 min",
+    "genre": "Documentary, Music",
+    "director": "Jonathan Demme",
+    "actors": "Neil Young, Emmylou Harris, Pegi Young",
+    "plot": "A film shot over during a two-night performance by Neil Young at Nashville's Ryman Auditorium.",
+    "language": "English",
+    "country": "United States",
+    "awards": "1 win & 2 nominations total",
+    "box_office": "$1,904,606"
+  },
+  {
+    "title": "The Furious",
+    "search_title": "The Furious",
+    "url": "https://kinoon.fi/esitysajat/the-furious",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/54603ef0-92a4-436a-9346-a20dac1b989e-a9c7c825/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.7",
+    "imdb_votes": "991",
+    "rt_rating": "98%",
+    "metacritic": "87/100",
+    "year": "2026",
+    "rated": "R",
+    "runtime": "113 min",
+    "genre": "Action, Crime, Thriller",
+    "director": "Kenji Tanigaki",
+    "actors": "Miao Xie, Joe Taslim, Enyou Yang",
+    "plot": "A father fights fiercely against ruthless kidnappers to save his abducted daughter.",
+    "language": "Chinese, English, Thai",
+    "country": "Hong Kong, China",
+    "awards": "1 win & 2 nominations total",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Rental Family",
+    "search_title": "Rental Family",
+    "url": "https://kinoon.fi/esitysajat/rental-family",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/745b129e-2e4e-446a-baea-64d9af4bd8ac/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.6",
+    "imdb_votes": "50,994",
+    "rt_rating": "87%",
+    "metacritic": "64/100",
+    "year": "2025",
+    "rated": "PG-13",
+    "runtime": "109 min",
+    "genre": "Comedy, Drama",
+    "director": "Hikari",
+    "actors": "Brendan Fraser, Takehiro Hira, Mari Yamamoto",
+    "plot": "An American actor in Tokyo struggling to find purpose lands an unusual gig: working for a Japanese \"rental family\" agency, playing stand-in roles for strangers. He rediscovers purpose, belonging, and the beauty of human connection.",
+    "language": "English, Japanese",
+    "country": "Japan, United States",
+    "awards": "11 wins & 22 nominations total",
+    "box_office": "$10,047,429"
+  },
+  {
+    "title": "Thelonious monk: straight, no chaser",
+    "search_title": "Thelonious monk: straight, no chaser",
+    "url": "https://kinoon.fi/esitysajat/thelonious-monk-straight-no-chaser",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/86a07f5f-97d1-41d9-ae05-6fa8bfe845ba/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.5",
+    "imdb_votes": "1,329",
+    "rt_rating": "89%",
+    "metacritic": null,
+    "year": "1988",
+    "rated": "PG-13",
+    "runtime": "90 min",
+    "genre": "Documentary, Biography, Music",
+    "director": "Charlotte Zwerin",
+    "actors": "Thelonious Monk, John Coltrane, Jimmy Cleveland",
+    "plot": "A documentary film about the life of pianist and jazz great Thelonious Sphere Monk. Features live performances by Monk and his band, and interviews with friends and family about the offbeat genius.",
+    "language": "English",
+    "country": "United States",
+    "awards": "1 win & 1 nomination",
+    "box_office": "$518,918"
+  },
+  {
+    "title": "Toy Story 5",
+    "search_title": "Toy Story 5",
+    "url": "https://kinoon.fi/esitysajat/toy-story-5",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/b9d33313-ead2-4e64-8d52-b7073d689396/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.5",
+    "imdb_votes": "62,539",
+    "rt_rating": "92%",
+    "metacritic": "73/100",
+    "year": "2026",
+    "rated": "PG",
+    "runtime": "102 min",
+    "genre": "Animation, Adventure, Comedy",
+    "director": "McKenna Harris, Andrew Stanton",
+    "actors": "Tom Hanks, Tim Allen, Joan Cusack",
+    "plot": "Woody, Buzz, Jessie and the rest of the gang's jobs are challenged when they're introduced to electronics, a new threat to playtime.",
+    "language": "English",
+    "country": "United States",
+    "awards": "4 nominations total",
+    "box_office": "$470,381,614"
+  },
+  {
+    "title": "Michael",
+    "search_title": "Michael",
+    "url": "https://kinoon.fi/esitysajat/michael",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/9931a8cb-d5c4-4eea-87e9-676679c74427/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.5",
+    "imdb_votes": "144,205",
+    "rt_rating": "38%",
+    "metacritic": "39/100",
+    "year": "2026",
+    "rated": "PG-13",
+    "runtime": "127 min",
+    "genre": "Biography, Drama, History",
+    "director": "Antoine Fuqua",
+    "actors": "Jaafar Jackson, Nia Long, Colman Domingo",
+    "plot": "The early life of musician Michael Jackson, from the discovery of his talent as the lead of the Jackson Five to the artist whose creative ambition fueled a pursuit to become the biggest entertainer in the world.",
+    "language": "English",
+    "country": "United States, Canada",
+    "awards": "7 wins & 5 nominations total",
+    "box_office": "$371,294,610"
+  },
+  {
+    "title": "The Death of Robin Hood",
+    "search_title": "The Death of Robin Hood",
+    "url": "https://kinoon.fi/esitysajat/the-death-of-robin-hood",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/3d27a2d4-4afe-4658-8e83-b360a7f3dd25/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.4",
+    "imdb_votes": "143",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2026",
+    "rated": "R",
+    "runtime": "123 min",
+    "genre": "Action, Adventure, Drama",
+    "director": "Michael Sarnoski",
+    "actors": "Hugh Jackman, Jodie Comer, Bill Skarsgård",
+    "plot": "Grappling with his past after a life of crime and murder, Robin Hood finds himself gravely injured after a battle he thought would be his last. In the hands of a mysterious woman, he is offered a chance at salvation.",
+    "language": "English",
+    "country": "United States",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "search_title": "Brand New Day",
+    "url": "https://www.kinot.fi/elokuva/spider-man-brand-new-day",
+    "source": "Kinot.fi",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BNWY3MzVmYzMtNjkyZS00MjJhLWI5MjMtZTQ2NmNkYzU1NTZhXkEyXkFqcGdeQXVyMTQ5Mzc5MDU@._V1_SX300.jpg",
+    "showtimes": [
+      {
+        "theatre": "Gilda",
+        "times": [
+          "17:15",
+          "19:20"
+        ]
+      },
+      {
+        "theatre": "Kino Myyri",
+        "times": [
+          "19:00"
+        ]
+      }
+    ],
+    "imdb_rating": "7.3",
+    "imdb_votes": "27",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "1987",
+    "rated": "N/A",
+    "runtime": "93 min",
+    "genre": "Documentary, Music",
+    "director": "Amos Gitai",
+    "actors": "Annie Lennox, David A. Stewart, Jimmy Zavala",
+    "plot": "Traveling through Japan, synth-pop legends Eurythmics test out new ideas about music in a rarely-seen early film by the celebrated Israeli director.",
+    "language": "English",
+    "country": "France, United Kingdom",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Predator: Badlands",
+    "search_title": "Predator: Badlands",
+    "url": "https://kinoon.fi/esitysajat/predator-badlands",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/99189e39-305e-49c6-a4d2-f3ed71ab3cb8/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.2",
+    "imdb_votes": "143,246",
+    "rt_rating": "86%",
+    "metacritic": "71/100",
+    "year": "2025",
+    "rated": "PG-13",
+    "runtime": "107 min",
+    "genre": "Action, Adventure, Sci-Fi",
+    "director": "Dan Trachtenberg",
+    "actors": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Ravi Narayan",
+    "plot": "A young Predator outcast from his clan finds an unlikely ally on his journey in search of the ultimate adversary.",
+    "language": "English",
+    "country": "United States, Australia, New Zealand, Canada, Germany",
+    "awards": "3 wins & 22 nominations total",
+    "box_office": "$91,083,631"
+  },
+  {
+    "title": "A Better Tomorrow II",
+    "search_title": "A Better Tomorrow II",
+    "url": "https://kinoon.fi/esitysajat/a-better-tomorrow-ii",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/3db85302-1582-4666-8350-4efe903745ac/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.2",
+    "imdb_votes": "12,537",
+    "rt_rating": "57%",
+    "metacritic": null,
+    "year": "1987",
+    "rated": "Not Rated",
+    "runtime": "105 min",
+    "genre": "Action, Crime, Drama",
+    "director": "John Woo",
+    "actors": "Leslie Cheung, Chow Yun-Fat, Lung Ti",
+    "plot": "A restauranteur teams up with a police officer and his ex-con brother to avenge the death of a friend's daughter.",
+    "language": "Mandarin, Cantonese, English",
+    "country": "Hong Kong",
+    "awards": "2 nominations total",
+    "box_office": "N/A"
+  },
+  {
+    "title": "The Drama",
+    "search_title": "The Drama",
+    "url": "https://kinoon.fi/esitysajat/the-drama",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/e7dc727b-1e0c-4583-859d-a22e5a0128da/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.2",
+    "imdb_votes": "81,611",
+    "rt_rating": null,
+    "metacritic": "59/100",
+    "year": "2026",
+    "rated": "R",
+    "runtime": "105 min",
+    "genre": "Comedy, Drama, Romance",
+    "director": "Kristoffer Borgli",
+    "actors": "Zendaya, Robert Pattinson, Alana Haim",
+    "plot": "A happily-engaged couple is put to the test when an unexpected turn sends their wedding week off the rails.",
+    "language": "English",
+    "country": "United States",
+    "awards": "7 nominations total",
+    "box_office": "$48,062,006"
+  },
+  {
+    "title": "Nosferatu",
+    "search_title": "Nosferatu",
+    "url": "https://kinoon.fi/esitysajat/nosferatu",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/df4c28c5-55ec-445c-845a-49f04dfc178d/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.1",
+    "imdb_votes": "264,518",
+    "rt_rating": "85%",
+    "metacritic": "78/100",
+    "year": "2024",
+    "rated": "R",
+    "runtime": "132 min",
+    "genre": "Fantasy, Horror, Mystery",
+    "director": "Robert Eggers",
+    "actors": "Lily-Rose Depp, Nicholas Hoult, Bill Skarsgård",
+    "plot": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+    "language": "English, Romanian, Romany, Russian, Latin, German",
+    "country": "United States",
+    "awards": "Nominated for 4 Oscars. 62 wins & 197 nominations total",
+    "box_office": "$95,608,235"
+  },
+  {
+    "title": "Licorice pizza",
+    "search_title": "Licorice pizza",
+    "url": "https://kinoon.fi/esitysajat/licorice-pizza",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/8dab15f6-6c2d-48a0-a75d-d77415413ae4/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.1",
+    "imdb_votes": "155,060",
+    "rt_rating": "90%",
+    "metacritic": "90/100",
+    "year": "2021",
+    "rated": "R",
+    "runtime": "133 min",
+    "genre": "Comedy, Drama, Romance",
+    "director": "Paul Thomas Anderson",
+    "actors": "Will Angarola, Griff Giacchino, James Kelley",
+    "plot": "A young man and a young woman grow up, run around, and fall in love in the San Fernando Valley, 1973.",
+    "language": "English, Japanese, Spanish",
+    "country": "United States, Canada",
+    "awards": "Nominated for 3 Oscars. 61 wins & 197 nominations total",
+    "box_office": "$17,318,007"
+  },
+  {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "search_title": "Teenage Sex and Death at Camp Miasma",
+    "url": "https://kinoon.fi/esitysajat/teenage-sex-and-death-at-camp-miasma",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/30b52375-8077-4585-864a-697ac524764c/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Cinema Orion",
+        "times": [
+          "20:20"
+        ]
+      },
+      {
+        "theatre": "Kino Konepaja",
+        "times": [
+          "19:45"
+        ]
+      }
+    ],
+    "imdb_rating": "7.1",
+    "imdb_votes": "912",
+    "rt_rating": null,
+    "metacritic": "89/100",
+    "year": "2026",
+    "rated": "R",
+    "runtime": "112 min",
+    "genre": "Drama, Horror, Romance",
+    "director": "Jane Schoenbrun",
+    "actors": "Gillian Anderson, Hannah Einbinder, Patrick Fischler",
+    "plot": "A director making a slasher sequel becomes obsessed with casting the original film's 'final girl,' leading both women into psychological and sexual chaos.",
+    "language": "English",
+    "country": "United States, Canada, United Kingdom",
+    "awards": "2 wins & 2 nominations total",
+    "box_office": "N/A"
+  },
+  {
+    "title": "A Serious Man",
+    "search_title": "A Serious Man",
+    "url": "https://kinoon.fi/esitysajat/a-serious-man",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/5be51cda-42b7-499a-a953-e2a0de9123d5/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "7.0",
+    "imdb_votes": "155,273",
+    "rt_rating": "89%",
+    "metacritic": "88/100",
+    "year": "2009",
+    "rated": "R",
+    "runtime": "106 min",
+    "genre": "Comedy, Drama",
+    "director": "Ethan Coen, Joel Coen",
+    "actors": "Michael Stuhlbarg, Richard Kind, Sari Lennick",
+    "plot": "Larry Gopnik, a Midwestern physics teacher, watches his life unravel over multiple sudden incidents. Despite seeking meaning and answers amidst his turmoils, he seems to keep sinking.",
+    "language": "English, Yiddish, Hebrew",
+    "country": "United Kingdom, France, United States",
+    "awards": "Nominated for 2 Oscars. 17 wins & 80 nominations total",
+    "box_office": "$9,228,768"
+  },
+  {
+    "title": "Father Mother Sister Brother",
+    "search_title": "Father Mother Sister Brother",
+    "url": "https://kinoon.fi/esitysajat/father-mother-sister-brother",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/4d0a29a7-93ae-4fe8-bd29-ec36b1d5a7e9/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "20:45",
+          "18:30"
+        ]
+      }
+    ],
+    "imdb_rating": "6.8",
+    "imdb_votes": "2,348",
+    "rt_rating": "83%",
+    "metacritic": "76/100",
+    "year": "2025",
+    "rated": "R",
+    "runtime": "110 min",
+    "genre": "Comedy, Drama",
+    "director": "Jim Jarmusch",
+    "actors": "Tom Waits, Adam Driver, Mayim Bialik",
+    "plot": "Estranged siblings reunite after years apart, forced to confront unresolved tensions and reevaluate their strained relationships with their emotionally distant parents",
+    "language": "English, French, Italian",
+    "country": "United States, Italy, France, Ireland, Germany",
+    "awards": "2 wins & 3 nominations total",
+    "box_office": "$184,997"
+  },
+  {
+    "title": "Disclosure Day",
+    "search_title": "Disclosure Day",
+    "url": "https://kinoon.fi/esitysajat/disclosure-day",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/4b3f6725-12ea-4621-82b8-3eb7d38c72b7/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "6.5",
+    "imdb_votes": "121,418",
+    "rt_rating": null,
+    "metacritic": "74/100",
+    "year": "2026",
+    "rated": "PG-13",
+    "runtime": "145 min",
+    "genre": "Action, Drama, Mystery",
+    "director": "Steven Spielberg",
+    "actors": "Emily Blunt, Josh O&apos;Connor, Colin Firth",
+    "plot": "If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?",
+    "language": "English",
+    "country": "United States, Canada, New Zealand, Japan",
+    "awards": "2 wins & 8 nominations total",
+    "box_office": "$116,568,260"
+  },
+  {
+    "title": "Scary Movie",
+    "search_title": "Scary Movie",
+    "url": "https://kinoon.fi/esitysajat/scary-movie",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fweb.biorex.mycloudcinema.com%2Fmedia%2Fposters%2F1498%2F432%2Fd4eb5e93-5ea7-47fa-b62c-64053587ce92.jpeg&w=2560&q=75",
+    "showtimes": [],
+    "imdb_rating": "6.3",
+    "imdb_votes": "319,036",
+    "rt_rating": "52%",
+    "metacritic": "48/100",
+    "year": "2000",
+    "rated": "R",
+    "runtime": "88 min",
+    "genre": "Comedy",
+    "director": "Keenen Ivory Wayans",
+    "actors": "Anna Faris, Jon Abrahams, Marlon Wayans",
+    "plot": "A year after disposing of the body of a man they accidentally killed, a group of dumb teenagers are stalked by a bumbling serial killer.",
+    "language": "English",
+    "country": "United States",
+    "awards": "8 wins & 7 nominations total",
+    "box_office": "$157,019,771"
+  },
+  {
+    "title": "Broken English",
+    "search_title": "Broken English",
+    "url": "https://kinoon.fi/esitysajat/broken-english",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/6d4c78b9-c3af-4cdc-96e4-747544cf0b44/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "6.3",
+    "imdb_votes": "7,430",
+    "rt_rating": "65%",
+    "metacritic": "61/100",
+    "year": "2007",
+    "rated": "PG-13",
+    "runtime": "93 min",
+    "genre": "Comedy, Drama, Romance",
+    "director": "Zoe R. Cassavetes",
+    "actors": "Parker Posey, Drea de Matteo, Tim Guinee",
+    "plot": "Since college, Nora hasn't had much luck with men. Now in her 30s, she works in a NYC hotel going nowhere. That is, until she meets Julien.",
+    "language": "English, French",
+    "country": "France, Japan, United States",
+    "awards": "1 win & 6 nominations total",
+    "box_office": "$956,919"
+  },
+  {
+    "title": "Supergirl",
+    "search_title": "Supergirl",
+    "url": "https://kinoon.fi/esitysajat/supergirl",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/99473832-2a49-464a-8ebc-11509193ab04/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "6.2",
+    "imdb_votes": "134,338",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2015–2021",
+    "rated": "TV-PG",
+    "runtime": "43 min",
+    "genre": "Action, Adventure, Drama",
+    "director": "N/A",
+    "actors": "Melissa Benoist, Chyler Leigh, David Harewood",
+    "plot": "The adventures of Superman's cousin and her own superhero career.",
+    "language": "English",
+    "country": "United States",
+    "awards": "15 wins & 52 nominations total",
+    "box_office": null
+  },
+  {
+    "title": "Marsupilami",
+    "search_title": "Marsupilami",
+    "url": "https://kinoon.fi/esitysajat/marsupilami",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/bbb2bed9-ee29-4399-89dc-cbc0b4a64de7/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "6.1",
+    "imdb_votes": "1,419",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "1993",
+    "rated": "TV-Y",
+    "runtime": "30 min",
+    "genre": "Animation, Short, Adventure",
+    "director": "N/A",
+    "actors": "Jim Cummings, Steve Mackall, Samuel E. Wright",
+    "plot": "The often off the wall, nonsensical antics of an animated creature with an enormously long tail and his life in the jungle.",
+    "language": "English",
+    "country": "United States",
+    "awards": "N/A",
+    "box_office": null
+  },
+  {
+    "title": "The Ice Tower",
+    "search_title": "The Ice Tower",
+    "url": "https://kinoon.fi/esitysajat/the-ice-tower",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/1f9d9802-9eed-4333-bee2-eab975ada3df/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "WHS Union",
+        "times": [
+          "18:00"
+        ]
+      }
+    ],
+    "imdb_rating": "6.0",
+    "imdb_votes": "1,281",
+    "rt_rating": "81%",
+    "metacritic": "80/100",
+    "year": "2025",
+    "rated": "N/A",
+    "runtime": "117 min",
+    "genre": "Drama, Fantasy",
+    "director": "Lucile Hadzihalilovic",
+    "actors": "Marion Cotillard, Clara Pacini, August Diehl",
+    "plot": "Jeanne, a 15-year-old orphan, witnesses the shoot for a film adaptation of the fairy tale The Snow Queen, and she becomes fascinated by its star, Cristina, an actress who is just as mysterious and alluring as the Queen she is play...",
+    "language": "French, English",
+    "country": "France, Germany, Italy",
+    "awards": "4 wins & 6 nominations total",
+    "box_office": "$8,000"
+  },
+  {
+    "title": "Couture",
+    "search_title": "Couture",
+    "url": "https://kinoon.fi/esitysajat/couture",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/2a2d9d32-78d1-480a-bb4f-eb9d27587754/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "5.7",
+    "imdb_votes": "1,655",
+    "rt_rating": "51%",
+    "metacritic": "53/100",
+    "year": "2026",
+    "rated": "R",
+    "runtime": "103 min",
+    "genre": "Drama",
+    "director": "Alice Winocour",
+    "actors": "Angelina Jolie, Anyier Anei, Louis Garrel",
+    "plot": "An American filmmaker faces challenges and self-discovery as she arrives in Paris for Fashion Week on a life-and-death journey.",
+    "language": "French, English, Ukrainian, Dinka, Italian",
+    "country": "France, United States",
+    "awards": "2 nominations total",
+    "box_office": "$206,448"
+  },
+  {
+    "title": "Deep Water",
+    "search_title": "Deep Water",
+    "url": "https://kinoon.fi/esitysajat/deep-water",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/945e1834-a748-44d6-996c-5ba84d59bcfb/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "5.5",
+    "imdb_votes": "69,441",
+    "rt_rating": "35%",
+    "metacritic": "53/100",
+    "year": "2022",
+    "rated": "R",
+    "runtime": "115 min",
+    "genre": "Crime, Drama, Mystery",
+    "director": "Adrian Lyne",
+    "actors": "Ben Affleck, Ana de Armas, Tracy Letts",
+    "plot": "A well-to-do husband who allows his wife to have affairs in order to avoid a divorce becomes a prime suspect in the disappearance of her lovers.",
+    "language": "English",
+    "country": "Australia, United States, Canada",
+    "awards": "2 nominations total",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Primavera",
+    "search_title": "Primavera",
+    "url": "https://kinoon.fi/esitysajat/primavera",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/8821ef52-d2a0-40f4-9683-3ee3d2aa7153/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "16:15"
+        ]
+      }
+    ],
+    "imdb_rating": "5.4",
+    "imdb_votes": "99",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2016",
+    "rated": "N/A",
+    "runtime": "86 min",
+    "genre": "Comedy, Drama",
+    "director": "Santiago Giralt",
+    "actors": "Catarina Spinetta, Nahuel Mutti, Ángelo Mutti Spinetta",
+    "plot": "Leopoldo is an 11 year old boy who grew up surrounded by artists. During the three months of spring, the boy discovers love in one of his of poetry classmates which she then leaves him with a broken heart.",
+    "language": "Spanish",
+    "country": "Argentina",
+    "awards": "5 nominations",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Deathstalker",
+    "search_title": "Deathstalker",
+    "url": "https://kinoon.fi/esitysajat/deathstalker",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F3772ecf1-1c07-458c-a5ec-a6ee93eff3a9.jpg&w=2560&q=75",
+    "showtimes": [],
+    "imdb_rating": "4.6",
+    "imdb_votes": "7,857",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "1983",
+    "rated": "R",
+    "runtime": "80 min",
+    "genre": "Action, Adventure, Fantasy",
+    "director": "James Sbardellati",
+    "actors": "Rick Hill, Barbi Benton, Richard Brooker",
+    "plot": "A lone warrior nicknamed Deathstalker is sent by a witch on a quest to find a sword, a chalice, and an amulet, two of which are held by the wicked king and sorcerer, Munkar.",
+    "language": "English",
+    "country": "Argentina, United States",
+    "awards": "N/A",
+    "box_office": "$11,919,250"
+  },
+  {
+    "title": "Anipunk 3 REWIND",
+    "search_title": "Anipunk 3 REWIND",
+    "url": "https://kinoon.fi/esitysajat/anipunk-3-rewind",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fteatteriunion.fi%2Fwp-content%2Fuploads%2F2026%2F07%2Fanipunk-3-RW-juliste-scaled.jpg&w=2560&q=75",
+    "showtimes": []
+  },
+  {
+    "title": "Anipunk 3 REWIND: Space Battleship Yamato",
+    "search_title": "Anipunk 3 REWIND: Space Battleship Yamato",
+    "url": "https://kinoon.fi/esitysajat/anipunk-3-rewind-space-battleship-yamato",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/08fb51a9-399c-4988-b905-7df6cb63620d/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Kissan kuolema",
+    "search_title": "Kissan kuolema",
+    "url": "https://kinoon.fi/esitysajat/kissan-kuolema",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/d2fb562b-f420-4e38-afe3-4d61eb5f1041/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Trainspotting (1996)",
+    "search_title": "Trainspotting (1996)",
+    "url": "https://kinoon.fi/esitysajat/trainspotting-1996",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/05e8a0a4-83b1-470f-a479-c3ee1d7d7933/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "1996",
+    "rated": "N/A",
+    "runtime": "N/A",
+    "genre": "N/A",
+    "director": "N/A",
+    "actors": "N/A",
+    "plot": "N/A",
+    "language": "N/A",
+    "country": "N/A",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Insidious: Out Of The Further",
+    "search_title": "Insidious: Out Of The Further",
+    "url": "https://kinoon.fi/esitysajat/insidious-out-of-the-further",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/d86353ae-1d3c-474f-aa35-75df55eb6456/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2026",
+    "rated": "PG-13",
+    "runtime": "106 min",
+    "genre": "Horror, Mystery, Thriller",
+    "director": "Jacob Chase",
+    "actors": "Lin Shaye, Sam Spruell, Maisie Richardson-Sellers",
+    "plot": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
+    "language": "English",
+    "country": "Australia, United States",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Mutiny - Lavastettu syylliseksi",
+    "search_title": "Mutiny - Lavastettu syylliseksi",
+    "url": "https://kinoon.fi/esitysajat/mutiny-lavastettu-syylliseksi",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/6c88452c-97e4-40d2-aa46-3f29f5d21c8d/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Spa Weekend",
+    "search_title": "Spa Weekend",
+    "url": "https://kinoon.fi/esitysajat/spa-weekend",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/b43f1c12-22b3-4da7-9a23-e095fae4ae3a/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2019",
+    "rated": "N/A",
+    "runtime": "75 min",
+    "genre": "Comedy",
+    "director": "Maureen O'Connell",
+    "actors": "Noel Aungier, Martina Babisova, Stephen Casey Bracken",
+    "plot": "After living in London for 5 years, actress Jo Murphy is back in Dublin. Everyone expected her to make it. She expected to make it. But, she's back in Dublin trying to hide the fact she lives at home with her Mother and is working...",
+    "language": "English",
+    "country": "Ireland",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Kaunarikuume",
+    "search_title": "Kaunarikuume",
+    "url": "https://kinoon.fi/esitysajat/kaunarikuume",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLOYIWTPC3OA%2Fhqdefault.jpg&w=2560&q=75",
+    "showtimes": []
+  },
+  {
+    "title": "Bussipysäkki",
+    "search_title": "Bussipysäkki",
+    "url": "https://kinoon.fi/esitysajat/bussipysakki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/7d7c392a-0eb0-4b2d-9601-b0d3965ee75e/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Mystery Album Club - Blond(e)s Have More Fun",
+    "search_title": "Mystery Album Club - Blond(e)s Have More Fun",
+    "url": "https://kinoon.fi/esitysajat/mystery-album-club-blond-e-s-have-more-fun",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fweb.atlanticfilm.mycloudcinema.com%2Fmedia%2Fposters%2F1596%2Ffc209443-ad9f-41da-87a8-c14df94dc2eb.jpeg&w=2560&q=75",
+    "showtimes": []
+  },
+  {
+    "title": "Mies mallorcalta",
+    "search_title": "Mies mallorcalta",
+    "url": "https://kinoon.fi/esitysajat/mies-mallorcalta",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/de11d11f-7272-4265-8e8b-001c4db164bd/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Kesäkatu: The Harder They Come",
+    "search_title": "Kesäkatu: The Harder They Come",
+    "url": "https://kinoon.fi/esitysajat/kesakatu-the-harder-they-come",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/bb8498ff-6a61-488c-9461-9f2dd2c2efed/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Ennustus",
+    "search_title": "Ennustus",
+    "url": "https://kinoon.fi/esitysajat/ennustus",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/10fd5c86-1b4a-4f5b-a758-d493092d2fc8/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "The End of Oak Street",
+    "search_title": "The End of Oak Street",
+    "url": "https://kinoon.fi/esitysajat/the-end-of-oak-street",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/f6a674a7-e92e-44d0-8aa0-f44c5b2e6bef/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "RIVIERA Punavuori",
+        "times": [
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "Gilda",
+        "times": [
+          "20:20"
+        ]
+      }
+    ],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2026",
+    "rated": "PG-13",
+    "runtime": "99 min",
+    "genre": "Action, Adventure, Mystery",
+    "director": "David Robert Mitchell",
+    "actors": "Anne Hathaway, Ewan McGregor, Maisy Stella",
+    "plot": "The Platt family bands together to navigate their new surroundings after a cosmic event transports their suburban neighborhood to someplace unknown.",
+    "language": "English",
+    "country": "United States",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Ryhmä Hau: Dinoelokuva",
+    "search_title": "Ryhmä Hau: Dinoelokuva",
+    "url": "https://kinoon.fi/esitysajat/ryhma-hau-dinoelokuva",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/42d0bdbc-e7b8-48ad-9946-7fea6436f4de-dea55ecc/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Breakfast at Tiffany's (1961)",
+    "search_title": "Breakfast at Tiffany's (1961)",
+    "url": "https://kinoon.fi/esitysajat/breakfast-at-tiffany-s-1961",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/4e3ab1d3-8ff0-4ac4-aefe-a0db47462843/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Don Quijote Barcelonassa",
+    "search_title": "Don Quijote Barcelonassa",
+    "url": "https://kinoon.fi/esitysajat/don-quijote-barcelonassa",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/3bf0e337-ba09-4cff-8bcc-75324a9d1f0c/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "La piscine (1969)",
+    "search_title": "La piscine (1969)",
+    "url": "https://kinoon.fi/esitysajat/la-piscine-1969",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/8ab45f19-0900-4d7b-a295-25954a32e853/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Backrooms: Everything Must Go",
+    "search_title": "Backrooms: Everything Must Go",
+    "url": "https://kinoon.fi/esitysajat/backrooms-everything-must-go",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/5349ba08-1146-4ed1-8680-1b846408807b/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Vaiana",
+    "search_title": "Vaiana",
+    "url": "https://kinoon.fi/esitysajat/vaiana",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/f9405343-7fd9-41c9-b5d4-527430993484-1a85ad1b/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2017",
+    "rated": "N/A",
+    "runtime": "N/A",
+    "genre": "Short",
+    "director": "Amandine Santin",
+    "actors": "Amandine Santin",
+    "plot": "N/A",
+    "language": "N/A",
+    "country": "N/A",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Blue Heron",
+    "search_title": "Blue Heron",
+    "url": "https://kinoon.fi/esitysajat/blue-heron",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F9865ec6f-7143-491e-93ea-41ad881e913b.jpg&w=2560&q=75",
+    "showtimes": [
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "20:45"
+        ]
+      }
+    ],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": "98%",
+    "metacritic": null,
+    "year": "2025",
+    "rated": "N/A",
+    "runtime": "90 min",
+    "genre": "Drama",
+    "director": "Sophy Romvari",
+    "actors": "Eylul Guven, Amy Zimmer, Iringó Réti",
+    "plot": "A family of six settles into their new home on Vancouver Island as internal dynamics are slowly revealed through the eyes of the youngest child.",
+    "language": "N/A",
+    "country": "Canada, Hungary",
+    "awards": "1 nomination total",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Evil Dead Burn",
+    "search_title": "Evil Dead Burn",
+    "url": "https://kinoon.fi/esitysajat/evil-dead-burn",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F9f36c5cc-49ee-4947-b98d-9e2916302989.jpg&w=2560&q=75",
+    "showtimes": [],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2026",
+    "rated": "R",
+    "runtime": "110 min",
+    "genre": "Fantasy, Horror, Mystery",
+    "director": "Sébastien Vanicek",
+    "actors": "Souheila Yacoub, Hunter Doohan, Luciane Buchanan",
+    "plot": "After the loss of her husband, a woman seeks solace with her in-laws. As one by one they transform into deadites, she comes to discover that the vows she took in life - survive even in death.",
+    "language": "English",
+    "country": "New Zealand, United States, Canada",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Piemonten tryffelinmetsästäjät",
+    "search_title": "Piemonten tryffelinmetsästäjät",
+    "url": "https://kinoon.fi/esitysajat/piemonten-tryffelinmetsastajat",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2Fxq847QTobQI%2Fhqdefault.jpg&w=2560&q=75",
+    "showtimes": []
+  },
+  {
+    "title": "Laula minulle Arja!",
+    "search_title": "Laula minulle Arja!",
+    "url": "https://kinoon.fi/esitysajat/laula-minulle-arja",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/0e8b4f97-b19b-4426-bc39-407c19b5855e-b88ea153/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "18:30",
+          "16:00"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kätyrit ja Monsterit",
+    "search_title": "Kätyrit ja Monsterit",
+    "url": "https://kinoon.fi/esitysajat/katyrit-ja-monsterit",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/7894fadb-4517-4f75-8e21-832348830e81/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Maailman rikkain nainen",
+    "search_title": "Maailman rikkain nainen",
+    "url": "https://kinoon.fi/esitysajat/maailman-rikkain-nainen",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/3bfb51d2-6182-4ed9-9767-16b35f92acaf/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Gilda",
+        "times": [
+          "14:40",
+          "13:30"
+        ]
+      },
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "16:00",
+          "22:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Kino Myyri",
+        "times": [
+          "14:30"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kuopus",
+    "search_title": "Kuopus",
+    "url": "https://kinoon.fi/esitysajat/kuopus",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/88aee8a2-8bac-4c44-9586-c3633d0f36a6/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Jonain päivänä",
+    "search_title": "Jonain päivänä",
+    "url": "https://kinoon.fi/esitysajat/jonain-paivana",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fweb.atlanticfilm.mycloudcinema.com%2Fmedia%2Fposters%2F1428%2Ffed9c016-6608-4d39-b5cb-d0520d99029e.jpeg&w=2560&q=75",
+    "showtimes": [
+      {
+        "theatre": "Gilda",
+        "times": [
+          "12:45"
+        ]
+      }
+    ],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2023",
+    "rated": "N/A",
+    "runtime": "88 min",
+    "genre": "Drama",
+    "director": "Katja Reponen",
+    "actors": "Emilia Karilampi, Joona Luoto, Kheba Touray",
+    "plot": "The film tells the tragic love story of Ilta, who suffers from depression, and Aaron, who has been expelled from school. The film explores themes of young love, the fragility of life, difficult family relationships, and depression.",
+    "language": "Finnish",
+    "country": "Finland",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "In the Grey – Miljardikeikka",
+    "search_title": "In the Grey – Miljardikeikka",
+    "url": "https://kinoon.fi/esitysajat/in-the-grey-miljardikeikka",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/7077b671-b0a5-4a97-958c-3e07da69a51b/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Bamse ja meren salaisuus",
+    "search_title": "Bamse ja meren salaisuus",
+    "url": "https://kinoon.fi/esitysajat/bamse-ja-meren-salaisuus",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/e3b20b82-c48f-461f-b03e-135ddd10a412/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Calle Málaga - muistojeni katu",
+    "search_title": "Calle Málaga - muistojeni katu",
+    "url": "https://kinoon.fi/esitysajat/calle-malaga-muistojeni-katu",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/2b365767-3fc2-4224-8e43-3d1286753b9c/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Paholainen pukeutuu Pradaan 2",
+    "search_title": "Paholainen pukeutuu Pradaan 2",
+    "url": "https://kinoon.fi/esitysajat/paholainen-pukeutuu-pradaan-2",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/d94da67b-d243-4fba-a59b-bd1b20bbd767/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "RIVIERA Punavuori",
+        "times": [
+          "17:00"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kokuho - Kabukin Mestari",
+    "search_title": "Kokuho - Kabukin Mestari",
+    "url": "https://kinoon.fi/esitysajat/kokuho-kabukin-mestari",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/c6be84a0-13a4-457e-b95e-d1de86a6ef1d/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Operaatio Ave Maria",
+    "search_title": "Operaatio Ave Maria",
+    "url": "https://kinoon.fi/esitysajat/operaatio-ave-maria",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/80d2864a-c585-4278-8228-f17069c7b34e/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Ella ja kaverit: Operaatio Saukko",
+    "search_title": "Ella ja kaverit: Operaatio Saukko",
+    "url": "https://kinoon.fi/esitysajat/ella-ja-kaverit-operaatio-saukko",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/b7f70e79-84b7-48e5-8fa4-71574430085f/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2025",
+    "rated": "N/A",
+    "runtime": "N/A",
+    "genre": "Family",
+    "director": "Elin Grönblom",
+    "actors": "Pilvi Hämäläinen, Santtu Karvonen, Miika Lamminluoto",
+    "plot": "N/A",
+    "language": "Finnish",
+    "country": "Finland",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Laula minulle Arja",
+    "search_title": "Laula minulle Arja",
+    "url": "https://www.kinot.fi/elokuva/laula-minulle-arja-2",
+    "source": "Kinot.fi",
+    "poster_url": null,
+    "showtimes": [
+      {
+        "theatre": "Gilda",
+        "times": [
+          "12:30",
+          "16:40",
+          "14:45",
+          "17:00"
+        ]
+      },
+      {
+        "theatre": "Korjaamo Kino",
+        "times": [
+          "14:00"
+        ]
+      },
+      {
+        "theatre": "Kino Myyri",
+        "times": [
+          "17:00"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Gauthali",
+    "search_title": "Gauthali",
+    "url": "https://www.kinot.fi/elokuva/gauthali",
+    "source": "Kinot.fi",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BODdkYWQyNTYtNWZkZi00YzYzLTgzYzAtMzkwNzVmMjkyMDIzXkEyXkFqcGc@._V1_QL75_UY562_CR5,0,380,562_.jpg",
+    "showtimes": [
+      {
+        "theatre": "Kino Myyri",
+        "times": [
+          "18:30"
+        ]
+      }
+    ],
+    "imdb_rating": "N/A",
+    "imdb_votes": "N/A",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2026",
+    "rated": "N/A",
+    "runtime": "138 min",
+    "genre": "Drama",
+    "director": "Kapil Rijal",
+    "actors": "Arun Chhetri, Simran Khadka, Madan Krishna Shrestha",
+    "plot": "N/A",
+    "language": "N/A",
+    "country": "Nepal",
+    "awards": "N/A",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Calle Malaga – muistojeni katu",
+    "search_title": "Calle Malaga – muistojeni katu",
+    "url": "https://www.kinot.fi/elokuva/calle-malaga-muistojeni-katu",
+    "source": "Kinot.fi",
+    "poster_url": null,
+    "showtimes": [
+      {
+        "theatre": "Gilda",
+        "times": [
+          "12:30"
+        ]
+      },
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "16:15"
+        ]
+      }
+    ]
+  }
+]
