@@ -1,5 +1,6 @@
 import os
 import json
+import re
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 import requests
@@ -9,66 +10,49 @@ from collections import defaultdict
 OMDB_API_KEY = os.getenv('OMDB_API_KEY', 'SINUN_OMDB_AVAIMESI_TÄHÄN')
 
 def get_kinoon_movies(page):
-    """Hakee Kinoon.fi:n elokuvat (korvaa Finnkinon)."""
+    """Hakee Kinoon.fi:n elokuvat."""
     print("Haetaan Kinoon.fi näytöksiä (selainmoottorilla)...")
     movies = []
     seen_titles = set()
     
     try:
-        # Kinoon.fi:n pääsivu näyttää kaikki ohjelmistossa olevat elokuvat
         page.goto("https://kinoon.fi/helsinki/elokuvat-ja-esitysajat", wait_until="domcontentloaded", timeout=30000)
-        
-        # Odotetaan että elokuvakortit latautuvat
         page.wait_for_selector('[data-film-card-id]', timeout=15000)
         
         html_content = page.content()
         soup = BeautifulSoup(html_content, 'html.parser')
-        
-        # Etsitään kaikki elokuvakortit
         film_cards = soup.find_all('div', attrs={'data-film-card-id': True})
         
         for card in film_cards:
             try:
-                # Haetaan linkki ja otsikko
                 link = card.find('a')
                 if not link:
                     continue
                 
                 url = "https://kinoon.fi" + link.get('href', '')
-                
-                # Otsikko on img alt-tekstissä
                 img = card.find('img', alt=True)
                 if not img:
                     continue
                     
                 title = img['alt'].strip()
                 
-                # Vältetään duplikaatit
                 if title and title not in seen_titles:
                     seen_titles.add(title)
                     
-                    # Julisteen URL
                     poster_url = img.get('src', '')
                     if poster_url and not poster_url.startswith('http'):
                         poster_url = "https://kinoon.fi" + poster_url
                     
-                    # Etsitään teatteritieto (jos näkyy kortilla)
-                    theatre_info = "Kinoon.fi (useita teattereita)"
-                    
                     movies.append({
                         "title": title,
                         "search_title": title,
-                        "time": "Katso ajat sivuilta",
-                        "theatre": theatre_info,
                         "url": url,
                         "source": "Kinoon.fi",
-                        "imdb_rating": None,
-                        "rt_rating": None,
-                        "poster_url": poster_url if poster_url else None
+                        "poster_url": poster_url if poster_url else None,
+                        "showtimes": []
                     })
                     
             except Exception as e:
-                print(f"Virhe kortin käsittelyssä: {e}")
                 continue
                 
     except Exception as e:
@@ -113,13 +97,13 @@ def get_kinot_movies(page):
                     movies.append({
                         "title": title,
                         "search_title": search_title,
-                        "time": time_str,
-                        "theatre": theatre,
                         "url": url,
                         "source": "Kinot.fi",
-                        "imdb_rating": None,
-                        "rt_rating": None,
-                        "poster_url": None
+                        "poster_url": None,
+                        "showtimes": [{
+                            "theatre": theatre,
+                            "time": time_str
+                        }]
                     })
             except Exception:
                 continue
@@ -131,14 +115,63 @@ def get_kinot_movies(page):
         
     return movies
 
+def merge_duplicates(movie_list):
+    """Yhdistää duplikaatit samaan elokuvaan ja kerää esitysajat."""
+    print("\nYhdistetään duplikaatit...")
+    merged = {}
+    
+    for movie in movie_list:
+        # Normalisoidaan avain
+        key = movie["search_title"].lower().strip()
+        key = ' '.join(key.split())
+        
+        # Poistetaan vuosiluvut suluista esim. "Movie (2024)" -> "movie"
+        key = re.sub(r'\s*\(\d{4}\)\s*', '', key)
+        
+        if key in merged:
+            # Yhdistetään esitysajat
+            merged[key]["showtimes"].extend(movie["showtimes"])
+            
+            # Säilytetään parempi poster
+            if not merged[key]["poster_url"] and movie["poster_url"]:
+                merged[key]["poster_url"] = movie["poster_url"]
+                
+            # Säilytetään parempi URL
+            if not merged[key].get("url") and movie.get("url"):
+                merged[key]["url"] = movie["url"]
+        else:
+            merged[key] = movie
+    
+    result = list(merged.values())
+    removed = len(movie_list) - len(result)
+    print(f"Duplikaattien poiston jälkeen: {len(result)} uniikkia elokuvaa ({removed} duplikaattia poistettu)")
+    return result
+
+def format_showtimes(movie):
+    """Ryhmittelee esitysajat teattereittain."""
+    by_theatre = defaultdict(list)
+    
+    for show in movie.get("showtimes", []):
+        theatre = show.get("theatre", "Tuntematon teatteri")
+        time = show.get("time", "")
+        if time:
+            by_theatre[theatre].append(time)
+    
+    return [
+        {"theatre": theatre, "times": times}
+        for theatre, times in by_theatre.items()
+    ]
+
 def fetch_omdb_data(movie_list):
-    """Hakee arvosanat ja julisteet OMDb:stä."""
-    print("Haetaan julisteita ja arvosanoja OMDb:stä...")
-    cache = {}
+    """Hakee kattavat tiedot OMDb:stä."""
+    print("\nHaetaan lisätietoja OMDb:stä...")
     
     if OMDB_API_KEY == "SINUN_OMDB_AVAIMESI_TÄHÄN":
-        print("HUOM: OMDb API-avain puuttuu, ohitetaan lisätietojen haku.")
+        print("⚠️  OMDb API-avain puuttuu, ohitetaan lisätietojen haku.")
+        print("   Hanki avain: http://www.omdbapi.com/apikey.aspx")
         return
+    
+    cache = {}
     
     for i, movie in enumerate(movie_list, 1):
         search_title = movie["search_title"]
@@ -148,23 +181,40 @@ def fetch_omdb_data(movie_list):
             continue
         
         try:
-            url = f"http://www.omdbapi.com/?apikey={OMDB_API_KEY}&t={search_title}"
+            url = f"http://www.omdbapi.com/?apikey={OMDB_API_KEY}&t={search_title}&plot=short"
             res = requests.get(url, timeout=5)
             data = res.json()
             
             if data.get("Response") == "True":
+                # Rotten Tomatoes ja Metacritic
                 rt_score = None
+                metacritic_score = None
+                
                 for rating in data.get("Ratings", []):
                     if rating["Source"] == "Rotten Tomatoes":
                         rt_score = rating["Value"]
-                        break
+                    elif rating["Source"] == "Metacritic":
+                        metacritic_score = rating["Value"]
                 
                 omdb_info = {
                     "imdb_rating": data.get("imdbRating"),
+                    "imdb_votes": data.get("imdbVotes"),
                     "rt_rating": rt_score,
+                    "metacritic": metacritic_score,
+                    "year": data.get("Year"),
+                    "rated": data.get("Rated"),
+                    "runtime": data.get("Runtime"),
+                    "genre": data.get("Genre"),
+                    "director": data.get("Director"),
+                    "actors": data.get("Actors"),
+                    "plot": data.get("Plot"),
+                    "language": data.get("Language"),
+                    "country": data.get("Country"),
+                    "awards": data.get("Awards"),
+                    "box_office": data.get("BoxOffice")
                 }
                 
-                # Käytä OMDb:n julistetta vain jos Kinoon.fi:stä ei tullut
+                # Käytä OMDb:n julistetta vain jos ei ole jo
                 if not movie.get("poster_url"):
                     poster = data.get("Poster")
                     if poster and poster != "N/A":
@@ -173,24 +223,23 @@ def fetch_omdb_data(movie_list):
                 cache[search_title] = omdb_info
                 movie.update(omdb_info)
                 
-                print(f"  [{i}/{len(movie_list)}] {search_title}: IMDb {omdb_info.get('imdb_rating', 'N/A')}")
+                ratings_str = f"IMDb: {omdb_info.get('imdb_rating', 'N/A')}"
+                if rt_score:
+                    ratings_str += f", RT: {rt_score}"
+                print(f"  [{i}/{len(movie_list)}] {search_title}: {ratings_str}")
                 
         except Exception as e:
-            print(f"  [{i}/{len(movie_list)}] {search_title}: Virhe ({e})")
+            print(f"  [{i}/{len(movie_list)}] {search_title}: Virhe")
 
 def main():
     print("🎬 Elokuvahaku käynnistyy...\n")
     print("Käynnistetään selainmoottori (Playwright)...")
     
     with sync_playwright() as p:
-        # Vaihda headless=True jos et halua nähdä selainta
-        browser = p.chromium.launch(headless=True)  
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         
-        # UUSI: Kinoon.fi korvaa Finnkinon
         kinoon_data = get_kinoon_movies(page)
-        
-        # Säilytetään Kinot.fi
         kinot_data = get_kinot_movies(page)
         
         browser.close()
@@ -198,32 +247,47 @@ def main():
     all_movies = kinoon_data + kinot_data
     
     if not all_movies:
-        print("\n❌ Yhtään elokuvaa ei löydetty. Tarkista nettiyhteys.")
+        print("\n❌ Yhtään elokuvaa ei löydetty.")
         return
     
-    print(f"\n📊 Yhteensä {len(all_movies)} elokuvaa löydetty")
-    print(f"   - Kinoon.fi: {len(kinoon_data)} elokuvaa")
-    print(f"   - Kinot.fi: {len(kinot_data)} näytöstä\n")
+    # Yhdistetään duplikaatit
+    unique_movies = merge_duplicates(all_movies)
     
-    fetch_omdb_data(all_movies)
+    print(f"\n📊 Yhteensä {len(unique_movies)} uniikkia elokuvaa")
+    
+    fetch_omdb_data(unique_movies)
+    
+    # Muotoillaan esitysajat
+    for movie in unique_movies:
+        movie["showtimes"] = format_showtimes(movie)
     
     # Järjestetään IMDb-arvosanan mukaan
-    all_movies.sort(
-        key=lambda x: float(x["imdb_rating"]) if x["imdb_rating"] and x["imdb_rating"] != "N/A" else -1.0, 
+    unique_movies.sort(
+        key=lambda x: (
+            float(x.get("imdb_rating", 0)) if x.get("imdb_rating") and x.get("imdb_rating") != "N/A" else -1.0
+        ), 
         reverse=True
     )
     
     output_filename = "leffat.json"
     with open(output_filename, "w", encoding="utf-8") as f:
-        json.dump(all_movies, f, ensure_ascii=False, indent=4)
+        json.dump(unique_movies, f, ensure_ascii=False, indent=2)
     
-    # Tulostetaan top 5
+    # Tulostetaan TOP 5 (nyt ilman duplikaatteja!)
     print("\n🏆 TOP 5 ELOKUVAA (IMDb):")
-    for i, movie in enumerate(all_movies[:5], 1):
-        rating = movie.get('imdb_rating', 'N/A')
-        print(f"  {i}. {movie['title']} - IMDb: {rating}")
-        
+    count = 0
+    for movie in unique_movies:
+        rating = movie.get('imdb_rating')
+        if rating and rating != 'N/A':
+            rt = movie.get('rt_rating', 'N/A')
+            print(f"  {count+1}. {movie['title']}")
+            print(f"     IMDb: {rating} | RT: {rt}")
+            count += 1
+            if count >= 5:
+                break
+    
     print(f"\n✅ Valmis! Tiedot tallennettu: {output_filename}")
+    print(f"📍 Elokuvat sisältävät nyt teatterikohtaiset esitysajat")
 
 if __name__ == "__main__":
     main()
