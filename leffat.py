@@ -184,7 +184,7 @@ def main():
     
     with sync_playwright() as p:
         # Vaihda headless=True jos et halua nähdä selainta
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=is_github)  
         page = browser.new_page()
         
         # UUSI: Kinoon.fi korvaa Finnkinon
