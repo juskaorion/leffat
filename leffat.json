@@ -986,14 +986,6 @@
     "box_office": "N/A"
   },
   {
-    "title": "Mutiny - Lavastettu syylliseksi",
-    "search_title": "Mutiny - Lavastettu syylliseksi",
-    "url": "https://kinoon.fi/esitysajat/mutiny-lavastettu-syylliseksi",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/6c88452c-97e4-40d2-aa46-3f29f5d21c8d/1024.webp",
-    "showtimes": []
-  },
-  {
     "title": "Spa Weekend",
     "search_title": "Spa Weekend",
     "url": "https://kinoon.fi/esitysajat/spa-weekend",
@@ -1015,6 +1007,14 @@
     "country": "Ireland",
     "awards": "N/A",
     "box_office": "N/A"
+  },
+  {
+    "title": "Mutiny - Lavastettu syylliseksi",
+    "search_title": "Mutiny - Lavastettu syylliseksi",
+    "url": "https://kinoon.fi/esitysajat/mutiny-lavastettu-syylliseksi",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/6c88452c-97e4-40d2-aa46-3f29f5d21c8d/1024.webp",
+    "showtimes": []
   },
   {
     "title": "Kaunarikuume",
