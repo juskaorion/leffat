@@ -38,77 +38,264 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/43351e4e-7505-4ae8-95ab-a9fd74d2ea0b/1024.webp",
     "showtimes": [
       {
-        "theatre": "RIVIERA Kallio",
-        "times": [
-          "18:00",
-          "18:00"
-        ]
-      },
-      {
         "theatre": "Gilda",
         "times": [
-          "19:00",
-          "19:30",
-          "19:00",
-          "19:30",
-          "19:15",
+          "19:45",
           "19:45",
           "16:45",
           "13:00",
           "19:15",
-          "19:00"
+          "19:00",
+          "19:00",
+          "19:00",
+          "13:00"
         ]
       },
       {
         "theatre": "Tennispalatsi Helsinki",
         "times": [
-          "14:00",
-          "15:15",
-          "17:00",
+          "11:10",
+          "13:25",
+          "15:00",
+          "17:20",
           "19:00",
+          "20:00",
           "20:30",
-          "11:30",
+          "13:25",
+          "13:40",
+          "17:00",
+          "17:25",
+          "17:30",
+          "20:30",
+          "20:40",
+          "10:30",
+          "13:25",
+          "13:40",
+          "16:45",
+          "17:00",
+          "17:25",
+          "20:30",
+          "13:25",
+          "14:30",
+          "17:10",
+          "18:40",
+          "10:30",
           "13:30",
-          "16:30",
-          "17:00",
-          "20:20",
-          "20:30",
-          "11:30",
-          "13:15",
-          "15:15",
-          "17:00",
-          "19:00",
+          "14:40",
+          "17:15",
+          "18:40",
+          "13:25",
+          "14:50",
+          "17:10",
+          "18:50",
+          "20:25",
+          "11:10",
+          "13:25",
+          "15:00",
+          "17:10",
+          "18:50",
           "20:30"
+        ]
+      },
+      {
+        "theatre": "Finnkino Itis",
+        "times": [
+          "12:30",
+          "16:45",
+          "20:15",
+          "12:30",
+          "16:30",
+          "20:15",
+          "12:00",
+          "16:00",
+          "20:00",
+          "16:30",
+          "20:20",
+          "14:30",
+          "20:15",
+          "20:45",
+          "12:30",
+          "16:30",
+          "20:15"
+        ]
+      },
+      {
+        "theatre": "Plevna Tampere",
+        "times": [
+          "13:00",
+          "16:50",
+          "19:45",
+          "13:00",
+          "16:45",
+          "19:45",
+          "16:00",
+          "19:45",
+          "13:10",
+          "16:50",
+          "19:45",
+          "13:00",
+          "16:45",
+          "19:45",
+          "13:00",
+          "16:45",
+          "19:45",
+          "13:20",
+          "17:00",
+          "18:05",
+          "20:45"
+        ]
+      },
+      {
+        "theatre": "Omena Espoo",
+        "times": [
+          "13:30",
+          "19:45",
+          "13:10",
+          "18:50",
+          "13:00",
+          "18:40",
+          "19:30",
+          "19:30",
+          "19:30",
+          "13:15",
+          "20:40"
+        ]
+      },
+      {
+        "theatre": "Flamingo Vantaa",
+        "times": [
+          "13:50",
+          "19:45",
+          "22:45",
+          "12:30",
+          "19:40",
+          "22:45",
+          "12:30",
+          "19:40",
+          "14:50",
+          "19:30",
+          "14:50",
+          "19:30",
+          "14:50",
+          "19:30",
+          "13:50",
+          "19:20",
+          "22:50"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Helsinki",
+        "times": [
+          "14:00",
+          "14:00",
+          "18:00",
+          "20:30",
+          "14:00",
+          "18:00",
+          "17:30",
+          "17:30",
+          "17:30",
+          "16:45",
+          "20:30"
+        ]
+      },
+      {
+        "theatre": "Scala Kuopio",
+        "times": [
+          "14:30",
+          "19:30",
+          "12:55",
+          "16:30",
+          "19:15",
+          "15:10",
+          "18:45",
+          "18:45",
+          "18:45",
+          "19:10",
+          "14:30",
+          "19:15"
+        ]
+      },
+      {
+        "theatre": "Sello Espoo",
+        "times": [
+          "14:45",
+          "20:40",
+          "13:15",
+          "19:50",
+          "12:15",
+          "19:00",
+          "18:50",
+          "20:00",
+          "20:00",
+          "14:45",
+          "20:30"
+        ]
+      },
+      {
+        "theatre": "Kino 123 Veturi",
+        "times": [
+          "15:30",
+          "15:30",
+          "15:30",
+          "15:30",
+          "15:30",
+          "15:30",
+          "15:30"
         ]
       },
       {
         "theatre": "BioRex Redi",
         "times": [
-          "14:15",
-          "16:30",
-          "15:00",
-          "19:30",
-          "17:00",
-          "19:30",
           "17:00",
           "14:00",
           "16:15",
           "15:45",
+          "19:30",
+          "17:15",
           "19:30"
+        ]
+      },
+      {
+        "theatre": "LUXE Mylly Raisio",
+        "times": [
+          "17:00",
+          "19:30",
+          "13:00",
+          "16:45",
+          "19:30",
+          "13:00",
+          "16:40",
+          "17:50",
+          "18:30",
+          "18:40",
+          "17:15",
+          "19:20"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Turku",
+        "times": [
+          "17:15",
+          "19:45",
+          "17:00",
+          "20:10",
+          "16:15",
+          "19:30",
+          "17:00",
+          "19:30",
+          "15:10",
+          "19:00",
+          "15:10",
+          "19:00",
+          "12:35",
+          "16:50",
+          "20:30"
         ]
       },
       {
         "theatre": "BioRex Tripla",
         "times": [
-          "14:15",
-          "17:15",
-          "19:45",
-          "14:30",
-          "17:00",
-          "20:15",
-          "14:15",
-          "17:30",
-          "20:00",
           "17:30",
           "20:15",
           "12:30",
@@ -118,41 +305,304 @@
           "17:30",
           "14:45",
           "17:30",
+          "20:15",
+          "14:45",
+          "17:30",
+          "20:15",
+          "17:30",
           "20:15"
         ]
       },
       {
-        "theatre": "Finnkino Itis",
+        "theatre": "Kuvapalatsi Lahti",
         "times": [
-          "15:15",
-          "17:00",
-          "20:45",
-          "15:15",
-          "17:00",
-          "20:45",
-          "14:20",
-          "15:15",
-          "20:45"
+          "18:45",
+          "14:00",
+          "19:15",
+          "18:10",
+          "19:00",
+          "19:00",
+          "18:50",
+          "19:20"
         ]
       },
       {
-        "theatre": "Kinopalatsi Helsinki",
+        "theatre": "Cine Atlas Tampere",
         "times": [
-          "17:45",
-          "19:45",
-          "13:25",
-          "17:45",
-          "19:45",
-          "13:50",
+          "18:50",
+          "18:15",
+          "18:15",
+          "18:15",
+          "18:15",
+          "18:15",
+          "18:50"
+        ]
+      },
+      {
+        "theatre": "Fantasia Jyväskylä",
+        "times": [
+          "19:00",
+          "19:15",
+          "18:40",
+          "19:00",
+          "19:00",
+          "19:00",
+          "19:10"
+        ]
+      },
+      {
+        "theatre": "Plaza Oulu",
+        "times": [
+          "19:00",
+          "19:10",
+          "18:10",
+          "19:25",
+          "19:20",
+          "19:25",
+          "14:00",
+          "20:20"
+        ]
+      },
+      {
+        "theatre": "Strand Lappeenranta",
+        "times": [
+          "19:25",
+          "19:00",
+          "18:35",
+          "18:35",
+          "18:45",
+          "19:00",
           "19:45"
+        ]
+      },
+      {
+        "theatre": "BioRex Seinäjoki",
+        "times": [
+          "19:30",
+          "19:30",
+          "13:30",
+          "18:15",
+          "19:45",
+          "16:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Vaasa",
+        "times": [
+          "19:30",
+          "17:15",
+          "15:45",
+          "19:25",
+          "19:30",
+          "19:25",
+          "19:45"
+        ]
+      },
+      {
+        "theatre": "BioRex Hämeenlinna",
+        "times": [
+          "19:30",
+          "19:15",
+          "18:15",
+          "19:30",
+          "19:30",
+          "19:15",
+          "19:00"
+        ]
+      },
+      {
+        "theatre": "Elokuvateatteri Star",
+        "times": [
+          "19:30",
+          "19:30",
+          "18:00",
+          "13:45",
+          "18:00",
+          "18:00",
+          "18:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Promenadi Pori",
+        "times": [
+          "20:00",
+          "17:00",
+          "19:45",
+          "15:45",
+          "19:00",
+          "19:00",
+          "19:00",
+          "14:30",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Tapio Joensuu",
+        "times": [
+          "13:00",
+          "16:40",
+          "15:30",
+          "18:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Tornio",
+        "times": [
+          "14:30",
+          "15:30",
+          "17:45"
+        ]
+      },
+      {
+        "theatre": "Kino Hirvi",
+        "times": [
+          "15:45"
+        ]
+      },
+      {
+        "theatre": "Kino Kilta",
+        "times": [
+          "17:45"
+        ]
+      },
+      {
+        "theatre": "Kino Ritz",
+        "times": [
+          "18:00",
+          "17:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Kino Piispanristi",
+        "times": [
+          "18:30",
+          "18:30",
+          "19:45"
+        ]
+      },
+      {
+        "theatre": "Cinema Sheryl",
+        "times": [
+          "18:45"
+        ]
+      },
+      {
+        "theatre": "BioRex Hyvinkää",
+        "times": [
+          "19:00",
+          "15:30",
+          "19:30",
+          "19:00"
+        ]
+      },
+      {
+        "theatre": "Kinopirtti",
+        "times": [
+          "19:00",
+          "19:00",
+          "16:40"
+        ]
+      },
+      {
+        "theatre": "BioRex Porvoo",
+        "times": [
+          "19:15",
+          "18:00",
+          "19:30",
+          "19:00",
+          "19:15"
+        ]
+      },
+      {
+        "theatre": "Maxim Helsinki",
+        "times": [
+          "19:30",
+          "19:00",
+          "14:30"
+        ]
+      },
+      {
+        "theatre": "Kino Lumo",
+        "times": [
+          "19:45",
+          "19:30",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Rovaniemi",
+        "times": [
+          "19:50",
+          "18:15",
+          "19:30",
+          "19:15",
+          "19:15"
+        ]
+      },
+      {
+        "theatre": "Bio-Salo",
+        "times": [
+          "17:00",
+          "18:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Riihimäki",
+        "times": [
+          "17:45"
+        ]
+      },
+      {
+        "theatre": "Kino Laika",
+        "times": [
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Kajaani",
+        "times": [
+          "18:30",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Pietarsaari",
+        "times": [
+          "18:00"
         ]
       },
       {
         "theatre": "Riviera Kallio",
         "times": [
-          "18:00",
-          "18:00",
           "18:00"
+        ]
+      },
+      {
+        "theatre": "Kinolinna",
+        "times": [
+          "17:00",
+          "14:30"
+        ]
+      },
+      {
+        "theatre": "Riviera Punavuori",
+        "times": [
+          "18:30"
+        ]
+      },
+      {
+        "theatre": "Bio Rex Kokkola",
+        "times": [
+          "17:30"
+        ]
+      },
+      {
+        "theatre": "Cinema Niagara",
+        "times": [
+          "18:45"
         ]
       }
     ],
@@ -180,18 +630,15 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/2499d54f-c9be-499b-b72c-1b2fe27489c5/1024.webp",
     "showtimes": [
       {
-        "theatre": "RIVIERA Punavuori",
+        "theatre": "Riviera Punavuori",
         "times": [
-          "17:00"
+          "18:30"
         ]
       },
       {
-        "theatre": "Riviera Punavuori",
+        "theatre": "Kinopirtti",
         "times": [
-          "17:00",
-          "18:30",
-          "17:00",
-          "18:30"
+          "17:30"
         ]
       }
     ],
@@ -212,57 +659,66 @@
     "box_office": "$33,712,444"
   },
   {
-    "title": "EPiC: Elvis Presley in Concert",
-    "search_title": "Elvis Presley in Concert",
-    "url": "https://www.kinot.fi/elokuva/epic-elvis-presley-in-concert",
-    "source": "Kinot.fi",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZWQzMTBiYjMtYzMyNS00MzAyLWE2N2UtZTA0ODVmN2E4ZDMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "title": "Trainspotting",
+    "search_title": "Trainspotting",
+    "url": "https://kinoon.fi/esitysajat/trainspotting?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F05e8a0a4-83b1-470f-a479-c3ee1d7d7933.d3625f51f72e8f9043c0d99e710f4c9e4a601569b83d9f3fec338a850865732b.webp&w=2560&q=75",
     "showtimes": [
       {
-        "theatre": "Kino Myyri",
+        "theatre": "Riviera Kallio",
         "times": [
-          "16:00"
+          "19:45",
+          "19:45"
         ]
       }
     ],
-    "imdb_rating": "8.2",
-    "imdb_votes": "4,788",
-    "rt_rating": "97%",
-    "metacritic": "86/100",
-    "year": "2026",
-    "rated": "PG-13",
-    "runtime": "96 min",
-    "genre": "Documentary, Music",
-    "director": "Baz Luhrmann",
-    "actors": "Elvis Presley, James Burton, Glen D. Hardin",
-    "plot": "Follows Elvis Presley, featuring never-before-seen footage and recordings.",
+    "imdb_rating": "8.1",
+    "imdb_votes": "765,284",
+    "rt_rating": "93%",
+    "metacritic": "83/100",
+    "year": "1996",
+    "rated": "R",
+    "runtime": "93 min",
+    "genre": "Crime, Drama",
+    "director": "Danny Boyle",
+    "actors": "Ewan McGregor, Ewen Bremner, Jonny Lee Miller",
+    "plot": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out despite the allure of drugs and the influence of friends.",
     "language": "English",
-    "country": "Australia, United States",
-    "awards": "1 nomination total",
-    "box_office": "$13,571,883"
+    "country": "United Kingdom",
+    "awards": "Nominated for 1 Oscar. 23 wins & 35 nominations total",
+    "box_office": "$16,491,080"
   },
   {
-    "title": "Before Sunset",
-    "search_title": "Before Sunset",
-    "url": "https://kinoon.fi/esitysajat/before-sunset?scope=helsinki",
+    "title": "Blue Lock",
+    "search_title": "Blue Lock",
+    "url": "https://kinoon.fi/esitysajat/blue-lock?scope=helsinki",
     "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/667ede14-84ad-4d42-a76f-2ca599224556/1024.webp",
-    "showtimes": [],
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F90abbb63-61e1-4ce1-a2e7-87fac6d65327.jpg&w=2560&q=75",
+    "showtimes": [
+      {
+        "theatre": "Tennispalatsi Helsinki",
+        "times": [
+          "15:10",
+          "15:10"
+        ]
+      }
+    ],
     "imdb_rating": "8.1",
-    "imdb_votes": "309,299",
-    "rt_rating": "94%",
-    "metacritic": "91/100",
-    "year": "2004",
-    "rated": "R",
-    "runtime": "80 min",
-    "genre": "Drama, Romance",
-    "director": "Richard Linklater",
-    "actors": "Ethan Hawke, Julie Delpy, Vernon Dobtcheff",
-    "plot": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour.",
-    "language": "English, French",
-    "country": "United States",
-    "awards": "Nominated for 1 Oscar. 10 wins & 32 nominations total",
-    "box_office": "$5,820,649"
+    "imdb_votes": "27,972",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2022–",
+    "rated": "TV-14",
+    "runtime": "1 min",
+    "genre": "Animation, Sport, Thriller",
+    "director": "N/A",
+    "actors": "Ricco Fajardo, Drew Breedlove, Nobunaga Shimazaki",
+    "plot": "High school soccer players from across Japan gather for a controversial project designed to create the best and most egoistic striker in the world.",
+    "language": "Japanese, English",
+    "country": "Japan",
+    "awards": "2 wins & 5 nominations total",
+    "box_office": null
   },
   {
     "title": "Spider-Man: Brand New Day",
@@ -272,17 +728,315 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/e7e10ab8-b0a8-4dec-9b3e-570f3469caea/1024.webp",
     "showtimes": [
       {
-        "theatre": "BioRex Tripla",
+        "theatre": "Tennispalatsi Helsinki",
         "times": [
-          "14:30",
+          "10:35",
+          "14:00",
+          "14:00",
           "17:30",
+          "20:10",
+          "10:30",
+          "13:40",
+          "14:15",
+          "17:10",
+          "17:30",
+          "20:10",
+          "10:30",
+          "13:35",
+          "14:15",
+          "17:10",
+          "17:30",
+          "20:10",
+          "10:30",
+          "14:00",
+          "14:00",
+          "17:00",
+          "17:25",
+          "20:00",
+          "10:30",
+          "14:00",
+          "14:00",
+          "17:25",
+          "20:15",
+          "11:20",
+          "12:50",
+          "14:00",
+          "17:15",
+          "17:15",
+          "21:10",
+          "10:30",
+          "14:00",
+          "14:00",
+          "17:00",
+          "17:30",
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "Plevna Tampere",
+        "times": [
+          "13:00",
+          "16:50",
+          "20:15",
+          "13:00",
+          "17:00",
+          "20:15",
+          "12:15",
+          "16:00",
+          "19:30",
           "20:30",
-          "14:45",
+          "13:10",
+          "16:50",
+          "20:00",
+          "13:00",
+          "16:45",
+          "20:25",
+          "13:00",
+          "16:45",
+          "20:00",
+          "13:20",
+          "16:40",
+          "18:05",
+          "19:45",
+          "21:15"
+        ]
+      },
+      {
+        "theatre": "Flamingo Vantaa",
+        "times": [
+          "13:10",
+          "17:00",
+          "20:15",
+          "23:30",
+          "14:00",
+          "16:30",
+          "20:00",
+          "23:30",
+          "14:00",
+          "16:30",
+          "20:00",
+          "17:00",
+          "20:10",
+          "17:00",
+          "20:10",
+          "17:00",
+          "20:10",
+          "13:10",
+          "17:15",
+          "20:00",
+          "23:30"
+        ]
+      },
+      {
+        "theatre": "Finnkino Itis",
+        "times": [
+          "13:30",
           "17:45",
+          "20:50",
+          "13:30",
+          "16:45",
+          "17:45",
+          "20:50",
+          "13:00",
+          "16:30",
+          "17:15",
+          "20:20",
+          "15:00",
+          "17:40",
+          "20:40",
+          "15:00",
+          "17:20",
+          "20:45",
+          "15:00",
+          "17:20",
+          "20:30",
+          "13:30",
+          "16:45",
+          "17:45",
+          "19:45"
+        ]
+      },
+      {
+        "theatre": "LUXE Mylly Raisio",
+        "times": [
+          "14:35",
+          "17:35",
           "20:45",
           "14:30",
+          "17:20",
+          "20:35",
+          "14:20",
+          "16:55",
+          "19:05",
+          "14:30",
+          "17:10",
+          "19:50",
+          "15:10",
+          "17:00",
+          "19:40",
+          "15:20",
+          "17:05",
+          "19:40",
+          "14:40",
+          "17:05",
+          "20:25"
+        ]
+      },
+      {
+        "theatre": "BioRex Redi",
+        "times": [
+          "15:15",
+          "20:00",
+          "15:15",
+          "19:30",
+          "14:15",
+          "18:00",
+          "17:00",
+          "20:15",
+          "14:45",
+          "17:00"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Turku",
+        "times": [
+          "15:20",
+          "17:40",
+          "20:10",
+          "14:00",
+          "17:20",
+          "20:50",
+          "13:35",
+          "16:50",
+          "20:00",
+          "14:30",
+          "17:10",
+          "19:50",
+          "14:30",
           "17:15",
+          "19:30",
+          "14:30",
+          "17:15",
+          "19:55",
+          "13:20",
+          "17:10",
+          "20:55"
+        ]
+      },
+      {
+        "theatre": "Cine Atlas Tampere",
+        "times": [
+          "15:30",
+          "19:10",
+          "15:30",
+          "18:40",
+          "15:30",
+          "18:50",
+          "18:40",
+          "18:40",
+          "18:45",
+          "15:45",
+          "19:10"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Helsinki",
+        "times": [
+          "17:00",
+          "21:15",
+          "18:00",
+          "21:15",
+          "18:00",
+          "17:30",
+          "14:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Scala Kuopio",
+        "times": [
+          "17:00",
+          "19:40",
+          "12:55",
+          "16:30",
+          "20:00",
+          "15:50",
+          "19:20",
+          "17:20",
+          "17:15",
+          "17:00",
+          "17:30",
+          "20:40"
+        ]
+      },
+      {
+        "theatre": "Sello Espoo",
+        "times": [
+          "17:00",
+          "20:00",
+          "17:40",
+          "20:10",
+          "16:40",
+          "19:20",
+          "17:00",
+          "17:10",
           "20:30",
+          "17:10",
+          "20:30",
+          "17:10",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Omena Espoo",
+        "times": [
+          "17:00",
+          "20:50",
+          "12:30",
+          "16:50",
+          "20:15",
+          "12:30",
+          "16:40",
+          "19:50",
+          "17:00",
+          "20:10",
+          "17:00",
+          "20:10",
+          "17:00",
+          "20:20",
+          "12:30",
+          "17:25",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Kuvapalatsi Lahti",
+        "times": [
+          "17:10",
+          "17:10",
+          "19:45",
+          "13:30",
+          "18:00",
+          "17:00",
+          "17:00",
+          "17:00",
+          "14:50",
+          "17:20",
+          "19:50"
+        ]
+      },
+      {
+        "theatre": "BioRex Tornio",
+        "times": [
+          "17:15",
+          "18:00",
+          "15:30",
+          "18:45"
+        ]
+      },
+      {
+        "theatre": "BioRex Tripla",
+        "times": [
           "17:15",
           "20:30",
           "14:45",
@@ -292,78 +1046,312 @@
           "17:15",
           "14:30",
           "17:15",
+          "20:30",
+          "14:30",
+          "17:15",
+          "20:30",
+          "14:30",
+          "17:15",
           "20:30"
         ]
       },
       {
-        "theatre": "Finnkino Itis",
+        "theatre": "BioRex Rovaniemi",
         "times": [
-          "17:20",
-          "20:30",
-          "17:20",
-          "17:30",
-          "19:45"
+          "17:15",
+          "19:45",
+          "18:45",
+          "19:45",
+          "17:00",
+          "19:30",
+          "19:30"
         ]
       },
       {
-        "theatre": "BioRex Redi",
+        "theatre": "Promenadi Pori",
         "times": [
-          "17:30",
-          "20:00",
-          "17:30",
-          "20:15",
-          "14:30",
           "17:15",
-          "20:00",
-          "15:15",
-          "20:00",
-          "15:15",
+          "17:00",
+          "20:45",
+          "15:45",
+          "17:00",
+          "17:00",
+          "17:00",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Plaza Oulu",
+        "times": [
+          "17:50",
           "19:30",
-          "14:15",
+          "17:20",
+          "19:35",
+          "16:30",
+          "18:35",
+          "17:20",
+          "19:35",
+          "17:20",
+          "19:30",
+          "17:20",
+          "19:35",
+          "17:35",
+          "20:50"
+        ]
+      },
+      {
+        "theatre": "Studio 123 Kuusankoskitalo",
+        "times": [
+          "18:30",
+          "18:30",
+          "18:30",
+          "18:30",
+          "18:30",
+          "18:30",
+          "18:30"
+        ]
+      },
+      {
+        "theatre": "Bio-Salo",
+        "times": [
+          "19:00",
+          "19:00",
           "18:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Kino 123 Veturi",
+        "times": [
+          "19:00",
+          "19:00",
+          "19:00",
+          "19:00"
+        ]
+      },
+      {
+        "theatre": "Kinolinna",
+        "times": [
+          "19:00",
+          "19:00",
+          "13:00",
+          "18:00",
+          "19:00",
+          "19:00",
+          "19:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Hyvinkää",
+        "times": [
+          "19:15",
+          "19:15",
+          "19:00",
+          "19:30",
+          "17:00",
+          "16:00",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Fantasia Jyväskylä",
+        "times": [
+          "19:30",
+          "14:10",
+          "16:10",
+          "19:40",
+          "13:20",
+          "16:00",
+          "17:10",
+          "17:10",
+          "17:10",
+          "17:20",
+          "20:15"
+        ]
+      },
+      {
+        "theatre": "Strand Lappeenranta",
+        "times": [
+          "19:40",
+          "16:50",
+          "15:45",
+          "19:10",
+          "19:10",
+          "19:15",
+          "20:15"
+        ]
+      },
+      {
+        "theatre": "BioRex Vaasa",
+        "times": [
+          "19:45",
+          "17:45",
+          "20:00",
+          "13:30",
+          "18:30",
+          "20:00",
+          "20:00",
+          "20:15",
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Seinäjoki",
+        "times": [
+          "19:45",
+          "14:30",
+          "19:45",
+          "16:45",
+          "19:00",
+          "17:15",
+          "19:30",
+          "14:30",
+          "17:00",
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Hämeenlinna",
+        "times": [
+          "19:45",
+          "14:45",
+          "19:45",
+          "19:00",
+          "17:15",
+          "17:15",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Porvoo",
+        "times": [
+          "19:45",
+          "16:45",
+          "15:45",
+          "17:15",
+          "17:15",
+          "19:30",
           "17:00"
         ]
       },
       {
-        "theatre": "Kinopalatsi Helsinki",
+        "theatre": "Kino Lumo",
         "times": [
+          "19:45",
+          "14:30",
           "17:45",
-          "13:25",
-          "13:50",
-          "17:45"
+          "14:15",
+          "19:30",
+          "19:30"
         ]
       },
       {
-        "theatre": "Tennispalatsi Helsinki",
+        "theatre": "Elokuvateatteri Star",
         "times": [
-          "18:00",
-          "20:30",
-          "11:00",
-          "13:45",
-          "14:15",
-          "17:15",
-          "17:30",
-          "20:30",
-          "10:30",
-          "14:00",
-          "14:15",
+          "19:45",
+          "16:45",
           "17:00",
-          "17:30",
-          "21:15"
+          "18:30",
+          "18:30",
+          "18:30",
+          "18:30"
+        ]
+      },
+      {
+        "theatre": "Cinema Sheryl",
+        "times": [
+          "14:30",
+          "18:45"
+        ]
+      },
+      {
+        "theatre": "Savon Kinot Varkaus",
+        "times": [
+          "15:30",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Kino Piispanristi",
+        "times": [
+          "15:45",
+          "15:45",
+          "18:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Pietarsaari",
+        "times": [
+          "16:45",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Kino Hirvi",
+        "times": [
+          "18:45"
+        ]
+      },
+      {
+        "theatre": "Bio Stara",
+        "times": [
+          "19:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Kinopirtti",
+        "times": [
+          "19:20",
+          "17:00",
+          "17:00",
+          "17:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Kajaani",
+        "times": [
+          "19:30",
+          "15:40",
+          "19:45",
+          "19:40",
+          "19:50"
+        ]
+      },
+      {
+        "theatre": "BioRex Riihimäki",
+        "times": [
+          "19:30",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Tapio Joensuu",
+        "times": [
+          "19:30",
+          "18:30",
+          "18:20"
         ]
       },
       {
         "theatre": "Gilda",
         "times": [
-          "19:20",
           "20:15",
           "19:45"
         ]
       },
       {
-        "theatre": "Riviera Punavuori",
+        "theatre": "Bio Vuoksi",
         "times": [
-          "19:50"
+          "19:00"
+        ]
+      },
+      {
+        "theatre": "Bio Rex Kokkola",
+        "times": [
+          "19:15"
         ]
       }
     ],
@@ -384,12 +1372,51 @@
     "box_office": "$655,088,528"
   },
   {
+    "title": "Nirvanna the Band the Show the Movie",
+    "search_title": "Nirvanna the Band the Show the Movie",
+    "url": "https://kinoon.fi/esitysajat/nirvanna-the-band-the-show-the-movie?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/ce4adbb5-4d26-416a-b413-ee16c3625f68/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Cinema Orion",
+        "times": [
+          "19:45",
+          "19:45"
+        ]
+      }
+    ],
+    "imdb_rating": "8.0",
+    "imdb_votes": "5,802",
+    "rt_rating": "95%",
+    "metacritic": "78/100",
+    "year": "2025",
+    "rated": "R",
+    "runtime": "100 min",
+    "genre": "Adventure, Comedy, Sci-Fi",
+    "director": "Matt Johnson",
+    "actors": "Matt Johnson, Jay McCarrol, Ben Petrie",
+    "plot": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008.",
+    "language": "English",
+    "country": "Canada",
+    "awards": "2 wins & 9 nominations total",
+    "box_office": "$4,044,418"
+  },
+  {
     "title": "Video Days & Control Sisu",
     "search_title": "Video Days & Control Sisu",
     "url": "https://kinoon.fi/esitysajat/video-days-and-control-sisu?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/7647b9c2-7d27-43d2-9122-de03a70dadbb/1024.webp",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "theatre": "Suvilahti DIY",
+        "times": [
+          "20:30",
+          "20:30"
+        ]
+      }
+    ],
     "imdb_rating": "8.0",
     "imdb_votes": "400",
     "rt_rating": null,
@@ -407,27 +1434,34 @@
     "box_office": "N/A"
   },
   {
-    "title": "Moonglow",
-    "search_title": "Moonglow",
-    "url": "https://kinoon.fi/esitysajat/moonglow?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/5dd96345-46f7-45fc-80c9-5e94afcdfe28/1024.webp",
-    "showtimes": [],
-    "imdb_rating": "7.9",
-    "imdb_votes": "8",
-    "rt_rating": null,
-    "metacritic": null,
+    "title": "In The Mood For Love",
+    "search_title": "In The Mood For Love",
+    "url": "https://www.kinot.fi/elokuva/in-the-mood-for-love",
+    "source": "Kinot.fi",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BN2Q4NjllMDgtOTk2Zi00YzM1LWJmOTMtNmRiZDgyZGJmMjQzXkEyXkFqcGc@._V1_SX300.jpg",
+    "showtimes": [
+      {
+        "theatre": "Cinema Sheryl",
+        "times": [
+          "18:00"
+        ]
+      }
+    ],
+    "imdb_rating": "8.0",
+    "imdb_votes": "184,505",
+    "rt_rating": "92%",
+    "metacritic": "87/100",
     "year": "2000",
-    "rated": "PG-13",
-    "runtime": "N/A",
-    "genre": "N/A",
-    "director": "Dennis Christianson",
-    "actors": "Joe Moore, Milo O'Shea, Ione Skye, Joanna Cassidy",
-    "plot": "A Man, (Joe Moore), with a deep, dark secret seeks solice in a lodge he thinks is deserted, until he meets a very mysterious man, (Milo O'Shea),",
-    "language": "English",
-    "country": "USA",
-    "awards": "N/A",
-    "box_office": "N/A"
+    "rated": "PG",
+    "runtime": "98 min",
+    "genre": "Drama, Romance",
+    "director": "Wong Kar-Wai",
+    "actors": "Maggie Cheung, Tony Leung Chiu-wai, Ping-Lam Siu",
+    "plot": "Two neighbors form a strong bond after both suspect extramarital activities of their spouses. However, they agree to keep their bond platonic so as not to commit similar wrongs.",
+    "language": "Cantonese, Shanghainese, French, Spanish",
+    "country": "Hong Kong, France",
+    "awards": "Nominated for 1 BAFTA Award45 wins & 50 nominations total",
+    "box_office": "$3,596,859"
   },
   {
     "title": "Obsession",
@@ -437,17 +1471,107 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/68a4d871-d8a0-4a76-bfb3-306f7817b14a/1024.webp",
     "showtimes": [
       {
+        "theatre": "Plaza Oulu",
+        "times": [
+          "14:00",
+          "19:10",
+          "18:10",
+          "19:20",
+          "19:25"
+        ]
+      },
+      {
         "theatre": "Tennispalatsi Helsinki",
         "times": [
-          "20:45",
+          "18:30",
+          "21:15",
+          "21:15",
           "21:00",
-          "21:15"
+          "21:15",
+          "21:00",
+          "21:15",
+          "21:00"
+        ]
+      },
+      {
+        "theatre": "Bio-Salo",
+        "times": [
+          "20:00",
+          "20:00",
+          "19:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Vaasa",
+        "times": [
+          "20:15",
+          "20:45",
+          "20:15",
+          "20:15"
         ]
       },
       {
         "theatre": "Finnkino Itis",
         "times": [
+          "20:40",
+          "20:40",
+          "20:10",
+          "20:45",
+          "20:45",
+          "20:30",
+          "20:40"
+        ]
+      },
+      {
+        "theatre": "Plevna Tampere",
+        "times": [
+          "20:45",
+          "21:00",
+          "20:30",
+          "20:45",
+          "22:00"
+        ]
+      },
+      {
+        "theatre": "Flamingo Vantaa",
+        "times": [
+          "23:45",
+          "23:45",
+          "20:45",
+          "23:45"
+        ]
+      },
+      {
+        "theatre": "Elokuvateatteri Star",
+        "times": [
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Seinäjoki",
+        "times": [
+          "20:30",
           "20:30"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Turku",
+        "times": [
+          "21:15",
+          "20:30",
+          "21:30"
+        ]
+      },
+      {
+        "theatre": "Omena Espoo",
+        "times": [
+          "20:45"
+        ]
+      },
+      {
+        "theatre": "Riviera Punavuori",
+        "times": [
+          "20:15"
         ]
       }
     ],
@@ -506,70 +1630,77 @@
     "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F3a7755bb-b089-49b2-aec0-6f2166ff5742.jpg&w=2560&q=75",
     "showtimes": [
       {
-        "theatre": "Kino Engel",
+        "theatre": "Gilda",
         "times": [
-          "16:15",
-          "16:15",
-          "16:15",
-          "20:45",
+          "18:00",
+          "15:30",
+          "18:00",
+          "15:30",
+          "18:00",
+          "16:50",
           "20:15",
-          "18:15",
-          "18:30",
-          "18:15"
-        ]
-      },
-      {
-        "theatre": "RIVIERA Punavuori",
-        "times": [
-          "20:30",
-          "17:15"
+          "20:00",
+          "16:30",
+          "21:00"
         ]
       },
       {
         "theatre": "Cinema Sheryl",
         "times": [
-          "17:45"
+          "19:45",
+          "19:45",
+          "14:30"
         ]
       },
       {
-        "theatre": "Kinopalatsi Helsinki",
+        "theatre": "Kino Engel",
         "times": [
-          "14:15",
-          "17:00",
+          "20:15",
+          "20:15",
+          "18:15",
+          "18:30",
+          "18:15",
           "20:45",
-          "14:15",
-          "17:00",
-          "20:45",
-          "14:15",
-          "17:00",
-          "20:45"
+          "18:15"
+        ]
+      },
+      {
+        "theatre": "Cinema Orion",
+        "times": [
+          "21:15",
+          "21:15",
+          "20:15"
         ]
       },
       {
         "theatre": "Tennispalatsi Helsinki",
         "times": [
-          "15:35",
+          "10:30",
+          "17:10",
+          "21:00",
           "21:15",
-          "16:00",
-          "20:40",
-          "16:00",
-          "20:40"
+          "10:50",
+          "16:10",
+          "16:10",
+          "16:10",
+          "21:00"
         ]
       },
       {
-        "theatre": "Finnkino Itis",
+        "theatre": "Sello Espoo",
         "times": [
-          "17:20",
-          "14:45",
-          "17:30"
+          "14:30",
+          "15:00",
+          "14:00",
+          "16:30",
+          "14:30"
         ]
       },
       {
         "theatre": "BioRex Tripla",
         "times": [
-          "18:00",
-          "18:15",
-          "17:00",
+          "15:15",
+          "15:15",
           "15:15",
           "15:15",
           "15:15",
@@ -577,54 +1708,238 @@
         ]
       },
       {
+        "theatre": "Kino Kilta",
+        "times": [
+          "15:15",
+          "15:30"
+        ]
+      },
+      {
+        "theatre": "Plevna Tampere",
+        "times": [
+          "15:30",
+          "14:50",
+          "14:45",
+          "18:10",
+          "15:30",
+          "15:20",
+          "14:40",
+          "15:35",
+          "22:00"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Helsinki",
+        "times": [
+          "15:35",
+          "17:30",
+          "21:00",
+          "13:00",
+          "17:15",
+          "18:30",
+          "14:30",
+          "17:30",
+          "20:45",
+          "15:00",
+          "17:00",
+          "15:00",
+          "17:00",
+          "15:00",
+          "17:00",
+          "17:15"
+        ]
+      },
+      {
+        "theatre": "Kino Laika",
+        "times": [
+          "16:00"
+        ]
+      },
+      {
+        "theatre": "Plaza Oulu",
+        "times": [
+          "16:20",
+          "16:30",
+          "15:30",
+          "19:25",
+          "16:45"
+        ]
+      },
+      {
+        "theatre": "Finnkino Itis",
+        "times": [
+          "17:15",
+          "17:00",
+          "16:45",
+          "18:10",
+          "18:10",
+          "18:10",
+          "15:00"
+        ]
+      },
+      {
+        "theatre": "Fantasia Jyväskylä",
+        "times": [
+          "18:00",
+          "18:00",
+          "15:00",
+          "16:30",
+          "18:30"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Turku",
+        "times": [
+          "18:30",
+          "18:35",
+          "18:00",
+          "17:50",
+          "15:00",
+          "17:20",
+          "18:40"
+        ]
+      },
+      {
         "theatre": "Maxim Helsinki",
         "times": [
-          "19:45",
-          "20:30",
-          "20:30"
+          "21:00",
+          "21:00",
+          "20:00",
+          "20:25",
+          "20:25",
+          "20:25",
+          "20:55"
         ]
       },
       {
-        "theatre": "Riviera Punavuori",
+        "theatre": "Flamingo Vantaa",
         "times": [
-          "20:30",
+          "12:40",
+          "20:20"
+        ]
+      },
+      {
+        "theatre": "Omena Espoo",
+        "times": [
+          "12:45",
+          "14:30",
+          "14:30",
+          "17:25",
+          "13:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Hämeenlinna",
+        "times": [
+          "14:00"
+        ]
+      },
+      {
+        "theatre": "Promenadi Pori",
+        "times": [
+          "14:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Vaasa",
+        "times": [
+          "15:15",
+          "17:00"
+        ]
+      },
+      {
+        "theatre": "Elokuvateatteri Star",
+        "times": [
           "17:15",
-          "20:10",
-          "19:50"
-        ]
-      },
-      {
-        "theatre": "BioRex Redi",
-        "times": [
-          "15:30",
-          "20:45",
-          "21:00"
-        ]
-      },
-      {
-        "theatre": "Gilda",
-        "times": [
-          "20:30",
-          "16:50",
-          "18:00",
-          "15:30",
-          "18:00",
-          "16:50",
-          "20:15"
+          "16:15"
         ]
       },
       {
         "theatre": "Riviera Kallio",
         "times": [
-          "20:00",
           "17:20"
         ]
       },
       {
-        "theatre": "Cinema Orion",
+        "theatre": "Tapio Joensuu",
         "times": [
-          "21:15",
+          "18:00",
+          "17:10"
+        ]
+      },
+      {
+        "theatre": "Kino Tapiola",
+        "times": [
+          "20:00",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Porvoo",
+        "times": [
+          "20:15",
           "20:15"
+        ]
+      },
+      {
+        "theatre": "BioRex Redi",
+        "times": [
+          "21:00",
+          "15:00",
+          "15:15"
+        ]
+      },
+      {
+        "theatre": "Scala Kuopio",
+        "times": [
+          "13:20",
+          "20:30",
+          "20:10",
+          "17:20"
+        ]
+      },
+      {
+        "theatre": "BioRex Rovaniemi",
+        "times": [
+          "16:45",
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "Kuvapalatsi Lahti",
+        "times": [
+          "16:30",
+          "17:10",
+          "16:40",
+          "14:40"
+        ]
+      },
+      {
+        "theatre": "LUXE Mylly Raisio",
+        "times": [
+          "17:10",
+          "14:55",
+          "14:30"
+        ]
+      },
+      {
+        "theatre": "Riviera Punavuori",
+        "times": [
+          "19:50",
+          "19:50",
+          "20:10"
+        ]
+      },
+      {
+        "theatre": "Cinema Niagara",
+        "times": [
+          "15:45"
+        ]
+      },
+      {
+        "theatre": "Kino Myyri",
+        "times": [
+          "18:45"
         ]
       }
     ],
@@ -645,27 +1960,37 @@
     "box_office": "$24,275,757"
   },
   {
-    "title": "Night on Earth",
-    "search_title": "Night on Earth",
-    "url": "https://kinoon.fi/esitysajat/night-on-earth?scope=helsinki",
+    "title": "Hamnet",
+    "search_title": "Hamnet",
+    "url": "https://kinoon.fi/esitysajat/hamnet?scope=helsinki",
     "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/c918de15-98a0-4ec2-926a-14974f5c74ab/1024.webp",
-    "showtimes": [],
-    "imdb_rating": "7.7",
-    "imdb_votes": "69,395",
-    "rt_rating": "77%",
-    "metacritic": "68/100",
-    "year": "1991",
-    "rated": "R",
-    "runtime": "129 min",
-    "genre": "Comedy, Drama",
-    "director": "Jim Jarmusch",
-    "actors": "Winona Ryder, Gena Rowlands, Lisanne Falk",
-    "plot": "An anthology of 5 different cab drivers in 5 American and European cities and their remarkable fares on the same eventful night.",
-    "language": "English, French, Italian, Finnish, German",
-    "country": "United Kingdom, France, Germany, Japan, United States",
-    "awards": "1 win & 1 nomination total",
-    "box_office": "$2,015,810"
+    "poster_url": "https://kinoon.fi/img/posters-baked/1cb2fe8d-8b81-466d-b880-020d22c355d4/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Maxim Helsinki",
+        "times": [
+          "14:30",
+          "13:30",
+          "14:30",
+          "13:30"
+        ]
+      }
+    ],
+    "imdb_rating": "7.8",
+    "imdb_votes": "109,507",
+    "rt_rating": "86%",
+    "metacritic": "84/100",
+    "year": "2025",
+    "rated": "PG-13",
+    "runtime": "125 min",
+    "genre": "Biography, Drama, History",
+    "director": "Chloé Zhao",
+    "actors": "Jessie Buckley, Paul Mescal, Zac Wishart",
+    "plot": "In late 16th-century England, Agnes, a healer sensitive to the world around her, builds a home with William, a local tutor and aspiring playwright. As their lives fracture, they are tested by distance, silence, and grief.",
+    "language": "English, Latin, French, Greek, Ancient (to 1453)",
+    "country": "United Kingdom, United States",
+    "awards": "Won 1 Oscar. 97 wins & 301 nominations total",
+    "box_office": "$24,208,900"
   },
   {
     "title": "The Rivals of Amziah King",
@@ -674,6 +1999,91 @@
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/416ff371-0e62-422c-af73-5774e9ee7710/1024.webp",
     "showtimes": [
+      {
+        "theatre": "Kino Myyri",
+        "times": [
+          "18:45",
+          "18:45",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Gilda",
+        "times": [
+          "20:30",
+          "20:30",
+          "20:30",
+          "20:00",
+          "19:40",
+          "20:30"
+        ]
+      },
+      {
+        "theatre": "Tennispalatsi Helsinki",
+        "times": [
+          "10:30",
+          "20:40",
+          "10:40",
+          "21:10",
+          "10:30",
+          "20:40",
+          "11:00",
+          "20:30",
+          "11:00",
+          "20:50",
+          "11:00",
+          "20:40",
+          "11:00",
+          "21:00"
+        ]
+      },
+      {
+        "theatre": "Omena Espoo",
+        "times": [
+          "12:30",
+          "20:10",
+          "15:30",
+          "17:30",
+          "20:30",
+          "20:45",
+          "20:00",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Finnkino Itis",
+        "times": [
+          "13:15",
+          "17:45",
+          "17:45",
+          "17:30",
+          "14:30",
+          "17:40",
+          "17:20",
+          "14:30",
+          "17:50",
+          "17:45"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Helsinki",
+        "times": [
+          "14:30",
+          "17:45",
+          "14:00",
+          "17:30",
+          "14:00",
+          "17:00",
+          "14:00",
+          "17:30",
+          "14:00",
+          "17:15",
+          "14:00",
+          "17:30",
+          "14:25",
+          "17:45"
+        ]
+      },
       {
         "theatre": "BioRex Redi",
         "times": [
@@ -684,7 +2094,47 @@
           "16:00",
           "19:15",
           "15:15",
+          "20:00",
+          "20:15",
+          "17:30",
           "20:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Porvoo",
+        "times": [
+          "17:00",
+          "19:45",
+          "16:00",
+          "20:15",
+          "17:15",
+          "20:00",
+          "20:15"
+        ]
+      },
+      {
+        "theatre": "BioRex Hyvinkää",
+        "times": [
+          "17:15",
+          "19:30",
+          "16:45",
+          "18:30",
+          "19:15",
+          "20:15",
+          "17:00",
+          "19:45"
+        ]
+      },
+      {
+        "theatre": "Flamingo Vantaa",
+        "times": [
+          "17:15",
+          "17:20",
+          "17:15",
+          "17:50",
+          "20:45",
+          "17:50",
+          "19:50"
         ]
       },
       {
@@ -694,16 +2144,310 @@
           "21:00",
           "20:30",
           "17:45",
+          "20:30",
+          "17:45",
+          "21:00",
           "20:30"
         ]
       },
       {
-        "theatre": "Gilda",
+        "theatre": "Scala Kuopio",
+        "times": [
+          "18:00",
+          "17:30",
+          "19:20",
+          "19:10",
+          "20:00",
+          "18:45",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Cinema Niagara",
+        "times": [
+          "18:15",
+          "18:00",
+          "20:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Tornio",
+        "times": [
+          "19:30",
+          "19:15",
+          "18:00",
+          "18:00",
+          "19:30",
+          "19:30",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Sello Espoo",
+        "times": [
+          "19:30",
+          "20:30",
+          "19:00",
+          "19:30",
+          "20:20",
+          "17:20",
+          "21:00"
+        ]
+      },
+      {
+        "theatre": "Kino Iiris",
+        "times": [
+          "19:30",
+          "17:00",
+          "19:00",
+          "19:45"
+        ]
+      },
+      {
+        "theatre": "Kinolinna",
+        "times": [
+          "19:30",
+          "14:15",
+          "18:15",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Kajaani",
+        "times": [
+          "19:45",
+          "18:45",
+          "20:00",
+          "19:40"
+        ]
+      },
+      {
+        "theatre": "BioRex Hämeenlinna",
+        "times": [
+          "19:45",
+          "16:30",
+          "16:45",
+          "20:15",
+          "20:15",
+          "17:30",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Riihimäki",
+        "times": [
+          "19:45",
+          "18:30",
+          "19:45"
+        ]
+      },
+      {
+        "theatre": "Fantasia Jyväskylä",
+        "times": [
+          "19:50",
+          "19:20",
+          "19:00",
+          "19:30",
+          "19:30",
+          "19:40",
+          "20:30"
+        ]
+      },
+      {
+        "theatre": "Kinopirtti",
+        "times": [
+          "19:50",
+          "19:50",
+          "19:40"
+        ]
+      },
+      {
+        "theatre": "Kuvapalatsi Lahti",
+        "times": [
+          "19:55",
+          "20:05",
+          "18:30",
+          "19:35",
+          "19:50",
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "BioRex Seinäjoki",
+        "times": [
+          "20:00",
+          "17:30",
+          "20:15",
+          "16:00",
+          "18:45",
+          "17:30",
+          "19:45",
+          "20:15",
+          "20:00",
+          "19:45"
+        ]
+      },
+      {
+        "theatre": "BioRex Vaasa",
+        "times": [
+          "20:00",
+          "20:30",
+          "18:30",
+          "20:30",
+          "20:30",
+          "20:15",
+          "17:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Pietarsaari",
+        "times": [
+          "20:00",
+          "19:45",
+          "20:00",
+          "18:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Rovaniemi",
+        "times": [
+          "20:00",
+          "17:30",
+          "17:00",
+          "17:15",
+          "19:30",
+          "19:50",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Promenadi Pori",
+        "times": [
+          "20:00",
+          "19:15",
+          "20:15",
+          "20:15"
+        ]
+      },
+      {
+        "theatre": "Strand Lappeenranta",
+        "times": [
+          "20:00",
+          "19:40",
+          "18:55",
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "Elokuvateatteri Star",
+        "times": [
+          "20:00",
+          "20:00",
+          "18:30",
+          "16:30",
+          "16:15",
+          "16:15",
+          "16:15"
+        ]
+      },
+      {
+        "theatre": "Plaza Oulu",
+        "times": [
+          "20:10",
+          "20:15",
+          "19:15",
+          "20:20",
+          "20:30",
+          "20:10",
+          "19:25"
+        ]
+      },
+      {
+        "theatre": "Kino Piispanristi",
+        "times": [
+          "20:15",
+          "20:00",
+          "20:00",
+          "13:45",
+          "18:00",
+          "20:15",
+          "13:45",
+          "13:45",
+          "20:30"
+        ]
+      },
+      {
+        "theatre": "Plevna Tampere",
         "times": [
           "20:30",
           "20:30",
+          "12:15",
+          "20:30",
+          "20:45",
+          "20:15",
+          "20:30",
+          "21:40"
+        ]
+      },
+      {
+        "theatre": "Tapio Joensuu",
+        "times": [
+          "20:40",
+          "19:10",
+          "18:40",
+          "14:50"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Turku",
+        "times": [
+          "20:55",
+          "18:25",
+          "20:35",
+          "16:20",
+          "19:20",
+          "17:20",
+          "19:30",
+          "17:15",
+          "18:30",
+          "20:40"
+        ]
+      },
+      {
+        "theatre": "LUXE Mylly Raisio",
+        "times": [
+          "21:00",
+          "20:50",
+          "19:35",
           "20:00",
-          "19:40"
+          "19:15",
+          "19:20",
+          "20:30"
+        ]
+      },
+      {
+        "theatre": "Ihme Kompleksi",
+        "times": [
+          "18:00",
+          "19:15",
+          "18:00"
+        ]
+      },
+      {
+        "theatre": "Kinokulma",
+        "times": [
+          "18:30",
+          "18:30",
+          "18:30"
+        ]
+      },
+      {
+        "theatre": "Bio Rex Kokkola",
+        "times": [
+          "15:10",
+          "19:30",
+          "17:10",
+          "19:15"
         ]
       }
     ],
@@ -721,6 +2465,70 @@
     "language": "English",
     "country": "United States, United Kingdom",
     "awards": "1 nomination total",
+    "box_office": "N/A"
+  },
+  {
+    "title": "The Furious",
+    "search_title": "The Furious",
+    "url": "https://kinoon.fi/esitysajat/the-furious?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/54603ef0-92a4-436a-9346-a20dac1b989e-a9c7c825/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Kinopalatsi Helsinki",
+        "times": [
+          "21:30",
+          "21:30",
+          "21:30",
+          "21:30"
+        ]
+      }
+    ],
+    "imdb_rating": "7.7",
+    "imdb_votes": "991",
+    "rt_rating": "98%",
+    "metacritic": "87/100",
+    "year": "2026",
+    "rated": "R",
+    "runtime": "113 min",
+    "genre": "Action, Crime, Thriller",
+    "director": "Kenji Tanigaki",
+    "actors": "Miao Xie, Joe Taslim, Enyou Yang",
+    "plot": "A father fights fiercely against ruthless kidnappers to save his abducted daughter.",
+    "language": "Chinese, English, Thai",
+    "country": "Hong Kong, China",
+    "awards": "1 win & 2 nominations total",
+    "box_office": "N/A"
+  },
+  {
+    "title": "Angel's Egg",
+    "search_title": "Angel's Egg",
+    "url": "https://kinoon.fi/esitysajat/angel-s-egg?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/7e519000-c49e-48e5-863d-ca663805397d/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "20:45",
+          "20:45"
+        ]
+      }
+    ],
+    "imdb_rating": "7.7",
+    "imdb_votes": "7,817",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "1985",
+    "rated": "N/A",
+    "runtime": "71 min",
+    "genre": "Animation, Drama, Fantasy, Horror, Mystery, Sci-Fi",
+    "director": "Mamoru Oshii",
+    "actors": "Mako Hyôdô, Jinpachi Nezu, Kei'ichi Noda",
+    "plot": "A mysterious young girl wanders a desolate, otherworldly landscape, carrying a large egg.",
+    "language": "Japanese",
+    "country": "Japan",
+    "awards": "N/A",
     "box_office": "N/A"
   },
   {
@@ -760,7 +2568,15 @@
     "url": "https://kinoon.fi/esitysajat/mam?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/d0dfc38a-08b4-42db-a308-3772b00f3526/1024.webp",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "theatre": "Alō",
+        "times": [
+          "10:30",
+          "10:30"
+        ]
+      }
+    ],
     "imdb_rating": "7.6",
     "imdb_votes": "22",
     "rt_rating": null,
@@ -778,27 +2594,48 @@
     "box_office": "N/A"
   },
   {
-    "title": "A Summer's Tale",
-    "search_title": "A Summer's Tale",
-    "url": "https://kinoon.fi/esitysajat/a-summer-s-tale?scope=helsinki",
+    "title": "Michael",
+    "search_title": "Michael",
+    "url": "https://kinoon.fi/esitysajat/michael?scope=helsinki",
     "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/6f4536c3-cbbf-498b-bd31-9018fc408102/1024.webp",
-    "showtimes": [],
-    "imdb_rating": "7.6",
-    "imdb_votes": "11,783",
-    "rt_rating": "98%",
-    "metacritic": "91/100",
-    "year": "1996",
-    "rated": "G",
-    "runtime": "113 min",
-    "genre": "Comedy, Drama, Romance",
-    "director": "Éric Rohmer",
-    "actors": "Melvil Poupaud, Amanda Langlet, Gwenaëlle Simon",
-    "plot": "As a reserved young graduate vacations in a seaside town, he hopes his girlfriend will join him. But he ends up bonding with a local young woman whose female friend is also smitten with him.",
-    "language": "French",
-    "country": "France",
-    "awards": "2 nominations total",
-    "box_office": "$198,126"
+    "poster_url": "https://kinoon.fi/img/posters-baked/9931a8cb-d5c4-4eea-87e9-676679c74427/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Finnkino Itis",
+        "times": [
+          "13:15",
+          "13:15"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Helsinki",
+        "times": [
+          "13:30",
+          "13:30"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Turku",
+        "times": [
+          "15:40"
+        ]
+      }
+    ],
+    "imdb_rating": "7.5",
+    "imdb_votes": "144,205",
+    "rt_rating": "38%",
+    "metacritic": "39/100",
+    "year": "2026",
+    "rated": "PG-13",
+    "runtime": "127 min",
+    "genre": "Biography, Drama, History",
+    "director": "Antoine Fuqua",
+    "actors": "Jaafar Jackson, Nia Long, Colman Domingo",
+    "plot": "The early life of musician Michael Jackson, from the discovery of his talent as the lead of the Jackson Five to the artist whose creative ambition fueled a pursuit to become the biggest entertainer in the world.",
+    "language": "English",
+    "country": "United States, Canada",
+    "awards": "7 wins & 5 nominations total",
+    "box_office": "$371,294,610"
   },
   {
     "title": "7 Steps",
@@ -806,7 +2643,15 @@
     "url": "https://kinoon.fi/esitysajat/7-steps?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/ae7089c5-d4ee-4a8a-8f76-22fe12bc40f4/1024.webp",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "theatre": "Alō",
+        "times": [
+          "21:00",
+          "21:00"
+        ]
+      }
+    ],
     "imdb_rating": "7.4",
     "imdb_votes": "54",
     "rt_rating": null,
@@ -824,60 +2669,6 @@
     "box_office": null
   },
   {
-    "title": "Lady",
-    "search_title": "Lady",
-    "url": "https://kinoon.fi/esitysajat/lady?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/e0452fd7-ac1b-4483-aebb-5f7abfcfa8b1/1024.webp",
-    "showtimes": [],
-    "imdb_rating": "7.4",
-    "imdb_votes": "363,036",
-    "rt_rating": "99%",
-    "metacritic": "93/100",
-    "year": "2017",
-    "rated": "R",
-    "runtime": "94 min",
-    "genre": "Comedy, Drama",
-    "director": "Greta Gerwig",
-    "actors": "Saoirse Ronan, Laurie Metcalf, Tracy Letts",
-    "plot": "A fiercely independent teenager tries to make her own way in the world while wanting to get out of her hometown of Sacramento, California, and to get away from her complicated mother and recently-unemployed father.",
-    "language": "English, Spanish",
-    "country": "United States",
-    "awards": "Nominated for 5 Oscars. 124 wins & 228 nominations total",
-    "box_office": "$48,958,273"
-  },
-  {
-    "title": "Carrie",
-    "search_title": "Carrie",
-    "url": "https://kinoon.fi/esitysajat/carrie?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/c8d24fee-fb88-4ddd-8ec7-99de1fce9da3/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "Kino Regina",
-        "times": [
-          "19:30",
-          "19:30"
-        ]
-      }
-    ],
-    "imdb_rating": "7.4",
-    "imdb_votes": "226,591",
-    "rt_rating": "94%",
-    "metacritic": "86/100",
-    "year": "1976",
-    "rated": "R",
-    "runtime": "98 min",
-    "genre": "Horror",
-    "director": "Brian De Palma",
-    "actors": "Sissy Spacek, Piper Laurie, Amy Irving",
-    "plot": "Carrie White, a shy, friendless teenage girl who is sheltered by her domineering, religious mother, unleashes her telekinetic powers after being humiliated by her classmates at her senior prom.",
-    "language": "English",
-    "country": "United States",
-    "awards": "Nominated for 2 Oscars. 6 wins & 9 nominations total",
-    "box_office": "$33,800,000"
-  },
-  {
     "title": "Toy Story 5",
     "search_title": "Toy Story 5",
     "url": "https://kinoon.fi/esitysajat/toy-story-5?scope=helsinki",
@@ -885,10 +2676,49 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/b9d33313-ead2-4e64-8d52-b7073d689396/1024.webp",
     "showtimes": [
       {
+        "theatre": "Flamingo Vantaa",
+        "times": [
+          "12:30",
+          "11:10",
+          "12:40",
+          "12:30"
+        ]
+      },
+      {
+        "theatre": "Finnkino Itis",
+        "times": [
+          "12:45",
+          "12:45",
+          "12:15",
+          "12:45"
+        ]
+      },
+      {
+        "theatre": "Omena Espoo",
+        "times": [
+          "15:30",
+          "16:00",
+          "16:00",
+          "14:45"
+        ]
+      },
+      {
+        "theatre": "Cine Mäntsälä",
+        "times": [
+          "10:00"
+        ]
+      },
+      {
+        "theatre": "Sello Espoo",
+        "times": [
+          "12:50"
+        ]
+      },
+      {
         "theatre": "Tennispalatsi Helsinki",
         "times": [
-          "13:00",
-          "13:00"
+          "13:10",
+          "13:15"
         ]
       },
       {
@@ -896,6 +2726,50 @@
         "times": [
           "15:00",
           "15:00"
+        ]
+      },
+      {
+        "theatre": "Kino Hirvi",
+        "times": [
+          "16:45"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Turku",
+        "times": [
+          "13:20"
+        ]
+      },
+      {
+        "theatre": "Kino Piispanristi",
+        "times": [
+          "13:45"
+        ]
+      },
+      {
+        "theatre": "BioRex Hyvinkää",
+        "times": [
+          "14:30",
+          "17:15"
+        ]
+      },
+      {
+        "theatre": "Plevna Tampere",
+        "times": [
+          "15:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Seinäjoki",
+        "times": [
+          "17:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Hämeenlinna",
+        "times": [
+          "17:30",
+          "15:45"
         ]
       }
     ],
@@ -916,6 +2790,37 @@
     "box_office": "$475,919,757"
   },
   {
+    "title": "Once upon a time in china ii",
+    "search_title": "Once upon a time in china ii",
+    "url": "https://kinoon.fi/esitysajat/once-upon-a-time-in-china-ii?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F93990093-c9fd-4ab2-b46d-149cfbb020a4.2a8c670d0cb4a29461b1ca87e6a002033de43e814e4c87cc8c3ce06d086159e2.webp&w=2560&q=75",
+    "showtimes": [
+      {
+        "theatre": "Kino Regina",
+        "times": [
+          "17:00",
+          "17:00"
+        ]
+      }
+    ],
+    "imdb_rating": "7.3",
+    "imdb_votes": "11,259",
+    "rt_rating": "93%",
+    "metacritic": null,
+    "year": "1992",
+    "rated": "R",
+    "runtime": "113 min",
+    "genre": "Action, Adventure, Biography",
+    "director": "Hark Tsui",
+    "actors": "Jet Li, Rosamund Kwan, Mok Siu-Chung",
+    "plot": "Arriving by train in Guangzhou, 1895, the trio fight off White Lotus followers, who want to kill all foreigners and the cute, European dressed 13th Aunt. It's not kung fu master Dr. Wong's (Jet Li) last fight.",
+    "language": "Cantonese, English",
+    "country": "Hong Kong",
+    "awards": "2 wins & 11 nominations total",
+    "box_office": "N/A"
+  },
+  {
     "title": "Spider-Man: Brand New Day",
     "search_title": "Brand New Day",
     "url": "https://www.kinot.fi/elokuva/spider-man-brand-new-day",
@@ -923,9 +2828,9 @@
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNWY3MzVmYzMtNjkyZS00MjJhLWI5MjMtZTQ2NmNkYzU1NTZhXkEyXkFqcGdeQXVyMTQ5Mzc5MDU@._V1_SX300.jpg",
     "showtimes": [
       {
-        "theatre": "Gilda",
+        "theatre": "Cinema Sheryl",
         "times": [
-          "19:20"
+          "14:30"
         ]
       }
     ],
@@ -946,6 +2851,37 @@
     "box_office": "N/A"
   },
   {
+    "title": "Once upon a time in china",
+    "search_title": "Once upon a time in china",
+    "url": "https://kinoon.fi/esitysajat/once-upon-a-time-in-china?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Ff1538ca3-3d00-4f17-8c4b-a1a5ab9c7637.fd11ad10c1e8f7bc29f4ad29177b92ee64ddb5499b1dfa4d2305a589de1b6115.webp&w=2560&q=75",
+    "showtimes": [
+      {
+        "theatre": "Kino Regina",
+        "times": [
+          "14:30",
+          "14:30"
+        ]
+      }
+    ],
+    "imdb_rating": "7.2",
+    "imdb_votes": "21,043",
+    "rt_rating": "90%",
+    "metacritic": null,
+    "year": "1991",
+    "rated": "R",
+    "runtime": "134 min",
+    "genre": "Action",
+    "director": "Hark Tsui",
+    "actors": "Jet Li, Biao Yuen, Rosamund Kwan",
+    "plot": "Legendary martial arts hero Wong Fei-Hung fights against foreign forces' plundering of China. When Aunt Yee arrives back from America, Wong Fei-Hung assumes the role of her protector.",
+    "language": "Cantonese, English, French",
+    "country": "Hong Kong",
+    "awards": "5 wins & 4 nominations total",
+    "box_office": "N/A"
+  },
+  {
     "title": "The Drama",
     "search_title": "The Drama",
     "url": "https://kinoon.fi/esitysajat/the-drama?scope=helsinki",
@@ -953,10 +2889,22 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/e7dc727b-1e0c-4583-859d-a22e5a0128da-36f4d9c0/1024.webp",
     "showtimes": [
       {
-        "theatre": "Riviera Punavuori",
+        "theatre": "Kinopalatsi Helsinki",
         "times": [
-          "20:10",
-          "20:10"
+          "21:30",
+          "21:30",
+          "21:30",
+          "21:15",
+          "21:15",
+          "21:15",
+          "21:30",
+          "21:30",
+          "21:30",
+          "21:30",
+          "21:15",
+          "21:15",
+          "21:15",
+          "21:30"
         ]
       }
     ],
@@ -977,37 +2925,6 @@
     "box_office": "$48,062,006"
   },
   {
-    "title": "Sorry, baby",
-    "search_title": "Sorry, baby",
-    "url": "https://kinoon.fi/esitysajat/sorry-baby?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/d7f42241-fe2b-49f0-949f-64c7a8fa6b9f/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "Kino Regina",
-        "times": [
-          "19:00",
-          "19:00"
-        ]
-      }
-    ],
-    "imdb_rating": "7.1",
-    "imdb_votes": "20,929",
-    "rt_rating": "97%",
-    "metacritic": "90/100",
-    "year": "2025",
-    "rated": "R",
-    "runtime": "103 min",
-    "genre": "Comedy, Drama",
-    "director": "Eva Victor",
-    "actors": "Eva Victor, Naomi Ackie, Louis Cancelmi",
-    "plot": "After a tragic event, a woman finds herself alone while everyone else continues with their lives as if nothing had happened.",
-    "language": "English",
-    "country": "United States, Spain, France",
-    "awards": "32 wins & 113 nominations total",
-    "box_office": "$2,418,280"
-  },
-  {
     "title": "Teenage Sex and Death at Camp Miasma",
     "search_title": "Teenage Sex and Death at Camp Miasma",
     "url": "https://kinoon.fi/esitysajat/teenage-sex-and-death-at-camp-miasma?scope=helsinki",
@@ -1015,53 +2932,70 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/30b52375-8077-4585-864a-697ac524764c/1024.webp",
     "showtimes": [
       {
-        "theatre": "Cinema Orion",
-        "times": [
-          "19:30",
-          "19:30",
-          "21:15"
-        ]
-      },
-      {
         "theatre": "Gilda",
         "times": [
-          "20:00",
-          "20:00",
+          "19:00",
           "19:00",
           "18:45"
         ]
       },
       {
-        "theatre": "BioRex Tripla",
-        "times": [
-          "14:45"
-        ]
-      },
-      {
         "theatre": "Kinopalatsi Helsinki",
         "times": [
+          "18:15",
+          "15:35",
+          "18:15",
           "18:45",
           "18:45",
-          "18:45"
+          "18:45",
+          "18:15"
         ]
       },
       {
-        "theatre": "BioRex Redi",
+        "theatre": "Cinema Niagara",
         "times": [
-          "15:15",
-          "15:30"
+          "20:45"
         ]
       },
       {
-        "theatre": "Tennispalatsi Helsinki",
+        "theatre": "Bio Rex Kokkola",
         "times": [
-          "21:00"
+          "22:15"
         ]
       },
       {
         "theatre": "Riviera Punavuori",
         "times": [
-          "20:50"
+          "20:50",
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "Kino Kilta",
+        "times": [
+          "21:00",
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "Cinema Orion",
+        "times": [
+          "21:15",
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "BioRex Redi",
+        "times": [
+          "15:30",
+          "20:45"
+        ]
+      },
+      {
+        "theatre": "Kinopalatsi Turku",
+        "times": [
+          "20:30",
+          "20:30"
         ]
       }
     ],
@@ -1092,7 +3026,9 @@
         "theatre": "Gilda",
         "times": [
           "16:30",
-          "16:30"
+          "19:30",
+          "16:30",
+          "19:30"
         ]
       }
     ],
@@ -1113,12 +3049,80 @@
     "box_office": "$2,181,286"
   },
   {
+    "title": "Verenimijät 2: Humanist Vampire Seeking Consenting Suicidal Person",
+    "search_title": "Humanist Vampire Seeking Consenting Suicidal Person",
+    "url": "https://www.kinot.fi/elokuva/verenimijat-2-humanist-vampire-seeking-consenting-suicidal-person",
+    "source": "Kinot.fi",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BODBhNTFiYzAtYWUzMy00YjZjLWEzMDItNzQyNDUyZjdiMjZhXkEyXkFqcGc@._V1_SX300.jpg",
+    "showtimes": [
+      {
+        "theatre": "WHS Union",
+        "times": [
+          "19:00"
+        ]
+      }
+    ],
+    "imdb_rating": "7.0",
+    "imdb_votes": "8,736",
+    "rt_rating": "90%",
+    "metacritic": "70/100",
+    "year": "2023",
+    "rated": "Unrated",
+    "runtime": "90 min",
+    "genre": "Comedy, Drama, Fantasy",
+    "director": "Ariane Louis-Seize",
+    "actors": "Sara Montpetit, Félix-Antoine Bénard, Steve Laplante",
+    "plot": "A young woman vampire is unable to kill to meet her need for blood, but may have found a solution in a young man with suicidal tendencies.",
+    "language": "French",
+    "country": "Canada",
+    "awards": "31 wins & 38 nominations total",
+    "box_office": "$15,092"
+  },
+  {
+    "title": "Juice",
+    "search_title": "Juice",
+    "url": "https://www.kinot.fi/elokuva/juice",
+    "source": "Kinot.fi",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BNDJiZmYzOGQtYzcyMS00MWY1LTlkYjAtMDE0ZTE2ZDYyNTJkXkEyXkFqcGc@._V1_SX300.jpg",
+    "showtimes": [
+      {
+        "theatre": "Kino Konepaja",
+        "times": [
+          "20:00"
+        ]
+      }
+    ],
+    "imdb_rating": "7.0",
+    "imdb_votes": "32,156",
+    "rt_rating": "82%",
+    "metacritic": "60/100",
+    "year": "1992",
+    "rated": "R",
+    "runtime": "95 min",
+    "genre": "Action, Crime, Drama",
+    "director": "Ernest R. Dickerson",
+    "actors": "Omar Epps, Tupac Shakur, Jermaine Hopkins",
+    "plot": "Four inner-city teenagers get caught up in the pursuit of power and happiness, which they refer to as \"the juice\".",
+    "language": "English, Spanish",
+    "country": "United States, Canada, United Kingdom",
+    "awards": "1 nomination total",
+    "box_office": "$20,146,880"
+  },
+  {
     "title": "Wholetrain",
     "search_title": "Wholetrain",
     "url": "https://kinoon.fi/esitysajat/wholetrain?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/0ab182dd-6aa3-4734-bee0-462caca8dd4c/1024.webp",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "theatre": "Suvilahti DIY",
+        "times": [
+          "21:30",
+          "21:30"
+        ]
+      }
+    ],
     "imdb_rating": "6.9",
     "imdb_votes": "1,082",
     "rt_rating": null,
@@ -1164,22 +3168,7 @@
     "url": "https://kinoon.fi/esitysajat/father-mother-sister-brother?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/4d0a29a7-93ae-4fe8-bd29-ec36b1d5a7e9/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "Kino Engel",
-        "times": [
-          "20:45",
-          "20:45",
-          "20:15",
-          "20:30",
-          "16:00",
-          "20:45",
-          "20:15",
-          "20:30",
-          "16:00"
-        ]
-      }
-    ],
+    "showtimes": [],
     "imdb_rating": "6.8",
     "imdb_votes": "2,348",
     "rt_rating": "82%",
@@ -1197,49 +3186,81 @@
     "box_office": "$184,997"
   },
   {
+    "title": "Once upon a time in china iii",
+    "search_title": "Once upon a time in china iii",
+    "url": "https://kinoon.fi/esitysajat/once-upon-a-time-in-china-iii?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F24317883-3a72-4254-b1e4-42b874de2afb.bbde8d3f30668c8c9ef3280b3f47f88feac4eb350226d141781d5caaed51dca3.webp&w=2560&q=75",
+    "showtimes": [],
+    "imdb_rating": "6.7",
+    "imdb_votes": "8,025",
+    "rt_rating": "63%",
+    "metacritic": null,
+    "year": "1992",
+    "rated": "R",
+    "runtime": "125 min",
+    "genre": "Action, Adventure, Biography",
+    "director": "Hark Tsui",
+    "actors": "Jet Li, Rosamund Kwan, Mok Siu-Chung",
+    "plot": "Master Wong and his disciples enroll in the 'Dancing Lion Competition' to stop an assassination plot and to battle an arrogant, deceitful opponent.",
+    "language": "Cantonese, Russian, English, Mandarin",
+    "country": "Hong Kong, China",
+    "awards": "1 win & 1 nomination total",
+    "box_office": "$3,560,604"
+  },
+  {
+    "title": "Käpy selän alla",
+    "search_title": "Käpy selän alla",
+    "url": "https://kinoon.fi/esitysajat/kapy-selan-alla?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd587d3d1-cb6b-4746-ad59-3cfb2b15e3b8.56e18872b139b67be725c1ae7e35e2db10886b81460d4b97dd3b808df7ce0314.webp&w=2560&q=75",
+    "showtimes": [],
+    "imdb_rating": "6.6",
+    "imdb_votes": "871",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "1966",
+    "rated": "N/A",
+    "runtime": "89 min",
+    "genre": "Drama",
+    "director": "Mikko Niskanen",
+    "actors": "Eero Melasniemi, Kristiina Halkola, Pekka Autiovuori",
+    "plot": "Two student couples go camping in the Finnish countryside; partner swapping and interpersonal dynamics - with a touch of their philosophy - between them all arise.",
+    "language": "Finnish",
+    "country": "Finland",
+    "awards": "6 wins total",
+    "box_office": "N/A"
+  },
+  {
+    "title": "On a String",
+    "search_title": "On a String",
+    "url": "https://kinoon.fi/esitysajat/on-a-string?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/fcdc4bef-865b-4f53-b006-60513ab79164/1024.webp",
+    "showtimes": [],
+    "imdb_rating": "6.6",
+    "imdb_votes": "279",
+    "rt_rating": "92%",
+    "metacritic": null,
+    "year": "2026",
+    "rated": "R",
+    "runtime": "78 min",
+    "genre": "Comedy, Drama, Music",
+    "director": "Isabel Hagen",
+    "actors": "Isabel Hagen, Ling Ling Huang, Dylan Baker",
+    "plot": "A Juilliard-trained violist navigates the New York City freelance classical musician scene, playing gigs that often draw her into the personal lives of strangers, all while living in her oddball family's NYC apartment.",
+    "language": "English",
+    "country": "United States",
+    "awards": "3 wins & 2 nominations total",
+    "box_office": "N/A"
+  },
+  {
     "title": "The End of Oak Street",
     "search_title": "The End of Oak Street",
     "url": "https://kinoon.fi/esitysajat/the-end-of-oak-street?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/f6a674a7-e92e-44d0-8aa0-f44c5b2e6bef/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "Finnkino Itis",
-        "times": [
-          "14:45",
-          "20:30",
-          "14:45",
-          "20:30",
-          "14:45",
-          "14:45",
-          "20:45"
-        ]
-      },
-      {
-        "theatre": "BioRex Tripla",
-        "times": [
-          "20:45",
-          "16:30",
-          "20:15"
-        ]
-      },
-      {
-        "theatre": "Kinopalatsi Helsinki",
-        "times": [
-          "20:45"
-        ]
-      },
-      {
-        "theatre": "Tennispalatsi Helsinki",
-        "times": [
-          "13:00",
-          "15:30",
-          "18:00",
-          "13:00",
-          "18:00"
-        ]
-      }
-    ],
+    "showtimes": [],
     "imdb_rating": "6.6",
     "imdb_votes": "18,446",
     "rt_rating": "86%",
@@ -1262,80 +3283,9 @@
     "url": "https://kinoon.fi/esitysajat/the-dog-stars?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/13eae91e-3d8a-43ae-97c1-909483a5e611/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "RIVIERA Punavuori",
-        "times": [
-          "20:10"
-        ]
-      },
-      {
-        "theatre": "Tennispalatsi Helsinki",
-        "times": [
-          "14:15",
-          "18:30",
-          "21:15",
-          "10:30",
-          "15:30",
-          "18:15",
-          "21:10",
-          "10:30",
-          "15:30",
-          "18:15",
-          "20:45"
-        ]
-      },
-      {
-        "theatre": "Finnkino Itis",
-        "times": [
-          "14:20",
-          "17:20",
-          "14:20",
-          "19:30",
-          "14:45",
-          "18:05"
-        ]
-      },
-      {
-        "theatre": "BioRex Redi",
-        "times": [
-          "17:45",
-          "20:30",
-          "20:30",
-          "16:15",
-          "20:15",
-          "20:30",
-          "12:15",
-          "20:30"
-        ]
-      },
-      {
-        "theatre": "Riviera Punavuori",
-        "times": [
-          "20:10"
-        ]
-      },
-      {
-        "theatre": "BioRex Tripla",
-        "times": [
-          "20:30",
-          "20:45",
-          "19:45",
-          "20:45",
-          "15:15"
-        ]
-      },
-      {
-        "theatre": "Kinopalatsi Helsinki",
-        "times": [
-          "21:15",
-          "21:45",
-          "21:15"
-        ]
-      }
-    ],
+    "showtimes": [],
     "imdb_rating": "6.5",
-    "imdb_votes": "10,215",
+    "imdb_votes": "13,521",
     "rt_rating": "40%",
     "metacritic": "49/100",
     "year": "2026",
@@ -1348,37 +3298,7 @@
     "language": "English",
     "country": "United Kingdom, United States",
     "awards": "N/A",
-    "box_office": "$9,337,929"
-  },
-  {
-    "title": "One Night Only",
-    "search_title": "One Night Only",
-    "url": "https://kinoon.fi/esitysajat/one-night-only?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/7a4329bc-6658-46b6-ac0b-c1143a4ffe13/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "RIVIERA Punavuori",
-        "times": [
-          "17:00"
-        ]
-      }
-    ],
-    "imdb_rating": "6.4",
-    "imdb_votes": "1,318",
-    "rt_rating": "43%",
-    "metacritic": "43/100",
-    "year": "2026",
-    "rated": "R",
-    "runtime": "102 min",
-    "genre": "Comedy, Drama, Romance",
-    "director": "Will Gluck",
-    "actors": "Monica Barbaro, Callum Turner, Charlie Gillespie",
-    "plot": "Two New Yorkers search for love on the one night of the year when pre-marital sex is legal.",
-    "language": "English",
-    "country": "United States",
-    "awards": "N/A",
-    "box_office": "$5,700,000"
+    "box_office": "$13,837,035"
   },
   {
     "title": "Disclosure Day",
@@ -1386,14 +3306,7 @@
     "url": "https://kinoon.fi/esitysajat/disclosure-day?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/4b3f6725-12ea-4621-82b8-3eb7d38c72b7/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "RIVIERA Punavuori",
-        "times": [
-          "19:50"
-        ]
-      }
-    ],
+    "showtimes": [],
     "imdb_rating": "6.4",
     "imdb_votes": "139,066",
     "rt_rating": "79%",
@@ -1411,27 +3324,27 @@
     "box_office": "$116,636,645"
   },
   {
-    "title": "La Gradiva",
-    "search_title": "La Gradiva",
-    "url": "https://kinoon.fi/esitysajat/la-gradiva?scope=helsinki",
+    "title": "One Night Only",
+    "search_title": "One Night Only",
+    "url": "https://kinoon.fi/esitysajat/one-night-only?scope=helsinki",
     "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/b6aa27c4-148e-4fe4-8f72-930967c2331a/1024.webp",
+    "poster_url": "https://kinoon.fi/img/posters-baked/7a4329bc-6658-46b6-ac0b-c1143a4ffe13/1024.webp",
     "showtimes": [],
     "imdb_rating": "6.3",
-    "imdb_votes": "26",
-    "rt_rating": "100%",
-    "metacritic": "100/100",
+    "imdb_votes": "6,744",
+    "rt_rating": "43%",
+    "metacritic": "42/100",
     "year": "2026",
-    "rated": "N/A",
-    "runtime": "N/A",
-    "genre": "Drama",
-    "director": "Marine Atlan",
-    "actors": "Colas Quignard, Suzanne Gerin, Mitia Capellier",
-    "plot": "A group of high school students sets off on a school trip to discover the ruins of Pompeii. They are seized by a sense of vertigo. They allow themselves to be overwhelmed by desire and anger, until they surrender completely.",
-    "language": "French",
-    "country": "France",
-    "awards": "2 nominations total",
-    "box_office": "N/A"
+    "rated": "R",
+    "runtime": "102 min",
+    "genre": "Comedy, Drama, Romance",
+    "director": "Will Gluck",
+    "actors": "Callum Turner, Tyonne Chambers, Grace Dumdaw",
+    "plot": "Two New Yorkers search for love on the one night of the year when pre-marital sex is legal.",
+    "language": "English",
+    "country": "United States",
+    "awards": "N/A",
+    "box_office": "$11,506,280"
   },
   {
     "title": "Insidious: Out Of The Further",
@@ -1440,8 +3353,8 @@
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/142c836c-bc35-47c9-b4a9-1c4fa953ac5b/1024.webp",
     "showtimes": [],
-    "imdb_rating": "6.3",
-    "imdb_votes": "1,433",
+    "imdb_rating": "6.2",
+    "imdb_votes": "13,228",
     "rt_rating": "58%",
     "metacritic": "47/100",
     "year": "2026",
@@ -1454,7 +3367,7 @@
     "language": "English",
     "country": "Australia, United States",
     "awards": "N/A",
-    "box_office": "N/A"
+    "box_office": "$55,689,759"
   },
   {
     "title": "Marsupilami",
@@ -1485,14 +3398,7 @@
     "url": "https://kinoon.fi/esitysajat/the-ice-tower?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/1f9d9802-9eed-4333-bee2-eab975ada3df/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "Korjaamo Kino",
-        "times": [
-          "19:30"
-        ]
-      }
-    ],
+    "showtimes": [],
     "imdb_rating": "6.0",
     "imdb_votes": "1,281",
     "rt_rating": "81%",
@@ -1508,29 +3414,6 @@
     "country": "France, Germany, Italy",
     "awards": "4 wins & 6 nominations total",
     "box_office": "$8,000"
-  },
-  {
-    "title": "Couture",
-    "search_title": "Couture",
-    "url": "https://kinoon.fi/esitysajat/couture?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/2a2d9d32-78d1-480a-bb4f-eb9d27587754/1024.webp",
-    "showtimes": [],
-    "imdb_rating": "5.7",
-    "imdb_votes": "1,655",
-    "rt_rating": "51%",
-    "metacritic": "53/100",
-    "year": "2026",
-    "rated": "R",
-    "runtime": "103 min",
-    "genre": "Drama",
-    "director": "Alice Winocour",
-    "actors": "Angelina Jolie, Anyier Anei, Louis Garrel",
-    "plot": "An American filmmaker faces challenges and self-discovery as she arrives in Paris for Fashion Week on a life-and-death journey.",
-    "language": "French, English, Ukrainian, Dinka, Italian",
-    "country": "France, United States",
-    "awards": "2 nominations total",
-    "box_office": "$206,448"
   },
   {
     "title": "Primavera",
@@ -1579,6 +3462,22 @@
     "box_office": "$11,919,250"
   },
   {
+    "title": "Indiana Jones: Kadonneen aarteen metsästäjät",
+    "search_title": "Indiana Jones: Kadonneen aarteen metsästäjät",
+    "url": "https://kinoon.fi/esitysajat/indiana-jones-kadonneen-aarteen-metsastajat?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/c66c1812-e081-4a0f-b14e-01a4f6f4a44d/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Kesäkatu: Rappin’",
+    "search_title": "Kesäkatu: Rappin’",
+    "url": "https://kinoon.fi/esitysajat/kesakatu-rappin?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/84067e9e-dc0b-4293-9547-cfc9ca296b0a/1024.webp",
+    "showtimes": []
+  },
+  {
     "title": "The Oldest Person in the World",
     "search_title": "The Oldest Person in the World",
     "url": "https://kinoon.fi/esitysajat/the-oldest-person-in-the-world?scope=helsinki",
@@ -1600,6 +3499,14 @@
     "country": "United States",
     "awards": "N/A",
     "box_office": "N/A"
+  },
+  {
+    "title": "Lucky luke sotapolulla",
+    "search_title": "Lucky luke sotapolulla",
+    "url": "https://kinoon.fi/esitysajat/lucky-luke-sotapolulla?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fb0a78003-d73f-45e6-8668-d38c6691a270.5070087e63fa472a78a989959ee2387ff5522aec2979edb7b25614f6046ead44.webp&w=2560&q=75",
+    "showtimes": []
   },
   {
     "title": "Downward Ascension",
@@ -1626,6 +3533,14 @@
     "showtimes": []
   },
   {
+    "title": "Jimmy and Stiggs ja Deathgasm II: Goremageddon",
+    "search_title": "Jimmy and Stiggs ja Deathgasm II: Goremageddon",
+    "url": "https://kinoon.fi/esitysajat/jimmy-and-stiggs-ja-deathgasm-ii-goremageddon?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F32452e9a-0db7-444a-9e91-9e457c95348b.b003f62014caac08a0799ca4cfdf16b102af68e2fc1d82bcdad10ea795b8b403.webp&w=2560&q=75",
+    "showtimes": []
+  },
+  {
     "title": "HelAFF: My Father's Scent",
     "search_title": "HelAFF: My Father's Scent",
     "url": "https://kinoon.fi/esitysajat/helaff-my-father-s-scent?scope=helsinki",
@@ -1640,52 +3555,6 @@
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/a1d61fdd-de8f-4ebb-b44f-1517053e1874/1024.webp",
     "showtimes": []
-  },
-  {
-    "title": "On a String",
-    "search_title": "On a String",
-    "url": "https://kinoon.fi/esitysajat/on-a-string?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/fcdc4bef-865b-4f53-b006-60513ab79164/1024.webp",
-    "showtimes": [],
-    "imdb_rating": "N/A",
-    "imdb_votes": "N/A",
-    "rt_rating": "92%",
-    "metacritic": null,
-    "year": "2025",
-    "rated": "N/A",
-    "runtime": "78 min",
-    "genre": "Comedy, Drama, Music",
-    "director": "Isabel Hagen",
-    "actors": "Eric Bogosian, Dylan Baker, Charlotte Ray Rosenberg",
-    "plot": "A Juilliard-trained violist navigates the New York City freelance classical musician scene, playing gigs that often draw her into the personal lives of strangers, all while living in her oddball family's NYC apartment.",
-    "language": "English",
-    "country": "United States",
-    "awards": "N/A",
-    "box_office": "N/A"
-  },
-  {
-    "title": "Kapina",
-    "search_title": "Kapina",
-    "url": "https://kinoon.fi/esitysajat/kapina?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/5f948823-94f6-42bc-89a4-8e2a34f91104/1024.webp",
-    "showtimes": [],
-    "imdb_rating": "N/A",
-    "imdb_votes": "11",
-    "rt_rating": null,
-    "metacritic": null,
-    "year": "2025",
-    "rated": "N/A",
-    "runtime": "80 min",
-    "genre": "Documentary",
-    "director": "Saku Soukka",
-    "actors": "N/A",
-    "plot": "N/A",
-    "language": "Finnish",
-    "country": "Finland",
-    "awards": "N/A",
-    "box_office": "N/A"
   },
   {
     "title": "Sad Girlz",
@@ -1726,6 +3595,36 @@
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/5d29e564-b375-40e0-ac3b-07af7a693947/1024.webp",
     "showtimes": []
+  },
+  {
+    "title": "Kapina",
+    "search_title": "Kapina",
+    "url": "https://kinoon.fi/esitysajat/kapina?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/5f948823-94f6-42bc-89a4-8e2a34f91104/1024.webp",
+    "showtimes": [
+      {
+        "theatre": "Gilda",
+        "times": [
+          "16:00"
+        ]
+      }
+    ],
+    "imdb_rating": "N/A",
+    "imdb_votes": "11",
+    "rt_rating": null,
+    "metacritic": null,
+    "year": "2025",
+    "rated": "N/A",
+    "runtime": "80 min",
+    "genre": "Documentary",
+    "director": "Saku Soukka",
+    "actors": "N/A",
+    "plot": "N/A",
+    "language": "Finnish",
+    "country": "Finland",
+    "awards": "N/A",
+    "box_office": "N/A"
   },
   {
     "title": "Lempeä ja liittolaisia – lyhytelokuvat",
@@ -1850,7 +3749,14 @@
     "url": "https://kinoon.fi/esitysajat/the-best-little-whorehouse-in-texas-1982?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/f0004b52-322b-4687-bfe2-33ff4b0e802f/1024.webp",
-    "showtimes": []
+    "showtimes": [
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "21:30"
+        ]
+      }
+    ]
   },
   {
     "title": "Svečias – The Visitor",
@@ -1858,7 +3764,14 @@
     "url": "https://kinoon.fi/esitysajat/svecias-the-visitor?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/53ca396c-3a8c-4ee9-8a55-84d0b0524d82/1024.webp",
-    "showtimes": []
+    "showtimes": [
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "20:15"
+        ]
+      }
+    ]
   },
   {
     "title": "Rakasta tai tuhoudu",
@@ -1869,145 +3782,11 @@
     "showtimes": []
   },
   {
-    "title": "The Small Confessions",
-    "search_title": "The Small Confessions",
-    "url": "https://kinoon.fi/esitysajat/the-small-confessions?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/66b39f9a-7522-49c1-8fbb-9985953c4a8e/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "HelAFF: Hijacked Twice",
-    "search_title": "HelAFF: Hijacked Twice",
-    "url": "https://kinoon.fi/esitysajat/helaff-hijacked-twice?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/694fe5fc-fabc-4149-bc4e-a769b1c430e8/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "Tulevaisuuden juuret – lyhytelokuvat",
-    "search_title": "Tulevaisuuden juuret – lyhytelokuvat",
-    "url": "https://kinoon.fi/esitysajat/tulevaisuuden-juuret-lyhytelokuvat?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/a0867e63-f169-413e-870c-3884067ed5ee/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "Valheita ja varkauksia – lyhytelokuvat",
-    "search_title": "Valheita ja varkauksia – lyhytelokuvat",
-    "url": "https://kinoon.fi/esitysajat/valheita-ja-varkauksia?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/d42eedae-298a-4ca1-8cec-a0a540f538cf/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "Hunger Strike Breakfast",
-    "search_title": "Hunger Strike Breakfast",
-    "url": "https://kinoon.fi/esitysajat/hunger-strike-breakfast?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/ecc58bfe-7919-4699-9460-9f18322db677/1024.webp",
-    "showtimes": [],
-    "imdb_rating": "N/A",
-    "imdb_votes": "N/A",
-    "rt_rating": null,
-    "metacritic": null,
-    "year": "2025",
-    "rated": "N/A",
-    "runtime": "N/A",
-    "genre": "Drama",
-    "director": "N/A",
-    "actors": "N/A",
-    "plot": "In the early '90s, Lithuanian TV star Daiva loses her job as the studios are taken over by russian soldiers. Together with several peers, she announces a hunger strike to reclaim the TV station.",
-    "language": "N/A",
-    "country": "Lithuania",
-    "awards": "1 nomination total",
-    "box_office": "N/A"
-  },
-  {
-    "title": "Phantasm - yön kauhut",
-    "search_title": "Phantasm - yön kauhut",
-    "url": "https://kinoon.fi/esitysajat/phantasm-yon-kauhut?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/ff6ceea3-c2cc-449e-bf2a-4f3190c66f3a/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "HelAFF: Fez Summer 55",
-    "search_title": "HelAFF: Fez Summer 55",
-    "url": "https://kinoon.fi/esitysajat/helaff-fez-summer-55?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/2d77377e-a8a4-4cd7-81d8-7d6e2bb4607e/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "Arkkitehtuuri muovaa todellisuutta – lyhytelokuvat",
-    "search_title": "Arkkitehtuuri muovaa todellisuutta – lyhytelokuvat",
-    "url": "https://kinoon.fi/esitysajat/arkkitehtuuri-muovaa-todellisuutta?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/4d4da843-3c4b-49db-b29a-1b9dfadb178b/1024.webp",
-    "showtimes": []
-  },
-  {
     "title": "Practical Magic: Lumotut sisaret",
     "search_title": "Practical Magic: Lumotut sisaret",
     "url": "https://kinoon.fi/esitysajat/practical-magic-lumotut-sisaret?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/804778de-f706-456e-9189-fd4698a4f0b9/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "Kilvoittelua ja kapinaa – lyhytelokuvat",
-    "search_title": "Kilvoittelua ja kapinaa – lyhytelokuvat",
-    "url": "https://kinoon.fi/esitysajat/kilvoittelua-ja-kapinaa?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/ab4c2189-137b-466b-b84f-3508f2aab235/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "The Last Critic",
-    "search_title": "The Last Critic",
-    "url": "https://kinoon.fi/esitysajat/the-last-critic?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/d348e7ea-ba48-4dee-95b1-d01b8f7d9d72/1024.webp",
-    "showtimes": [],
-    "imdb_rating": "N/A",
-    "imdb_votes": "N/A",
-    "rt_rating": null,
-    "metacritic": null,
-    "year": "2026",
-    "rated": "N/A",
-    "runtime": "83 min",
-    "genre": "Documentary",
-    "director": "Matty Wishnow",
-    "actors": "Robert Christgau, Carola Dibbell, Joe Levy",
-    "plot": "The Last Critic is the first documentary feature about Robert Christgau, a pioneer of music criticism. The self-proclaimed Dean of American Rock Critics, Christgau helped invent the form in 1967 while covering the Monterey Pop Fes...",
-    "language": "English",
-    "country": "United States",
-    "awards": "N/A",
-    "box_office": "N/A"
-  },
-  {
-    "title": "Prinssi ja revyytyttö",
-    "search_title": "Prinssi ja revyytyttö",
-    "url": "https://kinoon.fi/esitysajat/prinssi-ja-revyytytto?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/f6226d98-03c7-4945-8b97-fa3deb8d2fdb/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "Marseille–Bagdad–Pariisi–Fos-sur-Mer – lyhytelokuvat",
-    "search_title": "Marseille–Bagdad–Pariisi–Fos-sur-Mer – lyhytelokuvat",
-    "url": "https://kinoon.fi/esitysajat/marseille-bagdad-pariisi-fos-sur-mer-lyhytelokuvat?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/66f22489-a09e-4241-863b-4df5c5d1799a/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "Belleville Beats",
-    "search_title": "Belleville Beats",
-    "url": "https://kinoon.fi/esitysajat/belleville-beats?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/7087e4a6-df73-4062-9535-bea54bda9299/1024.webp",
     "showtimes": []
   },
   {
@@ -2043,20 +3822,13 @@
       {
         "theatre": "Gilda",
         "times": [
-          "15:00",
-          "14:45"
-        ]
-      },
-      {
-        "theatre": "Kino Myyri",
-        "times": [
-          "18:45"
-        ]
-      },
-      {
-        "theatre": "Cinema Orion",
-        "times": [
           "15:00"
+        ]
+      },
+      {
+        "theatre": "Kino Tapiola",
+        "times": [
+          "13:00"
         ]
       }
     ]
@@ -2066,7 +3838,7 @@
     "search_title": "Autot (re-release)",
     "url": "https://kinoon.fi/esitysajat/autot-re-release?scope=helsinki",
     "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/57589db9-5945-4f6e-8376-58c0ed690408/1024.webp",
+    "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F57589db9-5945-4f6e-8376-58c0ed690408.36411694d5155acec6144cfb817afc254b92659b572477ba9ac53517ce28a4d8.webp&w=2560&q=75",
     "showtimes": []
   },
   {
@@ -2079,28 +3851,20 @@
       {
         "theatre": "Gilda",
         "times": [
-          "15:30",
-          "17:15",
-          "15:20",
-          "18:30"
+          "16:00",
+          "14:40"
+        ]
+      },
+      {
+        "theatre": "Cinema Orion",
+        "times": [
+          "12:30"
         ]
       },
       {
         "theatre": "Kino Myyri",
         "times": [
-          "17:00"
-        ]
-      },
-      {
-        "theatre": "Korjaamo Kino",
-        "times": [
-          "17:15"
-        ]
-      },
-      {
-        "theatre": "Kino Tapiola",
-        "times": [
-          "17:30"
+          "16:15"
         ]
       }
     ]
@@ -2113,15 +3877,9 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/80b86d49-322c-43c6-b79a-6f2637e3c70c/1024.webp",
     "showtimes": [
       {
-        "theatre": "Korjaamo Kino",
+        "theatre": "Gilda",
         "times": [
-          "14:00"
-        ]
-      },
-      {
-        "theatre": "Kino Myyri",
-        "times": [
-          "14:15"
+          "13:20"
         ]
       }
     ]
@@ -2134,9 +3892,43 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/0194382c-0eb2-41f8-9842-9759360d46eb/1024.webp",
     "showtimes": [
       {
+        "theatre": "Gilda",
+        "times": [
+          "15:30",
+          "17:45",
+          "12:30",
+          "14:00"
+        ]
+      },
+      {
+        "theatre": "Kino Myyri",
+        "times": [
+          "17:00"
+        ]
+      },
+      {
         "theatre": "Cinema Orion",
         "times": [
           "17:00"
+        ]
+      },
+      {
+        "theatre": "Kino Tapiola",
+        "times": [
+          "17:15",
+          "15:15"
+        ]
+      },
+      {
+        "theatre": "Kino Engel",
+        "times": [
+          "18:30"
+        ]
+      },
+      {
+        "theatre": "RIVIERA Punavuori",
+        "times": [
+          "15:45"
         ]
       }
     ],
@@ -2162,14 +3954,6 @@
     "url": "https://kinoon.fi/esitysajat/kaunarikuume?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/42294bd9-fefd-4ef7-823e-2dc01f27ef25/1024.webp",
-    "showtimes": []
-  },
-  {
-    "title": "Mutiny - Lavastettu syylliseksi",
-    "search_title": "Mutiny - Lavastettu syylliseksi",
-    "url": "https://kinoon.fi/esitysajat/mutiny-lavastettu-syylliseksi?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/6c88452c-97e4-40d2-aa46-3f29f5d21c8d/1024.webp",
     "showtimes": []
   },
   {
@@ -2205,22 +3989,21 @@
       {
         "theatre": "Gilda",
         "times": [
-          "17:30",
-          "12:20",
-          "17:00"
+          "17:15",
+          "12:45",
+          "15:15"
         ]
       },
       {
         "theatre": "Kino Engel",
         "times": [
-          "18:30",
-          "18:30"
+          "18:00"
         ]
       },
       {
-        "theatre": "Cinema Orion",
+        "theatre": "RIVIERA Kallio",
         "times": [
-          "17:00"
+          "14:15"
         ]
       }
     ]
@@ -2233,17 +4016,10 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/7cb11a3e-77c0-4319-a1d7-b76ea01b2890/1024.webp",
     "showtimes": [
       {
-        "theatre": "Gilda",
-        "times": [
-          "16:15",
-          "12:35"
-        ]
-      },
-      {
         "theatre": "Kino Engel",
         "times": [
-          "18:15",
-          "18:15"
+          "16:00",
+          "15:45"
         ]
       }
     ]
@@ -2254,7 +4030,14 @@
     "url": "https://kinoon.fi/esitysajat/siri-hustvedt-dance-around-the-self?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/ddd28589-816b-4469-addd-15e5d0182da9/1024.webp",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "theatre": "Cinema Orion",
+        "times": [
+          "14:20"
+        ]
+      }
+    ],
     "imdb_rating": "N/A",
     "imdb_votes": "5",
     "rt_rating": null,
@@ -2331,14 +4114,7 @@
     "url": "https://kinoon.fi/esitysajat/laula-minulle-arja?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/0e8b4f97-b19b-4426-bc39-407c19b5855e/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "Kino Engel",
-        "times": [
-          "16:30"
-        ]
-      }
-    ]
+    "showtimes": []
   },
   {
     "title": "Kätyrit ja Monsterit",
@@ -2356,26 +4132,12 @@
     "poster_url": "https://kinoon.fi/img/posters-baked/3bfb51d2-6182-4ed9-9767-16b35f92acaf/1024.webp",
     "showtimes": [
       {
-        "theatre": "Kino Myyri",
-        "times": [
-          "14:45"
-        ]
-      },
-      {
         "theatre": "Kino Engel",
         "times": [
-          "15:45"
+          "15:30"
         ]
       }
     ]
-  },
-  {
-    "title": "In the Grey – Miljardikeikka",
-    "search_title": "In the Grey – Miljardikeikka",
-    "url": "https://kinoon.fi/esitysajat/in-the-grey-miljardikeikka?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/7077b671-b0a5-4a97-958c-3e07da69a51b/1024.webp",
-    "showtimes": []
   },
   {
     "title": "Bamse ja meren salaisuus",
@@ -2391,6 +4153,14 @@
     "url": "https://kinoon.fi/esitysajat/calle-malaga-muistojeni-katu?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/2b365767-3fc2-4224-8e43-3d1286753b9c/1024.webp",
+    "showtimes": []
+  },
+  {
+    "title": "Paholainen pukeutuu Pradaan 2",
+    "search_title": "Paholainen pukeutuu Pradaan 2",
+    "url": "https://kinoon.fi/esitysajat/paholainen-pukeutuu-pradaan-2?scope=helsinki",
+    "source": "Kinoon.fi",
+    "poster_url": "https://kinoon.fi/img/posters-baked/d94da67b-d243-4fba-a59b-bd1b20bbd767/1024.webp",
     "showtimes": []
   },
   {
@@ -2417,14 +4187,6 @@
     "box_office": "N/A"
   },
   {
-    "title": "Kokuho - Kabukin Mestari",
-    "search_title": "Kokuho - Kabukin Mestari",
-    "url": "https://kinoon.fi/esitysajat/kokuho-kabukin-mestari?scope=helsinki",
-    "source": "Kinoon.fi",
-    "poster_url": "https://kinoon.fi/img/posters-baked/c6be84a0-13a4-457e-b95e-d1de86a6ef1d/1024.webp",
-    "showtimes": []
-  },
-  {
     "title": "Operaatio Ave Maria",
     "search_title": "Operaatio Ave Maria",
     "url": "https://kinoon.fi/esitysajat/operaatio-ave-maria?scope=helsinki",
@@ -2438,41 +4200,73 @@
     "url": "https://kinoon.fi/esitysajat/vasenkatinen-tytto?scope=helsinki",
     "source": "Kinoon.fi",
     "poster_url": "https://kinoon.fi/img/posters-baked/b6876b00-30d1-49a1-9a27-782be328a360/1024.webp",
-    "showtimes": [
-      {
-        "theatre": "Kino Engel",
-        "times": [
-          "20:45"
-        ]
-      }
-    ]
+    "showtimes": []
   },
   {
-    "title": "Laula minulle Arja",
-    "search_title": "Laula minulle Arja",
-    "url": "https://www.kinot.fi/elokuva/laula-minulle-arja-2",
+    "title": "Oasis: Don’t Look Back In Anger",
+    "search_title": "Don’t Look Back In Anger",
+    "url": "https://www.kinot.fi/elokuva/oasis-dont-look-back-in-anger",
     "source": "Kinot.fi",
     "poster_url": null,
     "showtimes": [
       {
         "theatre": "Kino Konepaja",
         "times": [
-          "13:00"
+          "17:00"
+        ]
+      },
+      {
+        "theatre": "Cinema Orion",
+        "times": [
+          "18:50"
+        ]
+      },
+      {
+        "theatre": "Kino Tapiola",
+        "times": [
+          "19:30"
+        ]
+      },
+      {
+        "theatre": "Gilda",
+        "times": [
+          "20:00"
+        ]
+      },
+      {
+        "theatre": "RIVIERA Kallio",
+        "times": [
+          "20:00"
         ]
       }
     ]
   },
   {
-    "title": "Calle Málaga – muistojeni katu",
-    "search_title": "Calle Málaga – muistojeni katu",
-    "url": "https://www.kinot.fi/elokuva/calle-malaga-muistojeni-katu-2",
+    "title": "Humiseva harju",
+    "search_title": "Humiseva harju",
+    "url": "https://www.kinot.fi/elokuva/humiseva-harju",
     "source": "Kinot.fi",
     "poster_url": null,
     "showtimes": [
       {
-        "theatre": "Kino Tapiola",
+        "theatre": "Kino Myyri",
         "times": [
-          "15:00"
+          "12:00"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Ryhmä Hau: Dinoelokuva (dub)",
+    "search_title": "Dinoelokuva (dub)",
+    "url": "https://www.kinot.fi/elokuva/ryhma-hau-dinoelokuva-dub",
+    "source": "Kinot.fi",
+    "poster_url": null,
+    "showtimes": [
+      {
+        "theatre": "Kino Myyri",
+        "times": [
+          "14:30"
         ]
       }
     ]
@@ -2487,7 +4281,7 @@
       {
         "theatre": "Kino Engel",
         "times": [
-          "16:00"
+          "16:15"
         ]
       }
     ]
