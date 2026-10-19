@@ -1,4 +1,3 @@
-// VAIHDA TÄMÄ OMAAN GITHUB-REPOOSI!
 const JSON_URL = 'https://raw.githubusercontent.com/juskaorion/leffat/main/leffat.json';
 
 let allMovies = [];
@@ -13,7 +12,7 @@ async function loadMovies() {
     
     const data = await response.json();
 
-    // Tukee sekä uutta { paivitetty, elokuvat } -rakennetta että vanhaa suoraa listaa
+    // Lukee uuden rakenteen { paivitetty, elokuvat }
     if (Array.isArray(data)) {
       allMovies = data;
       lastUpdated = '';
@@ -31,7 +30,6 @@ async function loadMovies() {
         <h2>⚠️ Virhe ladattaessa elokuvia</h2>
         <p>${error.message}</p>
         <p><strong>Tarkista URL:</strong> ${JSON_URL}</p>
-        <p>Avaa URL selaimessa ja varmista että näet JSON-datan!</p>
       </div>
     `;
   }
@@ -41,7 +39,7 @@ function renderMovies(movies) {
   const app = document.getElementById('elokuvat-app');
   
   const withRatings = movies.filter(m => m.imdb_rating && m.imdb_rating !== 'N/A').length;
-  const totalVenues = movies.reduce((sum, m) => sum + (m.esityspaikat?.length || m.showtimes?.length || 0), 0);
+  const totalVenues = movies.reduce((sum, m) => sum + (m.esityspaikat?.length || 0), 0);
   
   let html = `
     <div class="header">
@@ -67,10 +65,6 @@ function renderMovies(movies) {
       <button class="filter-btn active" onclick="filterMovies('all', event)">Kaikki (${movies.length})</button>
       <button class="filter-btn" onclick="filterMovies('high-rated', event)">⭐ Yli 7.5</button>
       <button class="filter-btn" onclick="filterMovies('new', event)">🆕 Uudet</button>
-      <button class="filter-btn" onclick="filterMovies('action', event)">💥 Toiminta</button>
-      <button class="filter-btn" onclick="filterMovies('drama', event)">🎭 Draama</button>
-      <button class="filter-btn" onclick="filterMovies('comedy', event)">😂 Komedia</button>
-      <button class="filter-btn" onclick="filterMovies('horror', event)">👻 Kauhu</button>
     </div>
     
     <div class="movies-grid">
@@ -88,7 +82,7 @@ function renderMovies(movies) {
     const genres = genre !== 'N/A' ? genre.split(',').slice(0, 3) : [];
     const genreTags = genres.map(g => `<span class="genre-tag">${g.trim()}</span>`).join('');
     
-    // Esityspaikat linkkeinä (ilman esitysaikoja)
+    // Esityspaikat linkkeinä
     let venuesHtml = '';
     const venues = movie.esityspaikat || [];
 
@@ -101,13 +95,13 @@ function renderMovies(movies) {
       }).join('');
 
       venuesHtml = `
-        <div class="venues-container">
-          <div class="venues-title">📍 Esityspaikat:</div>
-          <div class="venues-list">${links}</div>
+        <div class="venues-container" style="margin-top:10px;">
+          <div class="venues-title" style="font-weight:bold; font-size:0.85rem; margin-bottom:4px;">📍 Esityspaikat:</div>
+          <div class="venues-list" style="display:flex; flex-wrap:wrap; gap:6px;">${links}</div>
         </div>
       `;
     } else {
-      venuesHtml = '<div class="no-venues">Ei listattuja teattereita tällä viikolla</div>';
+      venuesHtml = '<div class="no-venues" style="font-size:0.8rem; opacity:0.7; margin-top:6px;">Ei listattuja teattereita tällä viikolla</div>';
     }
     
     html += `
