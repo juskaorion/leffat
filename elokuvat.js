@@ -2,6 +2,7 @@
 const JSON_URL = 'https://raw.githubusercontent.com/juskaorion/leffat/main/leffat.json';
 
 let allMovies = [];
+let lastUpdated = '';
 
 async function loadMovies() {
   try {
@@ -11,7 +12,16 @@ async function loadMovies() {
     }
     
     const data = await response.json();
-    allMovies = data;
+
+    // Tukee sekä uutta { paivitetty, elokuvat } -rakennetta että vanhaa suoraa listaa
+    if (Array.isArray(data)) {
+      allMovies = data;
+      lastUpdated = '';
+    } else {
+      allMovies = data.elokuvat || [];
+      lastUpdated = data.paivitetty || '';
+    }
+
     renderMovies(allMovies);
     
   } catch (error) {
@@ -31,12 +41,12 @@ function renderMovies(movies) {
   const app = document.getElementById('elokuvat-app');
   
   const withRatings = movies.filter(m => m.imdb_rating && m.imdb_rating !== 'N/A').length;
-  const totalShowtimes = movies.reduce((sum, m) => sum + (m.showtimes?.length || 0), 0);
+  const totalVenues = movies.reduce((sum, m) => sum + (m.esityspaikat?.length || m.showtimes?.length || 0), 0);
   
   let html = `
     <div class="header">
       <h1>🎬 Elokuvat tällä viikolla</h1>
-      <div class="update-time">Päivitetty automaattisesti 2x viikossa</div>
+      <div class="update-time">${lastUpdated || 'Päivitetty tällä viikolla'}</div>
       <div class="stats">
         <div class="stat">
           <div class="stat-number">${movies.length}</div>
@@ -47,8 +57,8 @@ function renderMovies(movies) {
           <div class="stat-label">Arvioitua</div>
         </div>
         <div class="stat">
-          <div class="stat-number">${totalShowtimes}</div>
-          <div class="stat-label">Teatteria</div>
+          <div class="stat-number">${totalVenues}</div>
+          <div class="stat-label">Esityspaikkaa</div>
         </div>
       </div>
     </div>
@@ -56,7 +66,7 @@ function renderMovies(movies) {
     <div class="filters">
       <button class="filter-btn active" onclick="filterMovies('all', event)">Kaikki (${movies.length})</button>
       <button class="filter-btn" onclick="filterMovies('high-rated', event)">⭐ Yli 7.5</button>
-      <button class="filter-btn" onclick="filterMovies('new', event)">🆕 2024-2025</button>
+      <button class="filter-btn" onclick="filterMovies('new', event)">🆕 Uudet</button>
       <button class="filter-btn" onclick="filterMovies('action', event)">💥 Toiminta</button>
       <button class="filter-btn" onclick="filterMovies('drama', event)">🎭 Draama</button>
       <button class="filter-btn" onclick="filterMovies('comedy', event)">😂 Komedia</button>
@@ -78,24 +88,26 @@ function renderMovies(movies) {
     const genres = genre !== 'N/A' ? genre.split(',').slice(0, 3) : [];
     const genreTags = genres.map(g => `<span class="genre-tag">${g.trim()}</span>`).join('');
     
-    let showtimesHtml = '';
-    if (movie.showtimes && movie.showtimes.length > 0) {
-      showtimesHtml = '<div class="showtimes"><div class="showtimes-title">🎟️ Esitysajat:</div>';
-      movie.showtimes.slice(0, 5).forEach(show => {
-        const times = show.times.slice(0, 6).map(t => `<span class="time-badge">${t}</span>`).join('');
-        showtimesHtml += `
-          <div class="theatre">
-            <div class="theatre-name">${show.theatre}</div>
-            <div class="times">${times}</div>
-          </div>
-        `;
-      });
-      if (movie.showtimes.length > 5) {
-        showtimesHtml += `<div class="no-showtimes">+ ${movie.showtimes.length - 5} teatteria lisää</div>`;
-      }
-      showtimesHtml += '</div>';
+    // Esityspaikat linkkeinä (ilman esitysaikoja)
+    let venuesHtml = '';
+    const venues = movie.esityspaikat || [];
+
+    if (venues.length > 0) {
+      const links = venues.map(venue => {
+        if (venue.url) {
+          return `<a href="${venue.url}" class="venue-link" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">${venue.nimi}</a>`;
+        }
+        return `<span class="venue-name">${venue.nimi}</span>`;
+      }).join('');
+
+      venuesHtml = `
+        <div class="venues-container">
+          <div class="venues-title">📍 Esityspaikat:</div>
+          <div class="venues-list">${links}</div>
+        </div>
+      `;
     } else {
-      showtimesHtml = '<div class="no-showtimes">Ei esitysaikoja</div>';
+      venuesHtml = '<div class="no-venues">Ei listattuja teattereita tällä viikolla</div>';
     }
     
     html += `
@@ -119,7 +131,7 @@ function renderMovies(movies) {
           
           ${plot ? `<div class="plot">${plot}</div>` : ''}
           
-          ${showtimesHtml}
+          ${venuesHtml}
         </div>
       </div>
     `;
@@ -141,9 +153,10 @@ function filterMovies(filter, event) {
       return rating >= 7.5;
     });
   } else if (filter === 'new') {
+    const currentYear = new Date().getFullYear();
     filtered = allMovies.filter(m => {
       const year = parseInt(m.year);
-      return year >= 2024;
+      return year >= currentYear - 1;
     });
   } else if (filter !== 'all') {
     filtered = allMovies.filter(m => {
