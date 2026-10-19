@@ -147,11 +147,19 @@ def get_kinoon_details(page, movie_url):
     
     try:
         page.goto(movie_url, wait_until="domcontentloaded", timeout=15000)
-        page.wait_for_timeout(1000)
+        
+        # 1. Klikataan evästeikkuna pois tieltä, jos sellainen on
+        try:
+            btn = page.locator('button', has_text=re.compile(r"Hyväksy|Salli|Kyllä|Accept", re.IGNORECASE)).first
+            btn.wait_for(state="visible", timeout=2000)
+            btn.click()
+            page.wait_for_timeout(1000)
+        except Exception:
+            pass # Ei haittaa vaikkei evästeikkunaa olisi
         
         soup = BeautifulSoup(page.content(), 'html.parser')
         
-        # 1. Esityspaikat
+        # 2. Esityspaikat
         showtime_divs = soup.find_all('div', class_=lambda x: x and 'flex items-center gap-3 px-3 py-3' in x)
         for div in showtime_divs:
             theatre_span = div.find('span', class_=lambda x: x and 'text-zinc-200' in x)
@@ -166,13 +174,28 @@ def get_kinoon_details(page, movie_url):
                         "html": f'<a href="{t_link}" target="_blank">{t_name}</a>' if t_link else t_name
                     })
         
-        # 2. Alkuperäinen nimi (Kuvankaappauksen rakenteen mukaisesti)
+        # 3. Alkuperäinen nimi (etsii nyt joustavasti span- tai p-tagista divin sisältä)
         title_container = soup.find('div', class_=lambda x: x and 'fdp-reveal-title' in x)
         if title_container:
-            orig_title_elem = title_container.find('p', class_=lambda x: x and 'text-sm' in x and 'text-zinc-300' in x)
-            if orig_title_elem:
-                original_title = orig_title_elem.get_text(strip=True)
-                
+            # Otetaan kaikki span ja p -tagit otsikkokontista
+            texts = title_container.find_all(['span', 'p'])
+            for t in texts:
+                text_content = t.get_text(strip=True)
+                # Oletetaan, että leffan oikea nimi (tai käännös) on ensimmäisessä isolla fontilla olevassa tagissa
+                # Alkuperäisnimi on se lyhyempi / himmeämpi teksti sen alla. Ohitetaan siis tyhjät.
+                # Koska Kinoon.fi näyttää alkuperäisnimen toisena elementtinä, ohitetaan ensimmäinen (joka on pääotsikko).
+                # (Laskemme varmuuden vuoksi myös sen, onko teksti riittävän pitkä).
+                pass
+            
+            # Yksinkertaisempi ja varmempi tapa testin HTML:n perusteella: 
+            # Etsi toinen tagi, jolla ei ole 'font-extrabold' tai valtavia tekstiluokkia, mutta on tekstiä
+            subtitles = title_container.find_all(['span', 'p'], class_=lambda x: x and ('text-zinc-200' in x or 'text-zinc-300' in x))
+            for sub in subtitles:
+                text_content = sub.get_text(strip=True)
+                if text_content:
+                    original_title = text_content
+                    break
+                    
     except Exception as e:
         print(f"  Virhe elokuvan lisätietojen haussa: {e}")
         
