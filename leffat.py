@@ -49,6 +49,8 @@ def resolve_theatre_url(name, direct_url=None):
 
 def clean_title_for_search(title):
     """Puhdistaa nimen häiriötekijöistä OMDb-hakua varten."""
+    if not title:
+        return ""
     cleaned = re.sub(r'\(.*?\)', '', title)
     cleaned = re.sub(r'\b(2D|3D|dub|dubattu|orig|kavi|sing-along|preview|ennakko)\b', '', cleaned, flags=re.IGNORECASE)
     if ":" in cleaned and any(prefix in cleaned.lower() for prefix in ["kavi", "kino", "erikoisnäytös"]):
@@ -155,7 +157,7 @@ def get_kinoon_details(page, movie_url):
             btn.click()
             page.wait_for_timeout(1000)
         except Exception:
-            pass # Ei haittaa vaikkei evästeikkunaa olisi
+            pass
         
         soup = BeautifulSoup(page.content(), 'html.parser')
         
@@ -174,21 +176,9 @@ def get_kinoon_details(page, movie_url):
                         "html": f'<a href="{t_link}" target="_blank">{t_name}</a>' if t_link else t_name
                     })
         
-        # 3. Alkuperäinen nimi (etsii nyt joustavasti span- tai p-tagista divin sisältä)
+        # 3. Alkuperäinen nimi
         title_container = soup.find('div', class_=lambda x: x and 'fdp-reveal-title' in x)
         if title_container:
-            # Otetaan kaikki span ja p -tagit otsikkokontista
-            texts = title_container.find_all(['span', 'p'])
-            for t in texts:
-                text_content = t.get_text(strip=True)
-                # Oletetaan, että leffan oikea nimi (tai käännös) on ensimmäisessä isolla fontilla olevassa tagissa
-                # Alkuperäisnimi on se lyhyempi / himmeämpi teksti sen alla. Ohitetaan siis tyhjät.
-                # Koska Kinoon.fi näyttää alkuperäisnimen toisena elementtinä, ohitetaan ensimmäinen (joka on pääotsikko).
-                # (Laskemme varmuuden vuoksi myös sen, onko teksti riittävän pitkä).
-                pass
-            
-            # Yksinkertaisempi ja varmempi tapa testin HTML:n perusteella: 
-            # Etsi toinen tagi, jolla ei ole 'font-extrabold' tai valtavia tekstiluokkia, mutta on tekstiä
             subtitles = title_container.find_all(['span', 'p'], class_=lambda x: x and ('text-zinc-200' in x or 'text-zinc-300' in x))
             for sub in subtitles:
                 text_content = sub.get_text(strip=True)
@@ -230,43 +220,55 @@ def fetch_omdb_data(movie_list):
 
     for i, movie in enumerate(movie_list, 1):
         raw_title = movie["search_title"]
-        search_title = clean_title_for_search(raw_title)
+        fin_title = clean_title_for_search(raw_title)
+        orig_title = clean_title_for_search(movie.get("original_title", ""))
+        
+        # Järjestys: ensin alkuperäinen, sitten suomenkielinen
+        titles_to_try = []
+        if orig_title and orig_title.lower() != fin_title.lower():
+            titles_to_try.append(orig_title)
+        titles_to_try.append(fin_title)
 
-        if search_title in cache:
-            movie.update(cache[search_title])
-            continue
+        omdb_info_found = False
 
-        try:
-            url = f"http://www.omdbapi.com/?apikey={OMDB_API_KEY}&t={urllib.parse.quote(search_title)}&plot=short"
-            res = requests.get(url, timeout=5).json()
+        for search_title in titles_to_try:
+            if search_title in cache:
+                movie.update(cache[search_title])
+                omdb_info_found = True
+                break
 
-            if res.get("Response") == "True":
-                rt_score = next((r["Value"] for r in res.get("Ratings", []) if r["Source"] == "Rotten Tomatoes"), None)
-                metacritic_score = next((r["Value"] for r in res.get("Ratings", []) if r["Source"] == "Metacritic"), None)
+            try:
+                url = f"http://www.omdbapi.com/?apikey={OMDB_API_KEY}&t={urllib.parse.quote(search_title)}&plot=short"
+                res = requests.get(url, timeout=5).json()
 
-                omdb_info = {
-                    "imdb_rating": res.get("imdbRating"),
-                    "imdb_votes": res.get("imdbVotes"),
-                    "rt_rating": rt_score,
-                    "metacritic": metacritic_score,
-                    "year": res.get("Year"),
-                    "runtime": res.get("Runtime"),
-                    "genre": res.get("Genre"),
-                    "plot": res.get("Plot")
-                }
-                
-                # Päivitetään juliste vain jos alkuperäistä ei ole
-                if not movie.get("poster_url") and res.get("Poster") and res.get("Poster") != "N/A":
-                    omdb_info["poster_url"] = res.get("Poster")
+                if res.get("Response") == "True":
+                    rt_score = next((r["Value"] for r in res.get("Ratings", []) if r["Source"] == "Rotten Tomatoes"), None)
+                    metacritic_score = next((r["Value"] for r in res.get("Ratings", []) if r["Source"] == "Metacritic"), None)
 
-                cache[search_title] = omdb_info
-                movie.update(omdb_info)
-                print(f"  [{i}/{len(movie_list)}] {raw_title} -> IMDb: {omdb_info.get('imdb_rating')}")
-            else:
-                print(f"  [{i}/{len(movie_list)}] {raw_title} -> Ei löytynyt OMDb:stä")
-                
-        except Exception:
-            pass
+                    omdb_info = {
+                        "imdb_rating": res.get("imdbRating"),
+                        "imdb_votes": res.get("imdbVotes"),
+                        "rt_rating": rt_score,
+                        "metacritic": metacritic_score,
+                        "year": res.get("Year"),
+                        "runtime": res.get("Runtime"),
+                        "genre": res.get("Genre"),
+                        "plot": res.get("Plot")
+                    }
+                    
+                    if not movie.get("poster_url") and res.get("Poster") and res.get("Poster") != "N/A":
+                        omdb_info["poster_url"] = res.get("Poster")
+
+                    cache[search_title] = omdb_info
+                    movie.update(omdb_info)
+                    print(f"  [{i}/{len(movie_list)}] Osuma nimellä '{search_title}' -> IMDb: {omdb_info.get('imdb_rating')}")
+                    omdb_info_found = True
+                    break  # Lopetetaan yrittäminen, koska osuma löytyi!
+            except Exception:
+                pass
+        
+        if not omdb_info_found:
+            print(f"  [{i}/{len(movie_list)}] Ei tuloksia OMDb:stä (Kokeiltu: {', '.join(titles_to_try)})")
 
 def main():
     print("🎬 Elokuvahaku käynnistyy...\n")
@@ -282,14 +284,12 @@ def main():
         unique_movies = merge_duplicates(all_movies)
         print(f"\n📊 Yhteensä {len(unique_movies)} uniikkia elokuvaa. Haetaan lisätiedot sivustoilta...")
         
-        # 1. Haetaan kaikille alkuperäisnimi ja teatterit ENSIN
         for i, movie in enumerate(unique_movies, 1):
             if movie.get("source") == "Kinoon.fi" and movie.get("url"):
                 venues, orig_title = get_kinoon_details(page, movie["url"])
                 
-                # Jos alkuperäisnimi löytyi, käytetään sitä OMDb-hakusana!
                 if orig_title:
-                    movie["search_title"] = orig_title
+                    movie["original_title"] = orig_title
                     
                 existing_theatres = {t["nimi"] for t in movie.get("esityspaikat", [])}
                 for venue in venues:
@@ -299,7 +299,6 @@ def main():
                         
         browser.close()
         
-        # 2. Haetaan OMDb-tiedot alkuperäisnimillä
         fetch_omdb_data(unique_movies)
         
         unique_movies.sort(
