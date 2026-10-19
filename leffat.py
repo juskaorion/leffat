@@ -166,16 +166,15 @@ def get_kinoon_details(page, movie_url):
                         "html": f'<a href="{t_link}" target="_blank">{t_name}</a>' if t_link else t_name
                     })
         
-        # 2. Alkuperäinen nimi
-        orig_elem = soup.find(string=re.compile(r'Alkuperäinen nimi', re.IGNORECASE))
-        if orig_elem and orig_elem.parent and orig_elem.parent.parent:
-            parent_text = orig_elem.parent.parent.get_text(separator=" ", strip=True)
-            match = re.search(r'Alkuperäinen nimi[:\s]+(.*)', parent_text, re.IGNORECASE)
-            if match:
-                original_title = match.group(1).split("  ")[0].strip()
+        # 2. Alkuperäinen nimi (Kuvankaappauksen rakenteen mukaisesti)
+        title_container = soup.find('div', class_=lambda x: x and 'fdp-reveal-title' in x)
+        if title_container:
+            orig_title_elem = title_container.find('p', class_=lambda x: x and 'text-sm' in x and 'text-zinc-300' in x)
+            if orig_title_elem:
+                original_title = orig_title_elem.get_text(strip=True)
                 
     except Exception as e:
-        pass
+        print(f"  Virhe elokuvan lisätietojen haussa: {e}")
         
     return venues, original_title
 
