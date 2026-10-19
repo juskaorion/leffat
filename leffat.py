@@ -1,14 +1,14 @@
 import os
 import json
 import re
-from datetime import datetime, timedelta
+import urllib.parse
+from datetime import datetime
 from bs4 import BeautifulSoup
 import requests
 from playwright.sync_api import sync_playwright
 
 OMDB_API_KEY = os.getenv('OMDB_API_KEY', 'SINUN_OMDB_AVAIMESI_TÄHÄN')
 
-# Tunnetuimpien pääkaupunkiseudun elokuvateattereiden suorat linkit
 THEATRE_URL_MAP = {
     "Tennispalatsi": "https://www.finnkino.fi/teatterit/tennispalatsi",
     "Kinopalatsi": "https://www.finnkino.fi/teatterit/kinopalatsi",
@@ -40,7 +40,6 @@ THEATRE_URL_MAP = {
 }
 
 def resolve_theatre_url(name, direct_url=None):
-    """Palauttaa teatterin kotisivu- tai lippulinkin."""
     if direct_url and direct_url.startswith("http"):
         return direct_url
     for key, url in THEATRE_URL_MAP.items():
@@ -48,10 +47,16 @@ def resolve_theatre_url(name, direct_url=None):
             return url
     return direct_url if direct_url else ""
 
+def clean_title_for_search(title):
+    """Puhdistaa nimen häiriötekijöistä OMDb-hakua varten."""
+    cleaned = re.sub(r'\(.*?\)', '', title)
+    cleaned = re.sub(r'\b(2D|3D|dub|dubattu|orig|kavi|sing-along|preview|ennakko)\b', '', cleaned, flags=re.IGNORECASE)
+    if ":" in cleaned and any(prefix in cleaned.lower() for prefix in ["kavi", "kino", "erikoisnäytös"]):
+        cleaned = cleaned.split(":")[-1]
+    return cleaned.strip()
 
 def get_kinoon_movies(page):
-    """Hakee Kinoon.fi:n elokuvat."""
-    print("Haetaan Kinoon.fi elokuvia (selainmoottorilla)...")
+    print("Haetaan Kinoon.fi elokuvia...")
     movies = []
     seen_titles = set()
     
@@ -59,26 +64,20 @@ def get_kinoon_movies(page):
         page.goto("https://kinoon.fi/helsinki/elokuvat-ja-esitysajat", wait_until="domcontentloaded", timeout=30000)
         page.wait_for_selector('[data-film-card-id]', timeout=15000)
         
-        html_content = page.content()
-        soup = BeautifulSoup(html_content, 'html.parser')
+        soup = BeautifulSoup(page.content(), 'html.parser')
         film_cards = soup.find_all('div', attrs={'data-film-card-id': True})
         
         for card in film_cards:
             try:
                 link = card.find('a')
-                if not link:
-                    continue
-                
-                url = "https://kinoon.fi" + link.get('href', '')
                 img = card.find('img', alt=True)
-                if not img:
+                if not link or not img:
                     continue
                     
                 title = img['alt'].strip()
-                
                 if title and title not in seen_titles:
                     seen_titles.add(title)
-                    
+                    url = "https://kinoon.fi" + link.get('href', '')
                     poster_url = img.get('src', '')
                     if poster_url and not poster_url.startswith('http'):
                         poster_url = "https://kinoon.fi" + poster_url
@@ -91,119 +90,99 @@ def get_kinoon_movies(page):
                         "poster_url": poster_url if poster_url else None,
                         "esityspaikat": []
                     })
-                    
             except Exception:
                 continue
-                
     except Exception as e:
         print(f"Virhe Kinoon.fi datan haussa: {e}")
         
-    print(f"Löydettiin {len(movies)} elokuvaa Kinoon.fi:stä")
     return movies
 
-
 def get_kinot_movies(page):
-    """Hakee Kinot.fi elokuvat ja esityspaikat ilman kellonaikoja."""
-    print("Haetaan Kinot.fi elokuvia ja esityspaikkoja...")
+    print("Haetaan Kinot.fi elokuvia...")
     movies = []
-    
     try:
         page.goto("https://www.kinot.fi/", wait_until="networkidle", timeout=30000)
         page.wait_for_selector('.show-item', timeout=15000)
         
-        html_content = page.content()
-        soup = BeautifulSoup(html_content, 'html.parser')
+        soup = BeautifulSoup(page.content(), 'html.parser')
         show_items = soup.find_all('div', class_='show-item')
         
         for item in show_items:
             try:
                 link_elem = item.find('a')
                 url = "https://www.kinot.fi" + link_elem['href'] if link_elem and link_elem.has_attr('href') else ""
-                
                 text_wrapper = item.find('div', class_='text-wrapper')
-                if not text_wrapper:
-                    continue
+                if not text_wrapper: continue
                     
                 texts = list(text_wrapper.stripped_strings)
-                
                 if len(texts) >= 3:
                     title = texts[0]
                     theatre_name = texts[2].replace('>', '').strip()
-                    
-                    # Selvitetään teatterin linkki
                     theatre_url = resolve_theatre_url(theatre_name)
-                    
-                    search_title = title
-                    if ": " in title:
-                        search_title = title.split(": ")[-1]
                         
                     movies.append({
                         "title": title,
-                        "search_title": search_title,
+                        "search_title": title,
                         "url": url,
                         "source": "Kinot.fi",
                         "poster_url": None,
                         "esityspaikat": [{
                             "nimi": theatre_name,
                             "url": theatre_url,
-                            "html": f'<a href="{theatre_url}" target="_blank" rel="noopener noreferrer">{theatre_name}</a>' if theatre_url else theatre_name
+                            "html": f'<a href="{theatre_url}" target="_blank">{theatre_name}</a>' if theatre_url else theatre_name
                         }]
                     })
             except Exception:
                 continue
-        
-        print(f"Löydettiin {len(movies)} näytöstä Kinot.fi:stä")
-                
     except Exception as e:
         print(f"Virhe Kinot.fi datan haussa: {e}")
         
     return movies
 
-
-def get_kinoon_theatres(page, movie_url):
-    """Hakee elokuvan esityspaikat Kinoon.fi-sivulta (ilman kellonaikoja)."""
+def get_kinoon_details(page, movie_url):
+    """Hakee esityspaikat ja alkuperäisen nimen Kinoon.fi-sivulta."""
     venues = []
+    original_title = None
     seen_venues = set()
     
     try:
         page.goto(movie_url, wait_until="domcontentloaded", timeout=15000)
-        page.wait_for_timeout(1500)
+        page.wait_for_timeout(1000)
         
-        html_content = page.content()
-        soup = BeautifulSoup(html_content, 'html.parser')
+        soup = BeautifulSoup(page.content(), 'html.parser')
         
+        # 1. Esityspaikat
         showtime_divs = soup.find_all('div', class_=lambda x: x and 'flex items-center gap-3 px-3 py-3' in x)
-        
         for div in showtime_divs:
             theatre_span = div.find('span', class_=lambda x: x and 'text-zinc-200' in x)
-            if not theatre_span:
-                continue
-            theatre_name = theatre_span.get_text(strip=True)
-            
-            if theatre_name and theatre_name not in seen_venues:
-                seen_venues.add(theatre_name)
-                theatre_link = resolve_theatre_url(theatre_name)
-                venues.append({
-                    "nimi": theatre_name,
-                    "url": theatre_link,
-                    "html": f'<a href="{theatre_link}" target="_blank" rel="noopener noreferrer">{theatre_name}</a>' if theatre_link else theatre_name
-                })
-    
+            if theatre_span:
+                t_name = theatre_span.get_text(strip=True)
+                if t_name not in seen_venues:
+                    seen_venues.add(t_name)
+                    t_link = resolve_theatre_url(t_name)
+                    venues.append({
+                        "nimi": t_name,
+                        "url": t_link,
+                        "html": f'<a href="{t_link}" target="_blank">{t_name}</a>' if t_link else t_name
+                    })
+        
+        # 2. Alkuperäinen nimi
+        orig_elem = soup.find(string=re.compile(r'Alkuperäinen nimi', re.IGNORECASE))
+        if orig_elem and orig_elem.parent and orig_elem.parent.parent:
+            parent_text = orig_elem.parent.parent.get_text(separator=" ", strip=True)
+            match = re.search(r'Alkuperäinen nimi[:\s]+(.*)', parent_text, re.IGNORECASE)
+            if match:
+                original_title = match.group(1).split("  ")[0].strip()
+                
     except Exception as e:
-        print(f"  Virhe teattereiden haussa: {e}")
-    
-    return venues
-
+        pass
+        
+    return venues, original_title
 
 def merge_duplicates(movie_list):
-    """Yhdistää saman elokuvan eri esiintymät ja yhdistää uniikit esityspaikat."""
-    print("\nYhdistetään duplikaatit...")
     merged = {}
-    
     for movie in movie_list:
-        key = movie["search_title"].lower().strip()
-        key = ' '.join(key.split())
-        key = re.sub(r'\s*\(\d{4}\)\s*', '', key)
+        key = clean_title_for_search(movie["search_title"]).lower()
         
         if key in merged:
             existing_theatres = {t["nimi"] for t in merged[key].get("esityspaikat", [])}
@@ -214,165 +193,104 @@ def merge_duplicates(movie_list):
             
             if not merged[key]["poster_url"] and movie["poster_url"]:
                 merged[key]["poster_url"] = movie["poster_url"]
-                
             if not merged[key].get("url") and movie.get("url"):
                 merged[key]["url"] = movie["url"]
         else:
             merged[key] = movie
-    
-    result = list(merged.values())
-    removed = len(movie_list) - len(result)
-    print(f"Duplikaattien poiston jälkeen: {len(result)} uniikkia elokuvaa ({removed} duplikaattia poistettu)")
-    return result
-
+            
+    return list(merged.values())
 
 def fetch_omdb_data(movie_list):
-    """Hakee tiedot OMDb API:sta."""
     print("\nHaetaan lisätietoja OMDb:stä...")
-    
     if OMDB_API_KEY == "SINUN_OMDB_AVAIMESI_TÄHÄN":
-        print("⚠️  OMDb API-avain puuttuu, ohitetaan lisätietojen haku.")
         return
-    
     cache = {}
-    
+
     for i, movie in enumerate(movie_list, 1):
-        search_title = movie["search_title"]
-        
+        raw_title = movie["search_title"]
+        search_title = clean_title_for_search(raw_title)
+
         if search_title in cache:
             movie.update(cache[search_title])
             continue
-        
+
         try:
-            url = f"http://www.omdbapi.com/?apikey={OMDB_API_KEY}&t={search_title}&plot=short"
-            res = requests.get(url, timeout=5)
-            data = res.json()
-            
-            if data.get("Response") == "True":
-                rt_score = None
-                metacritic_score = None
-                
-                for rating in data.get("Ratings", []):
-                    if rating["Source"] == "Rotten Tomatoes":
-                        rt_score = rating["Value"]
-                    elif rating["Source"] == "Metacritic":
-                        metacritic_score = rating["Value"]
-                
+            url = f"http://www.omdbapi.com/?apikey={OMDB_API_KEY}&t={urllib.parse.quote(search_title)}&plot=short"
+            res = requests.get(url, timeout=5).json()
+
+            if res.get("Response") == "True":
+                rt_score = next((r["Value"] for r in res.get("Ratings", []) if r["Source"] == "Rotten Tomatoes"), None)
+                metacritic_score = next((r["Value"] for r in res.get("Ratings", []) if r["Source"] == "Metacritic"), None)
+
                 omdb_info = {
-                    "imdb_rating": data.get("imdbRating"),
-                    "imdb_votes": data.get("imdbVotes"),
+                    "imdb_rating": res.get("imdbRating"),
+                    "imdb_votes": res.get("imdbVotes"),
                     "rt_rating": rt_score,
                     "metacritic": metacritic_score,
-                    "year": data.get("Year"),
-                    "rated": data.get("Rated"),
-                    "runtime": data.get("Runtime"),
-                    "genre": data.get("Genre"),
-                    "director": data.get("Director"),
-                    "actors": data.get("Actors"),
-                    "plot": data.get("Plot"),
-                    "language": data.get("Language"),
-                    "country": data.get("Country"),
-                    "awards": data.get("Awards"),
-                    "box_office": data.get("BoxOffice")
+                    "year": res.get("Year"),
+                    "runtime": res.get("Runtime"),
+                    "genre": res.get("Genre"),
+                    "plot": res.get("Plot")
                 }
                 
-                if not movie.get("poster_url"):
-                    poster = data.get("Poster")
-                    if poster and poster != "N/A":
-                        omdb_info["poster_url"] = poster
-                
+                # Päivitetään juliste vain jos alkuperäistä ei ole
+                if not movie.get("poster_url") and res.get("Poster") and res.get("Poster") != "N/A":
+                    omdb_info["poster_url"] = res.get("Poster")
+
                 cache[search_title] = omdb_info
                 movie.update(omdb_info)
-                
-                ratings_str = f"IMDb: {omdb_info.get('imdb_rating', 'N/A')}"
-                if rt_score:
-                    ratings_str += f", RT: {rt_score}"
-                print(f"  [{i}/{len(movie_list)}] {search_title}: {ratings_str}")
+                print(f"  [{i}/{len(movie_list)}] {raw_title} -> IMDb: {omdb_info.get('imdb_rating')}")
+            else:
+                print(f"  [{i}/{len(movie_list)}] {raw_title} -> Ei löytynyt OMDb:stä")
                 
         except Exception:
-            print(f"  [{i}/{len(movie_list)}] {search_title}: Virhe")
-
+            pass
 
 def main():
     print("🎬 Elokuvahaku käynnistyy...\n")
-    print("Käynnistetään selainmoottori (Playwright)...")
-    
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         
-        kinoon_data = get_kinoon_movies(page)
-        kinot_data = get_kinot_movies(page)
-        
-        all_movies = kinoon_data + kinot_data
-        
+        all_movies = get_kinoon_movies(page) + get_kinot_movies(page)
         if not all_movies:
-            print("\n❌ Yhtään elokuvaa ei löydetty.")
             browser.close()
             return
-        
+            
         unique_movies = merge_duplicates(all_movies)
-        print(f"\n📊 Yhteensä {len(unique_movies)} uniikkia elokuvaa")
+        print(f"\n📊 Yhteensä {len(unique_movies)} uniikkia elokuvaa. Haetaan lisätiedot sivustoilta...")
         
-        fetch_omdb_data(unique_movies)
-        
-        # Järjestetään IMDb-arvosanan mukaan
-        unique_movies.sort(
-            key=lambda x: (
-                float(x.get("imdb_rating", 0)) if x.get("imdb_rating") and x.get("imdb_rating") != "N/A" else -1.0
-            ), 
-            reverse=True
-        )
-        
-        # Haetaan esityspaikat TOP 30 elokuvalle
-        print(f"\n🏛️ Haetaan esityspaikat TOP 30 elokuvalle...\n")
-        top_30 = [m for m in unique_movies if m.get("imdb_rating") and m.get("imdb_rating") != "N/A"][:30]
-        
-        for i, movie in enumerate(top_30, 1):
+        # 1. Haetaan kaikille alkuperäisnimi ja teatterit ENSIN
+        for i, movie in enumerate(unique_movies, 1):
             if movie.get("source") == "Kinoon.fi" and movie.get("url"):
-                print(f"  [{i}/30] {movie['title']}...")
-                kinoon_venues = get_kinoon_theatres(page, movie["url"])
+                venues, orig_title = get_kinoon_details(page, movie["url"])
                 
+                # Jos alkuperäisnimi löytyi, käytetään sitä OMDb-hakusana!
+                if orig_title:
+                    movie["search_title"] = orig_title
+                    
                 existing_theatres = {t["nimi"] for t in movie.get("esityspaikat", [])}
-                for venue in kinoon_venues:
+                for venue in venues:
                     if venue["nimi"] not in existing_theatres:
                         movie["esityspaikat"].append(venue)
                         existing_theatres.add(venue["nimi"])
-        
+                        
         browser.close()
-    
-    # Luodaan aikaleima muodossa: "päivitetty xx.xx.xxxx klo xx.xx"
+        
+        # 2. Haetaan OMDb-tiedot alkuperäisnimillä
+        fetch_omdb_data(unique_movies)
+        
+        unique_movies.sort(
+            key=lambda x: float(x.get("imdb_rating", 0)) if x.get("imdb_rating") and x.get("imdb_rating") != "N/A" else -1.0, 
+            reverse=True
+        )
+        
     paivitetty_teksti = datetime.now().strftime("päivitetty %d.%m.%Y klo %H.%M")
     
-    # Tallennetaan JSON-tiedostoon sekä päivitysaika että elokuvat
-    output_filename = "leffat.json"
-    output_data = {
-        "paivitetty": paivitetty_teksti,
-        "elokuvat": unique_movies
-    }
+    with open("leffat.json", "w", encoding="utf-8") as f:
+        json.dump({"paivitetty": paivitetty_teksti, "elokuvat": unique_movies}, f, ensure_ascii=False, indent=2)
     
-    with open(output_filename, "w", encoding="utf-8") as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
-    
-    # Tulostetaan TOP 5 konsoliin
-    print("\n🏆 TOP 5 ELOKUVAA (IMDb):")
-    count = 0
-    for movie in unique_movies:
-        rating = movie.get('imdb_rating')
-        if rating and rating != 'N/A':
-            rt = movie.get('rt_rating', 'N/A')
-            teatterit = [t["nimi"] for t in movie.get("esityspaikat", [])]
-            teatterit_str = ", ".join(teatterit) if teatterit else "Ei listattuja teattereita"
-            print(f"  {count+1}. {movie['title']}")
-            print(f"     IMDb: {rating} | RT: {rt}")
-            print(f"     Esityspaikat: {teatterit_str}")
-            count += 1
-            if count >= 5:
-                break
-    
-    print(f"\n✅ Valmis! Tiedot tallennettu: {output_filename}")
-    print(f"🕒 Aikaleima: {paivitetty_teksti}")
-    print(f"📍 Esityspaikat haettu linkkeinä ilman kellonaikoja.")
+    print("\n✅ Valmis!")
 
 if __name__ == "__main__":
     main()
