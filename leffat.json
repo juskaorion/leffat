@@ -1,5 +1,5 @@
 {
-  "paivitetty": "päivitetty 27.10.2026 klo 11.56",
+  "paivitetty": "päivitetty 30.10.2026 klo 12.33",
   "elokuvat": [
     {
       "title": "Pikku Kummitus Lapanen keppostelee",
@@ -82,6 +82,53 @@
       "plot": "A young FBI cadet is aided by a manipulative cannibal killer in her pursuit of a madman who skins his victims."
     },
     {
+      "title": "The Odyssey",
+      "search_title": "The Odyssey",
+      "url": "https://kinoon.fi/esitysajat/the-odyssey?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/img/posters-baked/43351e4e-7505-4ae8-95ab-a9fd74d2ea0b/1024.webp",
+      "esityspaikat": [
+        {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+        },
+        {
+          "nimi": "Maxim Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/maxim",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/maxim\" target=\"_blank\">Maxim Helsinki</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Riviera Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
+        },
+        {
+          "nimi": "BioRex Redi",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+        }
+      ],
+      "imdb_rating": "8.4",
+      "imdb_votes": "477,953",
+      "rt_rating": "94%",
+      "metacritic": "88/100",
+      "year": "2026",
+      "runtime": "172 min",
+      "genre": "Action, Adventure, Fantasy",
+      "plot": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way."
+    },
+    {
       "title": "The Shining",
       "search_title": "The Shining",
       "url": "https://kinoon.fi/esitysajat/the-shining?scope=helsinki",
@@ -104,41 +151,48 @@
       "plot": "A family heads to an isolated hotel for the winter, where a sinister presence influences the father into violence. At the same time, his psychic son sees horrifying forebodings from both the past and the future."
     },
     {
-      "title": "The Odyssey",
-      "search_title": "The Odyssey",
-      "url": "https://kinoon.fi/esitysajat/the-odyssey?scope=helsinki",
+      "title": "Amy Winehouse 'Back To Black' (20th Anniversary)",
+      "search_title": "Amy Winehouse 'Back To Black' (20th Anniversary)",
+      "url": "https://kinoon.fi/esitysajat/amy-winehouse-back-to-black-20th-anniversary?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/img/posters-baked/43351e4e-7505-4ae8-95ab-a9fd74d2ea0b/1024.webp",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F04b4fee6-99fd-49c7-9c64-e9413e049bfb.c877a5cfdeac3d1f7832ce823a274e025a0e0582eb57af02bd1f8ed6609e436f.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
-        },
-        {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        },
-        {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
         }
       ],
-      "imdb_rating": "8.4",
-      "imdb_votes": "477,953",
-      "rt_rating": "94%",
-      "metacritic": "88/100",
-      "year": "2026",
-      "runtime": "172 min",
-      "genre": "Action, Adventure, Fantasy",
-      "plot": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way."
+      "imdb_rating": "8.2",
+      "imdb_votes": "115",
+      "rt_rating": null,
+      "metacritic": null,
+      "year": "2007",
+      "runtime": "4 min",
+      "genre": "Short, Drama, Music",
+      "plot": "Music video for \"Back to Black\" by Amy Winehouse. Amy mourns and attends a funeral while singing about her failed love affair."
+    },
+    {
+      "title": "V for Vendetta",
+      "search_title": "V for Vendetta",
+      "url": "https://kinoon.fi/esitysajat/v-for-vendetta?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F6d1c8e2d-3a1c-48dd-8ea9-37123ee1b19b.b7ed2cc6938fa89d4410ff2ef9402a7010961a51108fe078535f0fb83661db8a.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Kino Konepaja",
+          "url": "https://kinokonepaja.fi/",
+          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
+        }
+      ],
+      "imdb_rating": "8.1",
+      "imdb_votes": "1,258,015",
+      "rt_rating": "73%",
+      "metacritic": "62/100",
+      "year": "2006",
+      "runtime": "132 min",
+      "genre": "Action, Drama, Sci-Fi",
+      "plot": "A young woman living in a dystopian society meets a shadowy freedom fighter who is plotting to overthrow their tyrannical government."
     },
     {
       "title": "Spider-Man: Brand New Day",
@@ -148,11 +202,6 @@
       "poster_url": "https://kinoon.fi/img/posters-baked/e7e10ab8-b0a8-4dec-9b3e-570f3469caea/1024.webp",
       "esityspaikat": [
         {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
           "nimi": "Finnkino Itis",
           "url": "https://www.finnkino.fi/teatterit/itis",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
@@ -161,6 +210,11 @@
           "nimi": "Tennispalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         }
       ],
       "imdb_rating": "8.0",
@@ -196,28 +250,6 @@
       "plot": "The daughter of a convicted German spy is asked by American agents to gather information on a ring of German scientists in South America. How far will she have to go to ingratiate herself with them?"
     },
     {
-      "title": "End of the century: the story of the ramones",
-      "search_title": "End of the century: the story of the ramones",
-      "url": "https://kinoon.fi/esitysajat/end-of-the-century-the-story-of-the-ramones?scope=helsinki",
-      "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F4ed66ca7-aa2a-4914-a66a-037d772cb675.9edd750b52e5a929669951f3abca510bcbc9c326f1fd83be42a86f8c1e110eab.webp&w=2560&q=75",
-      "esityspaikat": [
-        {
-          "nimi": "Kino Regina",
-          "url": "https://kinoregina.fi/",
-          "html": "<a href=\"https://kinoregina.fi/\" target=\"_blank\">Kino Regina</a>"
-        }
-      ],
-      "imdb_rating": "7.9",
-      "imdb_votes": "3,936",
-      "rt_rating": "95%",
-      "metacritic": "74/100",
-      "year": "2003",
-      "runtime": "110 min",
-      "genre": "Documentary, Biography, Music",
-      "plot": "The story of the punk rock band The Ramones."
-    },
-    {
       "title": "Naza",
       "search_title": "Naza",
       "url": "https://kinoon.fi/esitysajat/naza?scope=helsinki",
@@ -230,29 +262,9 @@
           "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
         },
         {
-          "nimi": "RIVIERA Kallio",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Kallio</a>"
-        },
-        {
-          "nimi": "Kino Myyri",
-          "url": "",
-          "html": "Kino Myyri"
-        },
-        {
-          "nimi": "Riviera Kallio",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Kallio</a>"
-        },
-        {
-          "nimi": "Cinema Orion",
-          "url": "https://cinemaorion.fi/",
-          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
-        },
-        {
-          "nimi": "Kino Konepaja",
-          "url": "https://kinokonepaja.fi/",
-          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
         },
         {
           "nimi": "Bio Rex Lasipalatsi",
@@ -260,9 +272,9 @@
           "html": "<a href=\"https://biorex.fi/\" target=\"_blank\">Bio Rex Lasipalatsi</a>"
         },
         {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+          "nimi": "Kino Konepaja",
+          "url": "https://kinokonepaja.fi/",
+          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
         }
       ],
       "imdb_rating": "7.9",
@@ -305,9 +317,9 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F68a4d871-d8a0-4a76-bfb3-306f7817b14a.06e2347ec5d223847492c6b517ddc7ec5b38a9972e60963c9b982200ac6f3e11.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         }
       ],
       "imdb_rating": "7.8",
@@ -320,34 +332,22 @@
       "plot": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price."
     },
     {
-      "title": "Hamnet",
-      "search_title": "Hamnet",
-      "url": "https://www.kinot.fi/elokuva/hamnet",
-      "source": "Kinot.fi",
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BMDQ5ZmY0OWYtOTYzZi00Mzg5LWE3N2EtMjYwZTAzZmJhYjkyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "esityspaikat": [
-        {
-          "nimi": "Kino Myyri",
-          "url": "",
-          "html": "Kino Myyri"
-        }
-      ],
-      "imdb_rating": "7.8",
-      "imdb_votes": "138,057",
-      "rt_rating": "86%",
-      "metacritic": "84/100",
-      "year": "2025",
-      "runtime": "125 min",
-      "genre": "Biography, Drama, History",
-      "plot": "In late 16th-century England, Agnes, a healer sensitive to the world around her, builds a home with William, a local tutor and aspiring playwright. As their lives fracture, they are tested by distance, silence, and grief."
-    },
-    {
       "title": "Sense and Sensibility",
       "search_title": "Sense and Sensibility",
       "url": "https://kinoon.fi/esitysajat/sense-and-sensibility?scope=helsinki",
       "source": "Kinoon.fi",
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F61e7a3c3-74b2-4972-b817-105c0c4c7930.3ee45d33099364cde7b2551f1fa98ebcbd6e00d030c5280da0dbdf7c30b49a25.webp&w=2560&q=75",
       "esityspaikat": [
+        {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+        },
         {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
@@ -379,6 +379,11 @@
           "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
         },
         {
+          "nimi": "Maxim Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/maxim",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/maxim\" target=\"_blank\">Maxim Helsinki</a>"
+        },
+        {
           "nimi": "Cinema Orion",
           "url": "https://cinemaorion.fi/",
           "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
@@ -389,9 +394,24 @@
           "html": "<a href=\"https://kinotoolo.fi/\" target=\"_blank\">Kino Töölö</a>"
         },
         {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
           "nimi": "Kino Kulttuurimylly",
           "url": "",
           "html": "Kino Kulttuurimylly"
+        },
+        {
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+        },
+        {
+          "nimi": "Kino Helios",
+          "url": "",
+          "html": "Kino Helios"
         }
       ],
       "imdb_rating": "7.7",
@@ -408,23 +428,8 @@
       "search_title": "The Devils",
       "url": "https://kinoon.fi/esitysajat/the-devils?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F92a01f48-8697-4b16-b72b-8ce7dc78503a.245da082bf6199a5e7b62c22d805e7009a0cff6e2a528c07d80953f44eaa4f38.webp&w=2560&q=75",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F92a01f48-8697-4b16-b72b-8ce7dc78503a.26bc782249ad20b6e75fd7715b8887d75a2febd80007876c6bdf77888f8f4ed9.webp&w=2560&q=75",
       "esityspaikat": [
-        {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
-        },
-        {
-          "nimi": "Kino Engel",
-          "url": "https://kinoengel.fi/",
-          "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
-        },
         {
           "nimi": "Riviera Punavuori",
           "url": "https://rivierakallio.fi/",
@@ -434,6 +439,11 @@
           "nimi": "Kino Töölö",
           "url": "https://kinotoolo.fi/",
           "html": "<a href=\"https://kinotoolo.fi/\" target=\"_blank\">Kino Töölö</a>"
+        },
+        {
+          "nimi": "Kino Engel",
+          "url": "https://kinoengel.fi/",
+          "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
         },
         {
           "nimi": "Bio Rex Lasipalatsi",
@@ -473,19 +483,14 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         },
         {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        },
-        {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
         },
         {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         }
       ],
       "original_title": "Forgotten Island",
@@ -543,14 +548,9 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F91171c09-2720-4961-adc1-24a4e1ae6666.dd9b47ca2526380a6a70a60a2b29fc8bb1eb3a1e26af82858e098e634e27f840.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "RIVIERA Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Punavuori</a>"
-        },
-        {
-          "nimi": "RIVIERA Kallio",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Kallio</a>"
+          "nimi": "Kino Konepaja",
+          "url": "https://kinokonepaja.fi/",
+          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
         },
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -563,34 +563,19 @@
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
         },
         {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
-        },
-        {
-          "nimi": "Riviera Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
-        },
-        {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
-          "nimi": "Riviera Kallio",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Kallio</a>"
-        },
-        {
-          "nimi": "Kino Konepaja",
-          "url": "https://kinokonepaja.fi/",
-          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         },
         {
           "nimi": "Gilda",
           "url": "https://www.kinogilda.fi/",
           "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+        },
+        {
+          "nimi": "Riviera Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
         }
       ],
       "imdb_rating": "7.6",
@@ -615,9 +600,9 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         },
         {
-          "nimi": "Kino Konepaja",
-          "url": "https://kinokonepaja.fi/",
-          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
+          "nimi": "Kino Engel",
+          "url": "https://kinoengel.fi/",
+          "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
         }
       ],
       "imdb_rating": "7.6",
@@ -659,11 +644,6 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F522b65c0-9c30-408f-8bc2-4a8a0a5fc2a4.2a452db056fe85352e6adea976fb4319d2f83c038e7ae5a0ec527fb1dde146a5.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
-        },
-        {
           "nimi": "Tennispalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
@@ -703,22 +683,57 @@
       "plot": "An intimate portrait of legendary Finnish singer and human rights advocate Arja Saijonmaa. The film traces her artistic journey and lifelong friendship with Greek composer and freedom fighter Mikis Theodorakis, whose music and ide..."
     },
     {
+      "title": "N Is a Number: A Portrait of Paul Erdös",
+      "search_title": "N Is a Number: A Portrait of Paul Erdös",
+      "url": "https://kinoon.fi/esitysajat/n-is-a-number-a-portrait-of-paul-erdos?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fb755d706-45b0-47fc-9400-94169e842075.cf619f19c51e7ff4e3267fb441bb5150bdb7ed94e6495f57d28af84b2145183f.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Cinema Orion",
+          "url": "https://cinemaorion.fi/",
+          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
+        }
+      ],
+      "imdb_rating": "7.5",
+      "imdb_votes": "241",
+      "rt_rating": null,
+      "metacritic": null,
+      "year": "1993",
+      "runtime": "57 min",
+      "genre": "Documentary, Biography",
+      "plot": "N Is a Number: A Portrait of Paul Erdos is a 1993 biographical documentary about the life of mathematician Paul Erdos, directed by George Paul Csicsery."
+    },
+    {
+      "title": "Tekijätorstai: Sokea Mies Joka Ei Halunnut Nähdä Titanicia",
+      "search_title": "Tekijätorstai: Sokea Mies Joka Ei Halunnut Nähdä Titanicia",
+      "url": "https://kinoon.fi/esitysajat/tekijatorstai-sokea-mies-joka-ei-halunnut-nahda-titanicia?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd7499ea6-a807-47a7-8c24-ca2ebec82542.e0270c6c3a271a37b2bb90c2d2d9cec1a3572989d637864430b01042a6104ee3.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Kino Töölö",
+          "url": "https://kinotoolo.fi/",
+          "html": "<a href=\"https://kinotoolo.fi/\" target=\"_blank\">Kino Töölö</a>"
+        }
+      ],
+      "original_title": "The Blind Man Who Did Not Want to See Titanic",
+      "imdb_rating": "7.5",
+      "imdb_votes": "1,865",
+      "rt_rating": "93%",
+      "metacritic": "76/100",
+      "year": "2021",
+      "runtime": "82 min",
+      "genre": "Comedy, Drama, Romance",
+      "plot": "Jaakko and Sirpa have never met face to face but they talk on the phone every day. When he hears about her declining health, he decides to go meet her in another city; a challenge if you can't see and are paralyzed from the chest ..."
+    },
+    {
       "title": "Heart of the Beast",
       "search_title": "Heart of the Beast",
       "url": "https://kinoon.fi/esitysajat/heart-of-the-beast?scope=helsinki",
       "source": "Kinoon.fi",
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F15382720-7d64-4eea-94c4-29b43a86df4a.c31aae4bb92691e872f1dbddc8d02f0169e5b41615ce0f5ec29b155885fca253.webp&w=2560&q=75",
       "esityspaikat": [
-        {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
-        },
-        {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
         {
           "nimi": "Tennispalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
@@ -728,6 +743,16 @@
           "nimi": "Finnkino Itis",
           "url": "https://www.finnkino.fi/teatterit/itis",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "BioRex Tripla",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
         },
         {
           "nimi": "BioRex Redi",
@@ -752,14 +777,14 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F3a7755bb-b089-49b2-aec0-6f2166ff5742.jpg&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        },
-        {
           "nimi": "Kino Engel",
           "url": "https://kinoengel.fi/",
           "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         },
         {
           "nimi": "Riviera Punavuori",
@@ -867,14 +892,14 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F5505a81f-0f03-4c89-8bce-5cb5a66570f8.63fc8cb1d591dadbb269c966de5e5ac58f6e8456ff16c5e8606f22d62f4c8247.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        },
-        {
           "nimi": "Cinema Orion",
           "url": "https://cinemaorion.fi/",
           "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         },
         {
           "nimi": "Kino Engel",
@@ -899,9 +924,9 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F837321d5-6a13-4604-9857-37ad64740808.19cd8157d2d9a724666ef157ebf4af1c8bdb0d2c01e85536ebd5bcff53213257.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+          "nimi": "Kino Tapiola",
+          "url": "https://kinotapiola.fi/",
+          "html": "<a href=\"https://kinotapiola.fi/\" target=\"_blank\">Kino Tapiola</a>"
         },
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -909,14 +934,14 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         },
         {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
         },
         {
           "nimi": "Finnkino Itis",
@@ -924,24 +949,19 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         },
         {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+          "nimi": "Bio Rex Lasipalatsi",
+          "url": "https://biorex.fi/",
+          "html": "<a href=\"https://biorex.fi/\" target=\"_blank\">Bio Rex Lasipalatsi</a>"
+        },
+        {
+          "nimi": "BioRex Redi",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
         },
         {
           "nimi": "Cinema Orion",
           "url": "https://cinemaorion.fi/",
           "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
-        },
-        {
-          "nimi": "Riviera Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
-        },
-        {
-          "nimi": "Bio Rex Lasipalatsi",
-          "url": "https://biorex.fi/",
-          "html": "<a href=\"https://biorex.fi/\" target=\"_blank\">Bio Rex Lasipalatsi</a>"
         }
       ],
       "imdb_rating": "7.4",
@@ -998,6 +1018,28 @@
       "plot": "Woody, Buzz, Jessie and the rest of the gang's jobs are challenged when they're introduced to electronics, a new threat to playtime."
     },
     {
+      "title": "A Nightmare on Elm Street",
+      "search_title": "A Nightmare on Elm Street",
+      "url": "https://www.kinot.fi/elokuva/a-nightmare-on-elm-street",
+      "source": "Kinot.fi",
+      "poster_url": null,
+      "esityspaikat": [
+        {
+          "nimi": "Cinema Sheryl",
+          "url": "",
+          "html": "Cinema Sheryl"
+        }
+      ],
+      "imdb_rating": "7.4",
+      "imdb_votes": "295,722",
+      "rt_rating": "93%",
+      "metacritic": "76/100",
+      "year": "1984",
+      "runtime": "91 min",
+      "genre": "Horror",
+      "plot": "Teenager Nancy Thompson must uncover the dark truth concealed by her parents after she and her friends become targets of the spirit of a serial killer with a bladed glove in their dreams, in which if they die, it kills them in rea..."
+    },
+    {
       "title": "Gremlins - Riiviöt",
       "search_title": "Gremlins - Riiviöt",
       "url": "https://kinoon.fi/esitysajat/gremlins-riiviot?scope=helsinki",
@@ -1035,23 +1077,8 @@
       "search_title": "La Grazia",
       "url": "https://kinoon.fi/esitysajat/la-grazia?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F7e8b7faf-64e3-4a87-80d5-a482cb0a95b6.cd049e9ae6cbe346e12bb68e941f6b70a755b228d698aeb325ecca0a2e552866.webp&w=2560&q=75",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F7e8b7faf-64e3-4a87-80d5-a482cb0a95b6.449e820078d729ddfc092c1a4e5dd9abe50a53b588371b8ff719073c0cd01cc9.webp&w=2560&q=75",
       "esityspaikat": [
-        {
-          "nimi": "Kino Engel",
-          "url": "https://kinoengel.fi/",
-          "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
-        },
-        {
-          "nimi": "Kino Myyri",
-          "url": "",
-          "html": "Kino Myyri"
-        },
-        {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
-        },
         {
           "nimi": "Kinopalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
@@ -1063,14 +1090,19 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/maxim\" target=\"_blank\">Maxim Helsinki</a>"
         },
         {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+          "nimi": "Kino Engel",
+          "url": "https://kinoengel.fi/",
+          "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
         },
         {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Kino Töölö",
+          "url": "https://kinotoolo.fi/",
+          "html": "<a href=\"https://kinotoolo.fi/\" target=\"_blank\">Kino Töölö</a>"
         }
       ],
       "imdb_rating": "7.3",
@@ -1106,28 +1138,6 @@
       "plot": "In the tense 72 hours before D-Day, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice--launch the most dangerous seaborne invasion in history or risk losing the war altogether."
     },
     {
-      "title": "The Rivals of Amziah King",
-      "search_title": "The Rivals of Amziah King",
-      "url": "https://kinoon.fi/esitysajat/the-rivals-of-amziah-king?scope=helsinki",
-      "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F416ff371-0e62-422c-af73-5774e9ee7710.fe3624fe1644b14b30da05820b41dc09b20ed54984d91fe9ee4fc36bd5a9b0c9.webp&w=2560&q=75",
-      "esityspaikat": [
-        {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        }
-      ],
-      "imdb_rating": "7.3",
-      "imdb_votes": "3,018",
-      "rt_rating": "88%",
-      "metacritic": "74/100",
-      "year": "2026",
-      "runtime": "130 min",
-      "genre": "Crime, Drama, Thriller",
-      "plot": "Amziah King, beekeeper, musician, and anchor of his community, reunites with former foster daughter Kateri after many years apart, and fends off threats to his honey business."
-    },
-    {
       "title": "Se",
       "search_title": "Se",
       "url": "https://kinoon.fi/esitysajat/se?scope=helsinki",
@@ -1135,14 +1145,14 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F448d0548-9757-4cf4-9713-e75b7922c37a.eca1f9e416804b08f8fc50e5644d6401f86ba65f040db916247579b2612a8244.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
           "nimi": "BioRex Redi",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+        },
+        {
+          "nimi": "BioRex Tripla",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
         }
       ],
       "original_title": "It",
@@ -1245,54 +1255,89 @@
       "plot": "A director making a slasher sequel becomes obsessed with casting the original film's 'final girl,' leading both women into psychological and sexual chaos."
     },
     {
-      "title": "Näkymätön elina",
-      "search_title": "Näkymätön elina",
-      "url": "https://kinoon.fi/esitysajat/nakymaton-elina?scope=helsinki",
+      "title": "Primavera",
+      "search_title": "Primavera",
+      "url": "https://kinoon.fi/esitysajat/primavera?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F0d2d6754-020c-4ad7-b868-b29c999be116.2477e769235bf208a63b1392c31716b66db12763a49682bfb30bea34c824e41f.webp&w=2560&q=75",
+      "poster_url": "https://kinoon.fi/img/posters-baked/8821ef52-d2a0-40f4-9683-3ee3d2aa7153/1024.webp",
       "esityspaikat": [
         {
-          "nimi": "Kino Regina",
-          "url": "https://kinoregina.fi/",
-          "html": "<a href=\"https://kinoregina.fi/\" target=\"_blank\">Kino Regina</a>"
+          "nimi": "Kino Engel",
+          "url": "https://kinoengel.fi/",
+          "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
         }
       ],
-      "original_title": "Elina: As If I Wasn't There",
-      "imdb_rating": "7.0",
-      "imdb_votes": "1,954",
+      "imdb_rating": "7.1",
+      "imdb_votes": "1,871",
       "rt_rating": null,
       "metacritic": null,
-      "year": "2002",
-      "runtime": "77 min",
-      "genre": "Drama, Family",
-      "plot": "Elina is sinking in the quicksand and she is going under and she got the white thing on her hair."
+      "year": "2025",
+      "runtime": "110 min",
+      "genre": "Biography, Drama, History",
+      "plot": "A talented violinist, Cecilia, confined in an orphanage, meets Vivaldi who becomes her teacher. Under his mentorship and through his music, she gains courage to break free from the life she was destined for and pursue her passion."
+    },
+    {
+      "title": "Nalle Puhin elokuva (dub)",
+      "search_title": "Nalle Puhin elokuva (dub)",
+      "url": "https://kinoon.fi/esitysajat/nalle-puhin-elokuva-dub?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/img/posters-baked/61f7cd2b-e6a7-4ea9-89bb-7dbee3d76fb8/1024.webp",
+      "esityspaikat": [
+        {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        }
+      ],
+      "original_title": "Winnie the Pooh",
+      "imdb_rating": "7.1",
+      "imdb_votes": "31,474",
+      "rt_rating": "90%",
+      "metacritic": "74/100",
+      "year": "2011",
+      "runtime": "63 min",
+      "genre": "Animation, Adventure, Comedy",
+      "plot": "While searching for honey, Pooh and his friends embark on an adventure to find Eeyore's missing tail and rescue Christopher Robin from an unknown monster called The Backson."
+    },
+    {
+      "title": "Vain toinen meistä / Lapsi numero 182",
+      "search_title": "Vain toinen meistä / Lapsi numero 182",
+      "url": "https://kinoon.fi/esitysajat/vain-toinen-meista?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fc8516524-d7a2-4882-89c0-b74fb70b0b41.731a5538af390be43738bbb9892da6d53f8a30e3f84795c7f4c436575d18b7c6.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Vuotalo",
+          "url": "",
+          "html": "Vuotalo"
+        }
+      ],
+      "original_title": "Vain toinen meistä",
+      "imdb_rating": "6.9",
+      "imdb_votes": "14",
+      "rt_rating": null,
+      "metacritic": null,
+      "year": "2024",
+      "runtime": "20 min",
+      "genre": "Documentary, Animation, Short",
+      "plot": "N/A"
     },
     {
       "title": "Two Seasons, Two Strangers",
       "search_title": "Two Seasons, Two Strangers",
       "url": "https://kinoon.fi/esitysajat/two-seasons-two-strangers?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F94f55e77-b0c2-4348-aa8f-8a43a7c76a0b.1d21bbfc4b967e34b046e7fbb6cd62fd8aa5e3806629770e419c841fd5b8d536.webp&w=2560&q=75",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F94f55e77-b0c2-4348-aa8f-8a43a7c76a0b.2efaa9ea0a3b5f8f6e26b34486b522bcd2269a3d32e5c4d6b9825d33aa9a0226.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Korjaamo Kino",
-          "url": "https://korjaamo.fi/kino/",
-          "html": "<a href=\"https://korjaamo.fi/kino/\" target=\"_blank\">Korjaamo Kino</a>"
-        },
-        {
-          "nimi": "Kino Konepaja",
-          "url": "https://kinokonepaja.fi/",
-          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
+          "nimi": "Cinema Orion",
+          "url": "https://cinemaorion.fi/",
+          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
         },
         {
           "nimi": "Kino Engel",
           "url": "https://kinoengel.fi/",
           "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
-        },
-        {
-          "nimi": "Kino Tapiola",
-          "url": "https://kinotapiola.fi/",
-          "html": "<a href=\"https://kinotapiola.fi/\" target=\"_blank\">Kino Tapiola</a>"
         },
         {
           "nimi": "Gilda",
@@ -1308,16 +1353,6 @@
           "nimi": "Kino Töölö",
           "url": "https://kinotoolo.fi/",
           "html": "<a href=\"https://kinotoolo.fi/\" target=\"_blank\">Kino Töölö</a>"
-        },
-        {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
-        },
-        {
-          "nimi": "Cinema Orion",
-          "url": "https://cinemaorion.fi/",
-          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
         }
       ],
       "imdb_rating": "6.7",
@@ -1360,19 +1395,14 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F9c83febe-b63c-4551-bb71-769c2235719e.4dc49941ee299a1b520d2dd3f862be01f2488023fcdb0f0aba1f731d7bcc02c9.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+          "nimi": "RIVIERA Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Punavuori</a>"
         },
         {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
         },
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -1380,9 +1410,19 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         },
         {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+          "nimi": "BioRex Tripla",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+        },
+        {
+          "nimi": "BioRex Redi",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+        },
+        {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         },
         {
           "nimi": "Riviera Punavuori",
@@ -1398,6 +1438,29 @@
       "runtime": "100 min",
       "genre": "Action, Horror, Sci-Fi",
       "plot": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident."
+    },
+    {
+      "title": "Kaunarikuume",
+      "search_title": "Kaunarikuume",
+      "url": "https://kinoon.fi/esitysajat/kaunarikuume?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F42294bd9-fefd-4ef7-823e-2dc01f27ef25.54d99242033789a66883c770c155b2f8a13f80ed736a678e4814057cfcb3fcba.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Cinema Orion",
+          "url": "https://cinemaorion.fi/",
+          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
+        }
+      ],
+      "original_title": "Soap Fever",
+      "imdb_rating": "6.6",
+      "imdb_votes": "23",
+      "rt_rating": null,
+      "metacritic": null,
+      "year": "2026",
+      "runtime": "78 min",
+      "genre": "Documentary",
+      "plot": "Follows how the soap opera The Bold and the Beautiful offered Finns respite during protracted recession after the Soviet Union's dissolution, examining circumstances when yearning for escapism reaches a breaking point."
     },
     {
       "title": "Mandy",
@@ -1459,6 +1522,21 @@
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+        },
+        {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+        },
+        {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         }
       ],
       "imdb_rating": "6.4",
@@ -1520,13 +1598,7 @@
       "url": "https://kinoon.fi/esitysajat/marsupilami?scope=helsinki",
       "source": "Kinoon.fi",
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fbbb2bed9-ee29-4399-89dc-cbc0b4a64de7.fd3a21b8a055227c140456c25a8a3e227207b1afd3eeca6a5cfc94f524f76696.webp&w=2560&q=75",
-      "esityspaikat": [
-        {
-          "nimi": "Tennispalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
-        }
-      ],
+      "esityspaikat": [],
       "imdb_rating": "6.3",
       "imdb_votes": "1,997",
       "rt_rating": null,
@@ -1587,6 +1659,29 @@
       "plot": "Follows the Minions in 1920s Hollywood as they search for frightening creatures for their monster movie, partner with a green creature, and must save the planet after unleashing monsters."
     },
     {
+      "title": "Ringu",
+      "search_title": "Ringu",
+      "url": "https://kinoon.fi/esitysajat/ringu?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fe591ccb1-d7ad-45b7-85af-6f02e6f6a989.65743a681094dde8c40fe5fb60877bb58283bbaddc3f79499dc44182bcf043e4.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Kino Regina",
+          "url": "https://kinoregina.fi/",
+          "html": "<a href=\"https://kinoregina.fi/\" target=\"_blank\">Kino Regina</a>"
+        }
+      ],
+      "original_title": "Ring",
+      "imdb_rating": "6.2",
+      "imdb_votes": "858",
+      "rt_rating": null,
+      "metacritic": null,
+      "year": "1995",
+      "runtime": "95 min",
+      "genre": "Horror, Mystery",
+      "plot": "Rumours among Tokyo teenagers say that after watching a specific video, you die exactly one week later. A reporter investigates."
+    },
+    {
       "title": "Insidious: Out Of The Further",
       "search_title": "Insidious: Out Of The Further",
       "url": "https://kinoon.fi/esitysajat/insidious-out-of-the-further?scope=helsinki",
@@ -1594,9 +1689,9 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F142c836c-bc35-47c9-b4a9-1c4fa953ac5b.824418b05865f7d84a9bfd114e6d3d3a306f83283c754732f27661afcaa3d1e9.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         }
       ],
       "imdb_rating": "6.2",
@@ -1638,6 +1733,11 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F42d0bdbc-e7b8-48ad-9946-7fea6436f4de.ebcd8a93ee8e6923b33a7323652073d8a30babe52a3dfb8861e28ede1116f16c.webp&w=2560&q=75",
       "esityspaikat": [
         {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
           "nimi": "Finnkino Itis",
           "url": "https://www.finnkino.fi/teatterit/itis",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
@@ -1677,32 +1777,50 @@
       "plot": "Natsuki is a school teacher who meets her ex-boy friend from high school. The man had wanted to become an illustrator and even passed the art school examination, but having lost the passion declined the chance to attend. She knew ..."
     },
     {
-      "title": "Isänpäivä",
-      "search_title": "Isänpäivä",
-      "url": "https://kinoon.fi/esitysajat/isanpaiva?scope=helsinki",
+      "title": "Ringu 0: bāsudei",
+      "search_title": "Ringu 0: bāsudei",
+      "url": "https://kinoon.fi/esitysajat/ringu-0-basudei?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fa78c9c2a-bcee-4dad-a899-7ed0774eb1d3.a1b119790f68acef037a899ebbae1d9c94c2f682cf0cc86ab68a12e1b1576501.webp&w=2560&q=75",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fafa14cbe-19d4-4003-b52b-b7e80d04dbce.519a6f7d2866a377a08c0091d1ed27cac80f2cedf0e37661ef56943787105b37.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Korjaamo Kino",
-          "url": "https://korjaamo.fi/kino/",
-          "html": "<a href=\"https://korjaamo.fi/kino/\" target=\"_blank\">Korjaamo Kino</a>"
-        },
-        {
-          "nimi": "Kino Töölö",
-          "url": "https://kinotoolo.fi/",
-          "html": "<a href=\"https://kinotoolo.fi/\" target=\"_blank\">Kino Töölö</a>"
+          "nimi": "Kino Regina",
+          "url": "https://kinoregina.fi/",
+          "html": "<a href=\"https://kinoregina.fi/\" target=\"_blank\">Kino Regina</a>"
         }
       ],
-      "original_title": "Father's Day",
-      "imdb_rating": "5.7",
-      "imdb_votes": "3,704",
-      "rt_rating": "78%",
+      "original_title": "Ring 0",
+      "imdb_rating": "5.9",
+      "imdb_votes": "10,152",
+      "rt_rating": null,
       "metacritic": null,
-      "year": "2014",
+      "year": "2000",
       "runtime": "99 min",
-      "genre": "Comedy, Horror",
-      "plot": "A murderer, a priest, and a delinquent try to bring down a father-killing madman."
+      "genre": "Horror, Mystery, Thriller",
+      "plot": "In this prequel to Ring, a young Sadako becomes an actress in hopes of escaping her troubled past. But strange visions and terrifying powers begin to manifest..."
+    },
+    {
+      "title": "Ringu 2",
+      "search_title": "Ringu 2",
+      "url": "https://kinoon.fi/esitysajat/ringu-2?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F5018516f-40e0-49e5-acd0-4504d0112061.14044ad5545889593066411e85f946145a7eccf82124dd69b3f543ad25c51f42.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Kino Regina",
+          "url": "https://kinoregina.fi/",
+          "html": "<a href=\"https://kinoregina.fi/\" target=\"_blank\">Kino Regina</a>"
+        }
+      ],
+      "original_title": "Ring 2",
+      "imdb_rating": "5.8",
+      "imdb_votes": "16,238",
+      "rt_rating": "7%",
+      "metacritic": null,
+      "year": "1999",
+      "runtime": "95 min",
+      "genre": "Horror, Mystery, Sci-Fi",
+      "plot": "Reiko takes Yôichi into hiding when her son begins to display frightening powers. Meanwhile, Mai Takano and the authorities begin a desperate search for them, as the mysterious Ring curse spreads."
     },
     {
       "title": "Yön lapsi",
@@ -1722,9 +1840,29 @@
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
         },
         {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+        },
+        {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
           "nimi": "Riviera Punavuori",
           "url": "https://rivierakallio.fi/",
           "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
+        },
+        {
+          "nimi": "Cinema Orion",
+          "url": "https://cinemaorion.fi/",
+          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
         }
       ],
       "original_title": "Nightborn",
@@ -1745,14 +1883,9 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd562babc-a0e6-4ca0-9dcd-4704dccbb230.030580ae4e71a8f4b779f000c7963f5e39c3c818e04c91531af8c3508f5551e4.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        },
-        {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         },
         {
           "nimi": "Finnkino Itis",
@@ -1760,14 +1893,14 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         },
         {
-          "nimi": "Tennispalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+          "nimi": "BioRex Tripla",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
         },
         {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         }
       ],
       "imdb_rating": "4.2",
@@ -1780,6 +1913,86 @@
       "plot": "In the midst of a civil war in Southeast Asia, a general raises the stakes by kidnapping 63 UN relief workers. To free the hostages, a colonel leads a group of fighters, who will have to use all their skills to be successful."
     },
     {
+      "title": "100 litraa sahtia",
+      "search_title": "100 litraa sahtia",
+      "url": "https://kinoon.fi/esitysajat/100-litraa-sahtia?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F55f2be2a-53a6-4dc3-8c96-39b45a6d3bbd.fd3d8450cc3cf10e093f806b88b301c478d86e283194b2b7dc0f2c944b84b255.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Kino Töölö",
+          "url": "https://kinotoolo.fi/",
+          "html": "<a href=\"https://kinotoolo.fi/\" target=\"_blank\">Kino Töölö</a>"
+        }
+      ],
+      "original_title": "100 Liters of Gold"
+    },
+    {
+      "title": "My Bloody Valentine 'Loveless' (35th Anniversary)",
+      "search_title": "My Bloody Valentine 'Loveless' (35th Anniversary)",
+      "url": "https://kinoon.fi/esitysajat/my-bloody-valentine-loveless-35th-anniversary?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F8c630eea-79b8-4af0-8c74-6d92e5303e0d.0cbf2f9a29e05d22fcacd3dde6e5f10ad81ba389fbfc2e4bd0db6a865c7cae3a.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+        }
+      ]
+    },
+    {
+      "title": "Rammstein - Live in Mexico City",
+      "search_title": "Rammstein - Live in Mexico City",
+      "url": "https://kinoon.fi/esitysajat/rammstein-live-in-mexico-city?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fc17ae6ff-10ab-4248-8c48-bb4c0ceed59d.ffb0e9822692fc35bd4d8984adf6a312c198d746f3d589d5910393aff2f2cb1f.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "BioRex Tripla",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+        }
+      ],
+      "imdb_rating": "N/A",
+      "imdb_votes": "N/A",
+      "rt_rating": null,
+      "metacritic": null,
+      "year": "2026",
+      "runtime": "110 min",
+      "genre": "Documentary, Music",
+      "plot": "Follows Rammstein's electrifying live performance captured during their concert in Mexico City."
+    },
+    {
+      "title": "Heikki Katajisto in Memoriam",
+      "search_title": "Heikki Katajisto in Memoriam",
+      "url": "https://kinoon.fi/esitysajat/heikki-katajisto-in-memoriam?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F301505d9-56f5-4baa-8912-c12f8dc072d2.ae6e3dc61f793ee0a350ba3dbb55e5aef0d53200da533e574f0de024681fc553.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Cinema Orion",
+          "url": "https://cinemaorion.fi/",
+          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
+        }
+      ]
+    },
+    {
       "title": "Kuukauden eastern: Mad Dog Morgan",
       "search_title": "Kuukauden eastern: Mad Dog Morgan",
       "url": "https://kinoon.fi/esitysajat/mad-dog-morgan?scope=helsinki",
@@ -1790,6 +2003,20 @@
           "nimi": "Teatteri Union",
           "url": "",
           "html": "Teatteri Union"
+        }
+      ]
+    },
+    {
+      "title": "Ohukainen ja paksukainen 3: avioliiton ilot osa ii",
+      "search_title": "Ohukainen ja paksukainen 3: avioliiton ilot osa ii",
+      "url": "https://kinoon.fi/esitysajat/ohukainen-ja-paksukainen-3-avioliiton-ilot-osa-ii?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fkinoregina.fi%2Fwp-content%2Fuploads%2F2026%2F09%2FTheir-First-Mistake-optimized.jpg&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Kino Regina",
+          "url": "https://kinoregina.fi/",
+          "html": "<a href=\"https://kinoregina.fi/\" target=\"_blank\">Kino Regina</a>"
         }
       ]
     },
@@ -1821,6 +2048,21 @@
           "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
         },
         {
+          "nimi": "Kino Tapiola",
+          "url": "https://kinotapiola.fi/",
+          "html": "<a href=\"https://kinotapiola.fi/\" target=\"_blank\">Kino Tapiola</a>"
+        },
+        {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Maxim Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/maxim",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/maxim\" target=\"_blank\">Maxim Helsinki</a>"
+        },
+        {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
@@ -1829,6 +2071,16 @@
           "nimi": "BioRex Redi",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         }
       ],
       "original_title": "Berlin Hero"
@@ -1841,6 +2093,31 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F8e7eccaa-0509-4303-9947-e8b652818182.175c8791597bbc7b4c98cb5e7dda715b9b0c757708e1e3e97d544b268ba89a9b.webp&w=2560&q=75",
       "esityspaikat": [
         {
+          "nimi": "Kino Tapiola",
+          "url": "https://kinotapiola.fi/",
+          "html": "<a href=\"https://kinotapiola.fi/\" target=\"_blank\">Kino Tapiola</a>"
+        },
+        {
+          "nimi": "Kino Myyri",
+          "url": "",
+          "html": "Kino Myyri"
+        },
+        {
+          "nimi": "Rekolan Kino",
+          "url": "",
+          "html": "Rekolan Kino"
+        },
+        {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+        },
+        {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
@@ -1849,6 +2126,11 @@
           "nimi": "BioRex Redi",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         }
       ],
       "original_title": "Shaun the Sheep: The Beast of Mossy Bottom",
@@ -1872,6 +2154,16 @@
           "nimi": "Cinema Orion",
           "url": "https://cinemaorion.fi/",
           "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         }
       ]
     },
@@ -1906,49 +2198,6 @@
       "original_title": "Wildwood - Sysimetsä"
     },
     {
-      "title": "Kuzma: Fearlessly Cheerful",
-      "search_title": "Kuzma: Fearlessly Cheerful",
-      "url": "https://kinoon.fi/esitysajat/kuzma-fearlessly-cheerful?scope=helsinki",
-      "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F24fde6e9-9dad-4363-8c62-de7228430801.1e88bd347f3793fb45795f68ea2210096d9f84c25ba22fac0d829545b3ebc78e.webp&w=2560&q=75",
-      "esityspaikat": [
-        {
-          "nimi": "Kino Töölö",
-          "url": "https://kinotoolo.fi/",
-          "html": "<a href=\"https://kinotoolo.fi/\" target=\"_blank\">Kino Töölö</a>"
-        }
-      ],
-      "original_title": "Kuzma: Extremely Happy"
-    },
-    {
-      "title": "Sylvi + anna-liisa",
-      "search_title": "Sylvi + anna-liisa",
-      "url": "https://kinoon.fi/esitysajat/sylvi-plus-anna-liisa?scope=helsinki",
-      "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fkinoregina.fi%2Fwp-content%2Fuploads%2F2026%2F09%2FAnna-Liisa-37-optimized.jpg&w=2560&q=75",
-      "esityspaikat": [
-        {
-          "nimi": "Kino Regina",
-          "url": "https://kinoregina.fi/",
-          "html": "<a href=\"https://kinoregina.fi/\" target=\"_blank\">Kino Regina</a>"
-        }
-      ]
-    },
-    {
-      "title": "Elokuvan historia -luento: johdatus suomalaisen elokuvan historiaan ja suomalainen elokuva autonomian ajalla",
-      "search_title": "Elokuvan historia -luento: johdatus suomalaisen elokuvan historiaan ja suomalainen elokuva autonomian ajalla",
-      "url": "https://kinoon.fi/esitysajat/elokuvan-historia-luento-johdatus-suomalaisen-elokuvan-historiaan-ja-suomalainen-elokuva-autonomian-ajalla?scope=helsinki",
-      "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fkinoregina.fi%2Fwp-content%2Fuploads%2F2026%2F09%2FSylvi-56-optimized.jpg&w=2560&q=75",
-      "esityspaikat": [
-        {
-          "nimi": "Kino Regina",
-          "url": "https://kinoregina.fi/",
-          "html": "<a href=\"https://kinoregina.fi/\" target=\"_blank\">Kino Regina</a>"
-        }
-      ]
-    },
-    {
       "title": "Back to the Beginning: Ozzy's Final Bow",
       "search_title": "Back to the Beginning: Ozzy's Final Bow",
       "url": "https://kinoon.fi/esitysajat/back-to-the-beginning-ozzy-s-final-bow?scope=helsinki",
@@ -1959,56 +2208,8 @@
           "nimi": "Gilda",
           "url": "https://www.kinogilda.fi/",
           "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
-        },
-        {
-          "nimi": "Tennispalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         }
       ]
-    },
-    {
-      "title": "NV-festariennakot: The Peril at Pincer Point ja Never After Dark",
-      "search_title": "NV-festariennakot: The Peril at Pincer Point ja Never After Dark",
-      "url": "https://kinoon.fi/esitysajat/nv-festariennakot-the-peril-at-pincer-point-ja-never-after-dark?scope=helsinki",
-      "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F707528fc-ca01-42ee-b3e4-119a81e70751.41ede7dc2e4809563a378b17844b8f9c455507558995f03e12f131add40f26cd.webp&w=2560&q=75",
-      "esityspaikat": [
-        {
-          "nimi": "WHS Union",
-          "url": "",
-          "html": "WHS Union"
-        },
-        {
-          "nimi": "Teatteri Union",
-          "url": "",
-          "html": "Teatteri Union"
-        }
-      ],
-      "original_title": "Untitled The Peril at Pincer Point Sequel"
-    },
-    {
-      "title": "Rakkauden risti",
-      "search_title": "Rakkauden risti",
-      "url": "https://kinoon.fi/esitysajat/rakkauden-risti?scope=helsinki",
-      "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F4ac9f64b-4cc0-47d2-9388-72b3b6736f46.58ba7a7f9d36d078bf829ce1ee432f3d6414fa277fc614d9ce1160e196427bef.webp&w=2560&q=75",
-      "esityspaikat": [
-        {
-          "nimi": "Cinema Orion",
-          "url": "https://cinemaorion.fi/",
-          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
-        }
-      ],
-      "original_title": "Cross of Love",
-      "imdb_rating": "N/A",
-      "imdb_votes": "N/A",
-      "rt_rating": null,
-      "metacritic": null,
-      "year": "2003",
-      "runtime": "N/A",
-      "genre": "Drama, Romance",
-      "plot": "N/A"
     },
     {
       "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
@@ -2086,34 +2287,19 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F5f1995af-2b82-4315-b550-651c213ecdb0.bc85cee9184647e0c4a619bafe1f2d05c3515e87f7bdf85112bc5235237cf888.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "RIVIERA Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Punavuori</a>"
-        },
-        {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
-        },
-        {
           "nimi": "Tennispalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         },
         {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
-        },
-        {
-          "nimi": "Riviera Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
-        },
-        {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+        },
+        {
+          "nimi": "BioRex Redi",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
         },
         {
           "nimi": "Finnkino Itis",
@@ -2148,6 +2334,11 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         },
         {
+          "nimi": "BioRex Tripla",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+        },
+        {
           "nimi": "Kinopalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
@@ -2156,11 +2347,6 @@
           "nimi": "BioRex Redi",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
-        },
-        {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
         }
       ],
       "original_title": "Pikkuli and Starlight Reindeer",
@@ -2186,14 +2372,24 @@
           "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
         },
         {
+          "nimi": "Rekolan Kino",
+          "url": "",
+          "html": "Rekolan Kino"
+        },
+        {
+          "nimi": "Kino Kulttuurimylly",
+          "url": "",
+          "html": "Kino Kulttuurimylly"
+        },
+        {
           "nimi": "Korjaamo Kino",
           "url": "https://korjaamo.fi/kino/",
           "html": "<a href=\"https://korjaamo.fi/kino/\" target=\"_blank\">Korjaamo Kino</a>"
         },
         {
-          "nimi": "Cinema Orion",
-          "url": "https://cinemaorion.fi/",
-          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
+          "nimi": "Kino Tapiola",
+          "url": "https://kinotapiola.fi/",
+          "html": "<a href=\"https://kinotapiola.fi/\" target=\"_blank\">Kino Tapiola</a>"
         },
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2211,11 +2407,6 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         },
         {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
           "nimi": "Maxim Helsinki",
           "url": "https://www.finnkino.fi/teatterit/maxim",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/maxim\" target=\"_blank\">Maxim Helsinki</a>"
@@ -2224,6 +2415,16 @@
           "nimi": "BioRex Redi",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+        },
+        {
+          "nimi": "BioRex Tripla",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+        },
+        {
+          "nimi": "Kino Helios",
+          "url": "",
+          "html": "Kino Helios"
         },
         {
           "nimi": "Kino Töölö",
@@ -2236,9 +2437,9 @@
           "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
         },
         {
-          "nimi": "Kino Kulttuurimylly",
-          "url": "",
-          "html": "Kino Kulttuurimylly"
+          "nimi": "Cinema Orion",
+          "url": "https://cinemaorion.fi/",
+          "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
         }
       ],
       "original_title": "Lapland War",
@@ -2291,14 +2492,14 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         },
         {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
-        },
-        {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+        },
+        {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         },
         {
           "nimi": "BioRex Redi",
@@ -2323,24 +2524,9 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Ffece2869-8354-4474-8939-e1f0fcec4615.064211f26b3712ef9dbe9a2a96afa6f6db5e23304d9dec8433cedc77a5271ae1.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Kino Myyri",
-          "url": "",
-          "html": "Kino Myyri"
-        },
-        {
           "nimi": "Gilda",
           "url": "https://www.kinogilda.fi/",
           "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
-        },
-        {
-          "nimi": "RIVIERA Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Punavuori</a>"
-        },
-        {
-          "nimi": "Kino Konepaja",
-          "url": "https://kinokonepaja.fi/",
-          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
         },
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2348,24 +2534,9 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         },
         {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
-        },
-        {
-          "nimi": "Riviera Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
-        },
-        {
           "nimi": "Kinopalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        },
-        {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
         },
         {
           "nimi": "BioRex Redi",
@@ -2373,9 +2544,19 @@
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
         },
         {
-          "nimi": "Kino Töölö",
-          "url": "https://kinotoolo.fi/",
-          "html": "<a href=\"https://kinotoolo.fi/\" target=\"_blank\">Kino Töölö</a>"
+          "nimi": "Riviera Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
+        },
+        {
+          "nimi": "Maxim Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/maxim",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/maxim\" target=\"_blank\">Maxim Helsinki</a>"
+        },
+        {
+          "nimi": "Kino Helios",
+          "url": "",
+          "html": "Kino Helios"
         }
       ],
       "original_title": "Resan till Piemonte",
@@ -2387,20 +2568,6 @@
       "runtime": "N/A",
       "genre": "Comedy, Drama, Romance",
       "plot": "N/A"
-    },
-    {
-      "title": "Women in love - rakastavaisia",
-      "search_title": "Women in love - rakastavaisia",
-      "url": "https://kinoon.fi/esitysajat/women-in-love-rakastavaisia?scope=helsinki",
-      "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fkinoregina.fi%2Fwp-content%2Fuploads%2F2026%2F09%2FWomen-in-Love-19-optimized.jpg&w=2560&q=75",
-      "esityspaikat": [
-        {
-          "nimi": "Kino Regina",
-          "url": "https://kinoregina.fi/",
-          "html": "<a href=\"https://kinoregina.fi/\" target=\"_blank\">Kino Regina</a>"
-        }
-      ]
     },
     {
       "title": "Other Mommy",
@@ -2415,14 +2582,14 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         },
         {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
-        },
-        {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+        },
+        {
+          "nimi": "BioRex Redi",
+          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
+          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
         },
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -2430,9 +2597,9 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         },
         {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         }
       ],
       "imdb_rating": "N/A",
@@ -2452,29 +2619,19 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F76778d1a-7875-4c33-9bfa-52d101508b05.b1efb561f9ea7a0dc22ebfd7ab0316c6a1c18ce9fa18a75551c18022c1128cda.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Tennispalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
-        },
-        {
           "nimi": "Finnkino Itis",
           "url": "https://www.finnkino.fi/teatterit/itis",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         },
         {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         },
         {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
-          "nimi": "Kino Kulttuurimylly",
-          "url": "",
-          "html": "Kino Kulttuurimylly"
         }
       ],
       "original_title": "Pirjo in Sweden",
@@ -2500,14 +2657,14 @@
           "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
         },
         {
-          "nimi": "RIVIERA Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Punavuori</a>"
+          "nimi": "Rekolan Kino",
+          "url": "",
+          "html": "Rekolan Kino"
         },
         {
-          "nimi": "Kino Myyri",
-          "url": "",
-          "html": "Kino Myyri"
+          "nimi": "Kino Engel",
+          "url": "https://kinoengel.fi/",
+          "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
         },
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2518,6 +2675,16 @@
           "nimi": "BioRex Redi",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
+        },
+        {
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Kino Helios",
+          "url": "",
+          "html": "Kino Helios"
         },
         {
           "nimi": "Finnkino Itis",
@@ -2535,19 +2702,19 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/maxim\" target=\"_blank\">Maxim Helsinki</a>"
         },
         {
-          "nimi": "Riviera Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
-        },
-        {
-          "nimi": "Kino Engel",
-          "url": "https://kinoengel.fi/",
-          "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
-        },
-        {
           "nimi": "Cinema Orion",
           "url": "https://cinemaorion.fi/",
           "html": "<a href=\"https://cinemaorion.fi/\" target=\"_blank\">Cinema Orion</a>"
+        },
+        {
+          "nimi": "Kino Konepaja",
+          "url": "https://kinokonepaja.fi/",
+          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
+        },
+        {
+          "nimi": "Riviera Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
         }
       ],
       "original_title": "Tell Everyone",
@@ -2573,14 +2740,14 @@
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         },
         {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
-        },
-        {
           "nimi": "BioRex Tripla",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+        },
+        {
+          "nimi": "Riviera Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
         }
       ],
       "imdb_rating": "N/A",
@@ -2600,19 +2767,9 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd8a96f3e-91c0-45ee-b3ff-6523e30dee30.65482cd071dff41d0f5566af660b4e55eee66d50dbed128c40ecda1aa719c2d4.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
-        },
-        {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
-        },
-        {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         },
         {
           "nimi": "BioRex Tripla",
@@ -2620,14 +2777,29 @@
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
         },
         {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+        },
+        {
           "nimi": "BioRex Redi",
           "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
           "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
         },
         {
-          "nimi": "Tennispalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
+          "nimi": "Kinopalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+        },
+        {
+          "nimi": "Riviera Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
         }
       ],
       "original_title": "Verity",
@@ -2645,22 +2817,17 @@
       "search_title": "Rakkautta ja virtahepoja",
       "url": "https://kinoon.fi/esitysajat/rakkautta-ja-virtahepoja?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fda9b04f0-54ff-423e-ae39-10d568284b85.4ece58c5005e6ab419313cf641ddc9ae36bdc093958e690d9511bedf496fafb1.webp&w=2560&q=75",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fda9b04f0-54ff-423e-ae39-10d568284b85.1fcbea162ce19c1b05ac239e4f764ca9359e7b11f33b5b5a344ae3b39e817940.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Finnkino Itis",
-          "url": "https://www.finnkino.fi/teatterit/itis",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         },
         {
           "nimi": "Kinopalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        },
-        {
-          "nimi": "Tennispalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         }
       ],
       "original_title": "Hippo Love",
@@ -2696,14 +2863,14 @@
       "poster_url": "https://kinoon.fi/img/posters-baked/0194382c-0eb2-41f8-9842-9759360d46eb/1024.webp",
       "esityspaikat": [
         {
-          "nimi": "Tennispalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
-        },
-        {
           "nimi": "Kinopalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Tennispalatsi Helsinki",
+          "url": "https://www.finnkino.fi/teatterit/tennispalatsi",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/tennispalatsi\" target=\"_blank\">Tennispalatsi Helsinki</a>"
         }
       ],
       "original_title": "Blue Baby",
@@ -2721,7 +2888,7 @@
       "search_title": "Practical Magic: Lumotut sisaret",
       "url": "https://kinoon.fi/esitysajat/practical-magic-lumotut-sisaret?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F804778de-f706-456e-9189-fd4698a4f0b9.c9ac4e5c30fe170fe5fe422c4b133f6823a39a5253ae47a459e60d95329c6707.webp&w=2560&q=75",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F804778de-f706-456e-9189-fd4698a4f0b9.40b3b546a48715ee1f88c61e64c1803f6798a29d7cd3a3ba28702bb50ac7a994.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2770,11 +2937,6 @@
       "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F7cb11a3e-77c0-4319-a1d7-b76ea01b2890.7ca10a55e1e6409d2b5994ed4942b53f8678a4640005800c77cddeb0911935e5.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        },
-        {
           "nimi": "Kino Engel",
           "url": "https://kinoengel.fi/",
           "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
@@ -2798,14 +2960,24 @@
       "poster_url": "https://kinoon.fi/img/posters-baked/8146cdf1-7e5b-4dd4-8636-181a49a6493b/1024.webp",
       "esityspaikat": [
         {
+          "nimi": "Kino Kulttuurimylly",
+          "url": "",
+          "html": "Kino Kulttuurimylly"
+        },
+        {
+          "nimi": "Rekolan Kino",
+          "url": "",
+          "html": "Rekolan Kino"
+        },
+        {
           "nimi": "Kinopalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
         },
         {
-          "nimi": "Kino Kulttuurimylly",
-          "url": "",
-          "html": "Kino Kulttuurimylly"
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
         }
       ],
       "original_title": "The Kidnapping of a President",
@@ -2817,29 +2989,6 @@
       "runtime": "87 min",
       "genre": "Comedy, Drama",
       "plot": "On 14 October 1930, Finnish right-wing extremists abducted the nation's first president. But things definitely did not go as planned."
-    },
-    {
-      "title": "Päivien lumo",
-      "search_title": "Päivien lumo",
-      "url": "https://kinoon.fi/esitysajat/paivien-lumo?scope=helsinki",
-      "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/img/posters-baked/80b86d49-322c-43c6-b79a-6f2637e3c70c/1024.webp",
-      "esityspaikat": [
-        {
-          "nimi": "Kinopalatsi Helsinki",
-          "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
-          "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
-        }
-      ],
-      "original_title": "Days of Wonder",
-      "imdb_rating": "N/A",
-      "imdb_votes": "N/A",
-      "rt_rating": null,
-      "metacritic": null,
-      "year": "2025",
-      "runtime": "88 min",
-      "genre": "Documentary",
-      "plot": "N/A"
     },
     {
       "title": "Autofiktio",
@@ -2857,6 +3006,11 @@
           "nimi": "Kinopalatsi Helsinki",
           "url": "https://www.finnkino.fi/teatterit/kinopalatsi",
           "html": "<a href=\"https://www.finnkino.fi/teatterit/kinopalatsi\" target=\"_blank\">Kinopalatsi Helsinki</a>"
+        },
+        {
+          "nimi": "Riviera Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
         }
       ],
       "original_title": "Amarga Navidad"
@@ -2900,31 +3054,43 @@
       "plot": "Bamse, Little Skutt and Skalman go out into open water and far down to the bottom of the sea. And Captain Buster is willing to do anything to earn the title of Terror of the Sea."
     },
     {
+      "title": "Godzilla Minus Zero",
+      "search_title": "Godzilla Minus Zero",
+      "url": "https://kinoon.fi/esitysajat/godzilla-minus-zero?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd9900dca-c9ee-4dac-8e2d-bb908dfc754c.2f46a731c1e68dd6007c74ce9d4afe1e463e3e5d5b3c84f486f569c9f34e5a5f.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Finnkino Itis",
+          "url": "https://www.finnkino.fi/teatterit/itis",
+          "html": "<a href=\"https://www.finnkino.fi/teatterit/itis\" target=\"_blank\">Finnkino Itis</a>"
+        },
+        {
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+        }
+      ],
+      "imdb_rating": "N/A",
+      "imdb_votes": "N/A",
+      "rt_rating": "97%",
+      "metacritic": null,
+      "year": "2026",
+      "runtime": "119 min",
+      "genre": "Action, Adventure, Drama",
+      "plot": "Direct continuation of Takashi Yamazaki's Godzilla Minus One."
+    },
+    {
       "title": "Wild Horse Nine",
       "search_title": "Wild Horse Nine",
       "url": "https://kinoon.fi/esitysajat/wild-horse-nine?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Ff43e84fe-992c-47f3-947c-2fd4803ce029.7fa689c24f5384a98dc390ee3fd39f692fc340fa43037cb367857cd04a18cf8d.webp&w=2560&q=75",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Ff43e84fe-992c-47f3-947c-2fd4803ce029.8e1bb668043a41f6c4618582aabf96d60fa9ef8d1f5eea3754ec4b801248d2bf.webp&w=2560&q=75",
       "esityspaikat": [
         {
-          "nimi": "RIVIERA Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Punavuori</a>"
-        },
-        {
-          "nimi": "Riviera Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
-        },
-        {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
-        },
-        {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
+          "nimi": "Kino Konepaja",
+          "url": "https://kinokonepaja.fi/",
+          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
         }
       ],
       "imdb_rating": "N/A",
@@ -2935,6 +3101,29 @@
       "runtime": "N/A",
       "genre": "Comedy, Crime, Drama",
       "plot": "CIA agents Chris and Lee face a trust-testing mission from Santiago to Easter Island during 1973 in Chile."
+    },
+    {
+      "title": "Klara ja aurinko",
+      "search_title": "Klara ja aurinko",
+      "url": "https://kinoon.fi/esitysajat/klara-ja-aurinko?scope=helsinki",
+      "source": "Kinoon.fi",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F1e425c67-3a35-4ecf-a1e6-224a5e28d28c.e10410bd3d9f9fd48bac4ee916907a1ddc128da5b29f30b71d6de09491c751a4.webp&w=2560&q=75",
+      "esityspaikat": [
+        {
+          "nimi": "Riviera Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
+        }
+      ],
+      "original_title": "Klara and the Sun",
+      "imdb_rating": "N/A",
+      "imdb_votes": "N/A",
+      "rt_rating": null,
+      "metacritic": null,
+      "year": "2025",
+      "runtime": "N/A",
+      "genre": "Drama, Sci-Fi",
+      "plot": "A robot girl designed to prevent loneliness tries to save a heartbroken family of humans."
     },
     {
       "title": "Wicker - Intohimosta punottu",
@@ -2957,66 +3146,74 @@
       "original_title": "Wicker - Intohimosta punottu"
     },
     {
-      "title": "Cinéstesia Encore: Isaac Julien",
-      "search_title": "Cinéstesia Encore: Isaac Julien",
-      "url": "https://www.kinot.fi/elokuva/cinestesia-encore-isaac-julien",
+      "title": "Järki ja tunteet",
+      "search_title": "Järki ja tunteet",
+      "url": "https://www.kinot.fi/elokuva/jarki-ja-tunteet",
       "source": "Kinot.fi",
       "poster_url": null,
       "esityspaikat": [
         {
-          "nimi": "Kino Tapiola",
-          "url": "https://kinotapiola.fi/",
-          "html": "<a href=\"https://kinotapiola.fi/\" target=\"_blank\">Kino Tapiola</a>"
-        }
-      ]
-    },
-    {
-      "title": "Espoo Ciné Encore: Rays and Shadows",
-      "search_title": "Espoo Ciné Encore: Rays and Shadows",
-      "url": "https://www.kinot.fi/elokuva/espoo-cine-encore-rays-and-shadows",
-      "source": "Kinot.fi",
-      "poster_url": null,
-      "esityspaikat": [
+          "nimi": "Kino Engel",
+          "url": "https://kinoengel.fi/",
+          "html": "<a href=\"https://kinoengel.fi/\" target=\"_blank\">Kino Engel</a>"
+        },
+        {
+          "nimi": "RIVIERA Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Punavuori</a>"
+        },
+        {
+          "nimi": "RIVIERA Kallio",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Kallio</a>"
+        },
         {
           "nimi": "Kino Tapiola",
           "url": "https://kinotapiola.fi/",
           "html": "<a href=\"https://kinotapiola.fi/\" target=\"_blank\">Kino Tapiola</a>"
+        },
+        {
+          "nimi": "Kino Konepaja",
+          "url": "https://kinokonepaja.fi/",
+          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
+        },
+        {
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+        },
+        {
+          "nimi": "Kino Myyri",
+          "url": "",
+          "html": "Kino Myyri"
         }
       ]
     },
     {
-      "title": "Udta teer",
-      "search_title": "Udta teer",
-      "url": "https://www.kinot.fi/elokuva/udta-teer",
+      "title": "Wildwood – Sysimetsä",
+      "search_title": "Wildwood – Sysimetsä",
+      "url": "https://www.kinot.fi/elokuva/wildwood-sysimetsa",
       "source": "Kinot.fi",
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BZjE3MWQzNjEtY2RiYy00M2NkLWI3ZTYtNzhhNzY5YWYzMmViXkEyXkFqcGc@._V1_QL75_UY562_CR185,0,380,562_.jpg",
+      "poster_url": null,
       "esityspaikat": [
         {
           "nimi": "Kino Myyri",
           "url": "",
           "html": "Kino Myyri"
         }
-      ],
-      "imdb_rating": "N/A",
-      "imdb_votes": "N/A",
-      "rt_rating": null,
-      "metacritic": null,
-      "year": "2026",
-      "runtime": "N/A",
-      "genre": "Comedy",
-      "plot": "N/A"
+      ]
     },
     {
-      "title": "Maailman rikkain nainen",
-      "search_title": "Maailman rikkain nainen",
-      "url": "https://www.kinot.fi/elokuva/maailman-rikkain-nainen",
+      "title": "Studio Munka Short Films (Free screening, Polish Film Weeks / Puolan elokuvaviikot)",
+      "search_title": "Studio Munka Short Films (Free screening, Polish Film Weeks / Puolan elokuvaviikot)",
+      "url": "https://www.kinot.fi/elokuva/studio-munka-short-films-free-screening-polish-film-weeks-puolan-elokuvaviikot",
       "source": "Kinot.fi",
       "poster_url": null,
       "esityspaikat": [
         {
-          "nimi": "Kino Tapiola",
-          "url": "https://kinotapiola.fi/",
-          "html": "<a href=\"https://kinotapiola.fi/\" target=\"_blank\">Kino Tapiola</a>"
+          "nimi": "Cinema Sheryl",
+          "url": "",
+          "html": "Cinema Sheryl"
         }
       ]
     },
@@ -3031,6 +3228,34 @@
           "nimi": "Gilda",
           "url": "https://www.kinogilda.fi/",
           "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+        }
+      ]
+    },
+    {
+      "title": "Vasenkätinen tyttö",
+      "search_title": "Vasenkätinen tyttö",
+      "url": "https://www.kinot.fi/elokuva/vasenkatinen-tytto",
+      "source": "Kinot.fi",
+      "poster_url": null,
+      "esityspaikat": [
+        {
+          "nimi": "Kino Myyri",
+          "url": "",
+          "html": "Kino Myyri"
+        }
+      ]
+    },
+    {
+      "title": "Gremlins – Riiviöt",
+      "search_title": "Gremlins – Riiviöt",
+      "url": "https://www.kinot.fi/elokuva/gremlins-riiviot",
+      "source": "Kinot.fi",
+      "poster_url": null,
+      "esityspaikat": [
+        {
+          "nimi": "Kino Konepaja",
+          "url": "https://kinokonepaja.fi/",
+          "html": "<a href=\"https://kinokonepaja.fi/\" target=\"_blank\">Kino Konepaja</a>"
         }
       ]
     }
