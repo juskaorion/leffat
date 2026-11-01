@@ -1,5 +1,5 @@
 {
-  "paivitetty": "päivitetty 01.11.2026 klo 17.04",
+  "paivitetty": "päivitetty 01.11.2026 klo 17.12",
   "elokuvat": [
     {
       "title": "Verityn varjo",
@@ -1259,14 +1259,14 @@
       "poster_url": "https://m.media-amazon.com/images/M/MV5BNzFmZWQyNGEtOWI5Yy00NDMwLWFmNTctYzE0YTkxNTQyNGNiXkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg",
       "esityspaikat": [
         {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
-        },
-        {
           "nimi": "Kino Tapiola",
           "url": "https://kinotapiola.fi/",
           "html": "<a href=\"https://kinotapiola.fi/\" target=\"_blank\">Kino Tapiola</a>"
+        },
+        {
+          "nimi": "Gilda",
+          "url": "https://www.kinogilda.fi/",
+          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
         },
         {
           "nimi": "Kino Myyri",
@@ -1327,16 +1327,6 @@
           "nimi": "Riviera Kallio",
           "url": "https://rivierakallio.fi/",
           "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Kallio</a>"
-        },
-        {
-          "nimi": "Kino Helios",
-          "url": "",
-          "html": "Kino Helios"
-        },
-        {
-          "nimi": "Riviera Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
         }
       ],
       "original_title": "Lapland War",
