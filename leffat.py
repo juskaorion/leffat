@@ -1,3 +1,4 @@
+cat << 'EOF' > scraper.py
 import os
 import json
 import re
@@ -9,8 +10,8 @@ import gzip
 import csv
 from playwright.sync_api import sync_playwright
 
-OMDB_API_KEY = os.getenv('OMDB_API_KEY', 'SINUN_OMDB_AVAIMESI_TÄHÄN')
-TMDB_API_KEY = os.getenv('TMDB_API_KEY', 'SINUN_TMDB_AVAIMESI_TÄHÄN')
+OMDB_API_KEY = os.getenv('OMDB_API_KEY', 'b52ccdd4') 
+TMDB_API_KEY = os.getenv('TMDB_API_KEY', 'e13cf7c579b9284c6e1b087d5cdb14e0')
 
 THEATRE_URL_MAP = {
     "Tennispalatsi": "https://www.finnkino.fi/teatterit/tennispalatsi",
@@ -177,7 +178,7 @@ def load_imdb_ratings():
     return ratings
 
 def fetch_metadata_via_dataset(movie_list, ratings_db):
-    print("\nHaetaan elokuvien lisätiedot API-rajapinnoista (OMDb / TMDB) ja arvosanat datasetistä...")
+    print("\nHaetaan elokuvien lisätiedot API-rajapinnoista (TMDB ensin, sitten OMDb) ja arvosanat datasetistä...")
     cache = {}
 
     for i, movie in enumerate(movie_list, 1):
@@ -198,44 +199,57 @@ def fetch_metadata_via_dataset(movie_list, ratings_db):
 
         updates = {}
         imdb_id = None
+        id_source = ""
 
-        # VAIHE 1: OMDb - Hakee metadatan ja ID:n
+        # VAIHE 1: TMDB - Joustavampi haku ID:lle ja metadatalle
         for search_title in titles_to_try:
             try:
-                params = {"apikey": OMDB_API_KEY, "t": search_title, "plot": "short"}
-                if expected_year: params["y"] = expected_year
-                res = requests.get(f"http://www.omdbapi.com/?{urllib.parse.urlencode(params)}", timeout=5).json()
+                search_params = {"api_key": TMDB_API_KEY, "query": search_title, "language": "fi-FI"}
+                if expected_year: search_params["primary_release_year"] = expected_year
                 
-                if res.get("Response") == "True":
-                    imdb_id = res.get("imdbID")
-                    updates["year"] = res.get("Year")
-                    updates["runtime"] = res.get("Runtime")
-                    updates["genre"] = res.get("Genre")
-                    updates["plot"] = res.get("Plot")
-                    if res.get("Poster") and res.get("Poster") != "N/A": updates["poster_url"] = res.get("Poster")
+                search_res = requests.get("https://api.themoviedb.org/3/search/movie", params=search_params, timeout=5).json()
+                
+                # Jos ei löydy vuodella, yritetään ilman vuosilukua
+                if not search_res.get("results") and expected_year:
+                    search_params.pop("primary_release_year", None)
+                    search_res = requests.get("https://api.themoviedb.org/3/search/movie", params=search_params, timeout=5).json()
+
+                if search_res.get("results"):
+                    best_match = search_res["results"][0]
+                    detail_url = f"https://api.themoviedb.org/3/movie/{best_match['id']}?api_key={TMDB_API_KEY}&language=fi-FI"
+                    detail_res = requests.get(detail_url, timeout=5).json()
+                    
+                    imdb_id = detail_res.get("imdb_id")
+                    if imdb_id:
+                        id_source = "TMDB"
+                    
+                    updates["year"] = best_match.get("release_date", "")[:4] if best_match.get("release_date") else None
+                    updates["plot"] = detail_res.get("overview") or best_match.get("overview")
+                    updates["genre"] = ", ".join([g["name"] for g in detail_res.get("genres", [])])
+                    updates["runtime"] = f"{detail_res.get('runtime')} min" if detail_res.get("runtime") else None
+                    if best_match.get("poster_path"):
+                        updates["poster_url"] = f"https://image.tmdb.org/t/p/w500{best_match.get('poster_path')}"
                     break 
             except Exception:
                 pass
 
-        # VAIHE 2: TMDB - Jos OMDb ei löytänyt mitään tai ID jäi puuttumaan
+        # VAIHE 2: OMDb - Vain varasuunnitelmana, jos TMDB ei löytänyt mitään
         if not imdb_id:
             for search_title in titles_to_try:
                 try:
-                    search_params = {"api_key": TMDB_API_KEY, "query": search_title, "language": "fi-FI"}
-                    if expected_year: search_params["primary_release_year"] = expected_year
-                    search_res = requests.get("https://api.themoviedb.org/3/search/movie", params=search_params, timeout=5).json()
+                    params = {"apikey": OMDB_API_KEY, "t": search_title, "plot": "short"}
+                    if expected_year: params["y"] = expected_year
+                    res = requests.get(f"http://www.omdbapi.com/?{urllib.parse.urlencode(params)}", timeout=5).json()
                     
-                    if search_res.get("results"):
-                        best_match = search_res["results"][0]
-                        detail_url = f"https://api.themoviedb.org/3/movie/{best_match['id']}?api_key={TMDB_API_KEY}&language=fi-FI"
-                        detail_res = requests.get(detail_url, timeout=5).json()
-                        
-                        imdb_id = detail_res.get("imdb_id")
-                        if "plot" not in updates: updates["plot"] = detail_res.get("overview") or best_match.get("overview")
-                        if "genre" not in updates: updates["genre"] = ", ".join([g["name"] for g in detail_res.get("genres", [])])
-                        if "runtime" not in updates: updates["runtime"] = f"{detail_res.get('runtime')} min" if detail_res.get("runtime") else None
-                        if "poster_url" not in updates and best_match.get("poster_path"):
-                            updates["poster_url"] = f"https://image.tmdb.org/t/p/w500{best_match.get('poster_path')}"
+                    if res.get("Response") == "True":
+                        imdb_id = res.get("imdbID")
+                        id_source = "OMDb"
+                        if "year" not in updates: updates["year"] = res.get("Year")
+                        if "runtime" not in updates: updates["runtime"] = res.get("Runtime")
+                        if "genre" not in updates: updates["genre"] = res.get("Genre")
+                        if "plot" not in updates: updates["plot"] = res.get("Plot")
+                        if "poster_url" not in updates and res.get("Poster") and res.get("Poster") != "N/A": 
+                            updates["poster_url"] = res.get("Poster")
                         break 
                 except Exception:
                     pass
@@ -247,11 +261,11 @@ def fetch_metadata_via_dataset(movie_list, ratings_db):
             if movie_data:
                 updates["imdb_rating"] = movie_data["rating"]
                 updates["imdb_votes"] = movie_data["votes"]
-                rating_source = "IMDb Dataset"
+                rating_source = f"IMDb Dataset (ID via {id_source})"
             else:
                 updates["imdb_rating"] = "N/A"
                 updates["imdb_votes"] = "N/A"
-                rating_source = "Liian uusi/0 ääntä"
+                rating_source = f"Liian uusi/0 ääntä (ID via {id_source})"
         else:
             updates["imdb_rating"] = "N/A"
             updates["imdb_votes"] = "N/A"
@@ -263,10 +277,8 @@ def fetch_metadata_via_dataset(movie_list, ratings_db):
 def main():
     print("🎬 Elokuvahaku käynnistyy...\n")
 
-    # Kaavinta teattereista (Playwright)
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        # Oikea User-Agent vähentää robottiblokkeja ja timeoutteja myös Kinoon/Kinot sivuilla
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             viewport={'width': 1920, 'height': 1080}
@@ -293,10 +305,8 @@ def main():
                         movie["esityspaikat"].append(venue)
                         existing_theatres.add(venue["nimi"])
                         
-        # Suljetaan selain lopullisesti ennen datasetin latausta ja API-pyyntöjä
         browser.close()
         
-    # Ladataan IMDb:n virallinen data ja haetaan tulokset rajapinnoista
     ratings_db = load_imdb_ratings()
     fetch_metadata_via_dataset(unique_movies, ratings_db)
     
@@ -314,3 +324,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+EOF
