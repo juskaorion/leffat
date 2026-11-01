@@ -1,5 +1,5 @@
 {
-  "paivitetty": "päivitetty 01.11.2026 klo 16.41",
+  "paivitetty": "päivitetty 01.11.2026 klo 16.48",
   "elokuvat": [
     {
       "title": "Verityn varjo",
@@ -1212,26 +1212,6 @@
       "imdb_votes": "31586"
     },
     {
-      "title": "Kabaddi 5 – After the Final Match",
-      "search_title": "Kabaddi 5 – After the Final Match",
-      "url": "https://www.kinot.fi/elokuva/kabaddi-5-after-the-final-match",
-      "source": "Kinot.fi",
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BMWY5M2IwNGUtZjdhZC00ODVlLWEyY2EtMTFkMmM1MDY1MzcwXkEyXkFqcGc@._V1_QL75_UY562_CR21,0,380,562_.jpg",
-      "esityspaikat": [
-        {
-          "nimi": "Kino Myyri",
-          "url": "",
-          "html": "Kino Myyri"
-        }
-      ],
-      "year": "2026",
-      "runtime": "N/A",
-      "genre": "Comedy, Drama",
-      "plot": "A new chapter, new dreams, and a whole new game for Kaji.",
-      "imdb_rating": "7.1",
-      "imdb_votes": "26"
-    },
-    {
       "title": "Audition",
       "search_title": "Audition",
       "url": "https://www.kinot.fi/elokuva/audition",
@@ -1250,6 +1230,26 @@
       "plot": "A widower has his film producer friend organize a fake audition as a means of helping him find a new girlfriend, but the woman he selects is not who she appears to be.",
       "imdb_rating": "7.1",
       "imdb_votes": "101250"
+    },
+    {
+      "title": "Kabaddi 5 – After the Final Match",
+      "search_title": "Kabaddi 5 – After the Final Match",
+      "url": "https://www.kinot.fi/elokuva/kabaddi-5-after-the-final-match",
+      "source": "Kinot.fi",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMWY5M2IwNGUtZjdhZC00ODVlLWEyY2EtMTFkMmM1MDY1MzcwXkEyXkFqcGc@._V1_QL75_UY562_CR21,0,380,562_.jpg",
+      "esityspaikat": [
+        {
+          "nimi": "Kino Myyri",
+          "url": "",
+          "html": "Kino Myyri"
+        }
+      ],
+      "year": "2026",
+      "runtime": "N/A",
+      "genre": "Comedy, Drama",
+      "plot": "A new chapter, new dreams, and a whole new game for Kaji.",
+      "imdb_rating": "7.1",
+      "imdb_votes": "26"
     },
     {
       "title": "Lapin sota",
@@ -1862,6 +1862,11 @@
           "nimi": "Gilda",
           "url": "https://www.kinogilda.fi/",
           "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
+        },
+        {
+          "nimi": "RIVIERA Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Punavuori</a>"
         },
         {
           "nimi": "Kinopalatsi Helsinki",
