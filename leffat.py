@@ -225,7 +225,9 @@ def fetch_metadata_via_dataset(movie_list, ratings_db):
                     updates["plot"] = detail_res.get("overview") or best_match.get("overview")
                     updates["genre"] = ", ".join([g["name"] for g in detail_res.get("genres", [])])
                     updates["runtime"] = f"{detail_res.get('runtime')} min" if detail_res.get("runtime") else None
-                    if best_match.get("poster_path"):
+                    
+                    # MUUTOS: Päivitetään kuva vain, jos elokuvalla EI OLE vielä kuvaa Kinoon.fi:stä
+                    if not movie.get("poster_url") and best_match.get("poster_path"):
                         updates["poster_url"] = f"https://image.tmdb.org/t/p/w500{best_match.get('poster_path')}"
                     break 
             except Exception:
@@ -246,7 +248,9 @@ def fetch_metadata_via_dataset(movie_list, ratings_db):
                         if "runtime" not in updates: updates["runtime"] = res.get("Runtime")
                         if "genre" not in updates: updates["genre"] = res.get("Genre")
                         if "plot" not in updates: updates["plot"] = res.get("Plot")
-                        if "poster_url" not in updates and res.get("Poster") and res.get("Poster") != "N/A": 
+                        
+                        # MUUTOS: Päivitetään kuva vain, jos elokuvalla EI OLE vielä kuvaa Kinoon.fi:stä
+                        if not movie.get("poster_url") and "poster_url" not in updates and res.get("Poster") and res.get("Poster") != "N/A": 
                             updates["poster_url"] = res.get("Poster")
                         break 
                 except Exception:
