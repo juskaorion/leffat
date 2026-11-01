@@ -1,32 +1,12 @@
 {
-  "paivitetty": "päivitetty 01.11.2026 klo 17.21",
+  "paivitetty": "päivitetty 01.11.2026 klo 17.39",
   "elokuvat": [
     {
       "title": "Back to the Beginning: Ozzy's Final Bow",
       "search_title": "Back to the Beginning: Ozzy's Final Bow",
       "url": "https://kinoon.fi/esitysajat/back-to-the-beginning-ozzy-s-final-bow?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/iO8vwdtmOivoyUguheJtDLXp2Gq.jpg",
-      "esityspaikat": [
-        {
-          "nimi": "Gilda",
-          "url": "https://www.kinogilda.fi/",
-          "html": "<a href=\"https://www.kinogilda.fi/\" target=\"_blank\">Gilda</a>"
-        }
-      ],
-      "year": "2026",
-      "plot": "",
-      "genre": "Musiikki, Dokumentti",
-      "runtime": "147 min",
-      "imdb_rating": "9.0",
-      "imdb_votes": "212"
-    },
-    {
-      "title": "Back to the Beginning: Ozzy’s Final Bow",
-      "search_title": "Back to the Beginning: Ozzy’s Final Bow",
-      "url": "https://www.kinot.fi/elokuva/back-to-the-beginning-ozzys-final-bow",
-      "source": "Kinot.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/iO8vwdtmOivoyUguheJtDLXp2Gq.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F56f403f3-d818-4407-b50c-4950867b51df.cc25ba234087384c96d6c83c195795f039aab4ca00e2b6010417746fa809685d.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Gilda",
@@ -46,7 +26,7 @@
       "search_title": "Twin Peaks",
       "url": "https://kinoon.fi/esitysajat/twin-peaks?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ksbcAFrfGPrxPm79vK4Ea9bgvNE.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/b7d0bc0c-daed-41a8-99e5-fc6349517774/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Riviera Punavuori",
@@ -66,7 +46,7 @@
       "search_title": "Wildwood - Sysimetsä",
       "url": "https://kinoon.fi/esitysajat/wildwood-sysimetsa?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd1e5630b-7bfe-48ee-8c3e-dd67ab0d9c8e.bba413320662af8a063a950e4d9c5bc1c3941d5f714cad76683b77b3a41aa646.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -102,7 +82,7 @@
       "search_title": "The Odyssey",
       "url": "https://kinoon.fi/esitysajat/the-odyssey?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/43351e4e-7505-4ae8-95ab-a9fd74d2ea0b/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Finnkino Itis",
@@ -142,7 +122,7 @@
       "search_title": "Naza",
       "url": "https://kinoon.fi/esitysajat/naza?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/cbxiZ1l21KUATu2KKQQ8J8fJhpe.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F7b1303a2-61e2-40df-92fe-2998fb444eaa.f0133d2269abb8b10a73d652413682b98d5ba4f4b85fa02117a214902b669021.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Engel",
@@ -177,7 +157,7 @@
       "search_title": "Wild Horse Nine",
       "url": "https://kinoon.fi/esitysajat/wild-horse-nine?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Ff43e84fe-992c-47f3-947c-2fd4803ce029.8e1bb668043a41f6c4618582aabf96d60fa9ef8d1f5eea3754ec4b801248d2bf.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Konepaja",
@@ -207,7 +187,7 @@
       "search_title": "V for Vendetta",
       "url": "https://kinoon.fi/esitysajat/v-for-vendetta?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tZkVkRh2QfF0QJl0mxmGXG6r0Q.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F6d1c8e2d-3a1c-48dd-8ea9-37123ee1b19b.b7ed2cc6938fa89d4410ff2ef9402a7010961a51108fe078535f0fb83661db8a.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Konepaja",
@@ -227,7 +207,7 @@
       "search_title": "Jailer 2",
       "url": "https://kinoon.fi/esitysajat/jailer-2?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F15632bd5-aba7-48dc-9ff1-51f79efc974f.4889fac96a45986b862e1bebcdc31e0a5036fc46497e66ccb11e0f1dd3cfab02.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -247,7 +227,7 @@
       "search_title": "Godzilla Minus Zero",
       "url": "https://kinoon.fi/esitysajat/godzilla-minus-zero?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd9900dca-c9ee-4dac-8e2d-bb908dfc754c.2f46a731c1e68dd6007c74ce9d4afe1e463e3e5d5b3c84f486f569c9f34e5a5f.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Finnkino Itis",
@@ -282,7 +262,7 @@
       "search_title": "Kohtalon avain",
       "url": "https://kinoon.fi/esitysajat/kohtalon-avain?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/e7DHQGgivZyMvM4z7mA7gMNvOHg.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F25052f21-a4a4-4f29-ad07-eaa5e8e45fe5.7826619d916b2ffd1dc5c414aa4ed1b276ff541797b3cfd2fbe89bb6bd55e3c9.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Regina",
@@ -303,7 +283,7 @@
       "search_title": "Spider-Man: Brand New Day",
       "url": "https://kinoon.fi/esitysajat/spider-man-brand-new-day?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/e7e10ab8-b0a8-4dec-9b3e-570f3469caea/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -328,7 +308,7 @@
       "search_title": "Pelin säännöt",
       "url": "https://kinoon.fi/esitysajat/pelin-saannot?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/1rgZCoG6EfSpnFKwLIPFKQwURFT.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fceaeeb12-05a5-4dd3-a3a3-ee7dd5c9c926.81dbd1b21a564e01fd9eb59ec6bf2774ebaa8a2de02c89ba76c6ec111a1a0619.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Regina",
@@ -349,7 +329,7 @@
       "search_title": "The Devils",
       "url": "https://kinoon.fi/esitysajat/the-devils?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F92a01f48-8697-4b16-b72b-8ce7dc78503a.26bc782249ad20b6e75fd7715b8887d75a2febd80007876c6bdf77888f8f4ed9.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Gilda",
@@ -384,7 +364,7 @@
       "search_title": "The Secret Reading Club of Kabul",
       "url": "https://kinoon.fi/esitysajat/the-secret-reading-club-of-kabul?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/osKQzcuPQiwZcw21ZKSc2wJrrC9.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F20989c5c-a241-455b-b0f5-0ac5001cb15f.01d3f1b75dbe0b19bdbddaec085955d2f512ed61a38b3d344d5cca9addf18a2f.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -404,7 +384,7 @@
       "search_title": "Obsession",
       "url": "https://kinoon.fi/esitysajat/obsession?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F68a4d871-d8a0-4a76-bfb3-306f7817b14a.06e2347ec5d223847492c6b517ddc7ec5b38a9972e60963c9b982200ac6f3e11.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -424,7 +404,7 @@
       "search_title": "Amy Winehouse 'Back To Black' (20th Anniversary)",
       "url": "https://kinoon.fi/esitysajat/amy-winehouse-back-to-black-20th-anniversary?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/47bm1WUGtVIYx76FXepbsUGJhkk.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F04b4fee6-99fd-49c7-9c64-e9413e049bfb.c877a5cfdeac3d1f7832ce823a274e025a0e0582eb57af02bd1f8ed6609e436f.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Gilda",
@@ -444,7 +424,7 @@
       "search_title": "Pikkuli ja Tähtipeura",
       "url": "https://kinoon.fi/esitysajat/pikkuli-ja-tahtipeura?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/7L2tulrjRypEndPbX5zNesbwPEz.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F975ee839-c115-445c-bd24-09895da4e0b6.2ff55844dc46d35d765297a856c965026bdfd2e1986789ec3c0b84a32736504f.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -495,7 +475,7 @@
       "search_title": "Unohdettu saari",
       "url": "https://kinoon.fi/esitysajat/unohdettu-saari?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F417eb380-0b87-499b-93b4-f6a6ff007fb1.f6154b0d4f4e16892f7bf655c05fdf4433cd661950cfadd7a61c592d22d80d17.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Finnkino Itis",
@@ -531,7 +511,7 @@
       "search_title": "Laula minulle Arja!",
       "url": "https://kinoon.fi/esitysajat/laula-minulle-arja?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/cfNcnZCeXmZluqRuNJvlWArHgAB.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F0e8b4f97-b19b-4426-bc39-407c19b5855e.a6a3ff15f5606f376db19cce152306315bbd27d7097282f3f721e259c5f15e1b.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -552,7 +532,7 @@
       "search_title": "N Is a Number: A Portrait of Paul Erdös",
       "url": "https://kinoon.fi/esitysajat/n-is-a-number-a-portrait-of-paul-erdos?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/mc1goqppZ5QZUeBKyGTsqRwquwG.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fb755d706-45b0-47fc-9400-94169e842075.cf619f19c51e7ff4e3267fb441bb5150bdb7ed94e6495f57d28af84b2145183f.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Cinema Orion",
@@ -572,7 +552,7 @@
       "search_title": "Clayface",
       "url": "https://kinoon.fi/esitysajat/clayface?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F5f1995af-2b82-4315-b550-651c213ecdb0.bc85cee9184647e0c4a619bafe1f2d05c3515e87f7bdf85112bc5235237cf888.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -607,7 +587,7 @@
       "search_title": "Rose",
       "url": "https://kinoon.fi/esitysajat/rose?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/wEycIHI9U58ODLFzk4xVMsRv9Vd.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F5b9b0c97-d329-4461-be6a-72bba92bed83.4364d77e86d248ccf1046ee943e295f49d8a22f1bae6a10a5a32299057ba9433.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -632,7 +612,7 @@
       "search_title": "Digger",
       "url": "https://kinoon.fi/esitysajat/digger?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/AvnOnjDIgj27jVPOvIZrVMww8oC.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F837321d5-6a13-4604-9857-37ad64740808.19cd8157d2d9a724666ef157ebf4af1c8bdb0d2c01e85536ebd5bcff53213257.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -682,7 +662,7 @@
       "search_title": "Resident Evil",
       "url": "https://kinoon.fi/esitysajat/resident-evil?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F9c83febe-b63c-4551-bb71-769c2235719e.4dc49941ee299a1b520d2dd3f862be01f2488023fcdb0f0aba1f731d7bcc02c9.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Gilda",
@@ -722,7 +702,7 @@
       "search_title": "Tekijätorstai: Sokea Mies Joka Ei Halunnut Nähdä Titanicia",
       "url": "https://kinoon.fi/esitysajat/tekijatorstai-sokea-mies-joka-ei-halunnut-nahda-titanicia?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ydjkjqp7a7FcVNusERwNORwX0ce.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd7499ea6-a807-47a7-8c24-ca2ebec82542.e0270c6c3a271a37b2bb90c2d2d9cec1a3572989d637864430b01042a6104ee3.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Töölö",
@@ -743,7 +723,7 @@
       "search_title": "Fantom",
       "url": "https://kinoon.fi/esitysajat/fantom?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/hgoWjp9Sh0MI97eAMZCnIoVfgvq.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F76697e38-859e-4af2-96a1-81aed66710c5.a4269bc658e10bfc10230edf1cb83dc7784762da774be28418718dbe788fe7a0.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Regina",
@@ -764,7 +744,7 @@
       "search_title": "Pirates of the Caribbean: Dead Man's Chest",
       "url": "https://kinoon.fi/esitysajat/pirates-of-the-caribbean-dead-man-s-chest?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/h7YWGI0olG0Ofvl8GGUri1sLc8P.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fae8becaa-51db-4dda-9343-dab8d6bdc403.7df7cd8b0cc52d0dabcbd1302df2879978ddaa957b4211bca6494878c4f56fad.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -799,7 +779,7 @@
       "search_title": "The rocky horror picture show",
       "url": "https://kinoon.fi/esitysajat/the-rocky-horror-picture-show?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F4d85d539-1dc9-4deb-946c-0c0e34704e35.27e776103facc482368a062674fdc43fda224270153758b769fd418c8aaa5c30.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Riviera Kallio",
@@ -819,7 +799,7 @@
       "search_title": "The Invite",
       "url": "https://kinoon.fi/esitysajat/the-invite?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/b7Dr8Chzse8VagexAporUu2RtLx.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F3a7755bb-b089-49b2-aec0-6f2166ff5742.jpg&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "RIVIERA Punavuori",
@@ -849,19 +829,8 @@
       "search_title": "Gremlins - Riiviöt",
       "url": "https://kinoon.fi/esitysajat/gremlins-riiviot?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/yTGAegY6NFufyNAExQ3x4JyIr38.jpg",
-      "esityspaikat": [
-        {
-          "nimi": "BioRex Tripla",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-tripla/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-tripla/\" target=\"_blank\">BioRex Tripla</a>"
-        },
-        {
-          "nimi": "BioRex Redi",
-          "url": "https://biorex.fi/elokuvateatterit/helsinki-redi/",
-          "html": "<a href=\"https://biorex.fi/elokuvateatterit/helsinki-redi/\" target=\"_blank\">BioRex Redi</a>"
-        }
-      ],
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Ff2ad87a7-e0ca-4ab6-988f-bfc1ca67d7dd.4665e768d8f0457c413a164a7c7b4f446468b05aa5de60cb3ddd3222e992742b.webp&w=2560&q=75",
+      "esityspaikat": [],
       "original_title": "Gremlins",
       "year": "1984",
       "plot": "Billy-poika saa joululahjaksi herttaisen mutta hieman erikoisen lemmikkiotuksen, jota koskevat aivan erityiset hoito-ohjeet: otus ei saa joutua tekemisiin veden kanssa, sitä ei saa altistaa valolle eikä sitä saa missään tapauksessa ruokkia keskiyön jälkeen. Kun hoito-ohjetta kuitenkin vahingossa rikotaan, seuraukset ovat hurjat – kaupunki vilisee pian Gizmoksi ristityn otuksen lajitovereita, jotka ovat valitettavasti vain toinen toistaan pahansuovempia.",
@@ -875,7 +844,7 @@
       "search_title": "Sense and Sensibility",
       "url": "https://kinoon.fi/esitysajat/sense-and-sensibility?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/dHCpquO6VEr8aLVEpgBH6YBpk5D.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F61e7a3c3-74b2-4972-b817-105c0c4c7930.3ee45d33099364cde7b2551f1fa98ebcbd6e00d030c5280da0dbdf7c30b49a25.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Finnkino Itis",
@@ -960,7 +929,7 @@
       "search_title": "Tony",
       "url": "https://kinoon.fi/esitysajat/tony?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/uwZF5guNR5EnXkjIVTk4UPTVGiS.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F91171c09-2720-4961-adc1-24a4e1ae6666.dd9b47ca2526380a6a70a60a2b29fc8bb1eb3a1e26af82858e098e634e27f840.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Gilda",
@@ -995,7 +964,7 @@
       "search_title": "La Grazia",
       "url": "https://kinoon.fi/esitysajat/la-grazia?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/g8x2zmPvlmYobahJRb7enPDa1ZU.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F7e8b7faf-64e3-4a87-80d5-a482cb0a95b6.449e820078d729ddfc092c1a4e5dd9abe50a53b588371b8ff719073c0cd01cc9.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Engel",
@@ -1035,7 +1004,7 @@
       "search_title": "Kojootti vs. ACME",
       "url": "https://kinoon.fi/esitysajat/kojootti-vs-acme?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F522b65c0-9c30-408f-8bc2-4a8a0a5fc2a4.2a452db056fe85352e6adea976fb4319d2f83c038e7ae5a0ec527fb1dde146a5.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -1056,7 +1025,7 @@
       "search_title": "Myrskyn ikkuna",
       "url": "https://kinoon.fi/esitysajat/myrskyn-ikkuna?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/sGJ2eH99f0aGs2S3mwzenBMsjIS.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fbf36d24d-3be5-4c93-8983-15a064b46278.0ff1f9638a35c6b4eb33a3789991efbd21217b5a8490ee722327c15e7e454bc3.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -1117,7 +1086,7 @@
       "search_title": "Me olemme Pariisin orkesteri",
       "url": "https://kinoon.fi/esitysajat/me-olemme-pariisin-orkesteri?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/7qO2Jo3dq3HbeDxCfiYAvXItUpG.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd0d4eb41-6378-4bea-a1a5-18d35ec724b8.d09729a9ee2452152d3e653b97d816ec3752513cb99847f7b5c9f150d1a03ed2.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Engel",
@@ -1138,7 +1107,7 @@
       "search_title": "The music lovers",
       "url": "https://kinoon.fi/esitysajat/the-music-lovers?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/hxqRVEGh86ZZnnzCIlQkuzdcLtM.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F7539f728-ac00-41f1-98e4-484c4a7d13e7.735c33b9a5214515d4e7d1c999f342a600ed92c4d037873b37eaf02ffca4dcbf.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Regina",
@@ -1158,7 +1127,7 @@
       "search_title": "Heart of the Beast",
       "url": "https://kinoon.fi/esitysajat/heart-of-the-beast?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F15382720-7d64-4eea-94c4-29b43a86df4a.c31aae4bb92691e872f1dbddc8d02f0169e5b41615ce0f5ec29b155885fca253.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Finnkino Itis",
@@ -1188,7 +1157,7 @@
       "search_title": "Keltaiset Kirjeet",
       "url": "https://kinoon.fi/esitysajat/keltaiset-kirjeet?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/taBK5pXtvKnSHY4XnlaO3jDv9FE.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F7cb11a3e-77c0-4319-a1d7-b76ea01b2890.7ca10a55e1e6409d2b5994ed4942b53f8678a4640005800c77cddeb0911935e5.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Engel",
@@ -1209,7 +1178,7 @@
       "search_title": "Late Lammas -elokuva: Hämäräpuuhissa",
       "url": "https://kinoon.fi/esitysajat/late-lammas-elokuva-hamarapuuhissa?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/gayX49siwXf8eNs16rtk1fI91Ey.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F8e7eccaa-0509-4303-9947-e8b652818182.175c8791597bbc7b4c98cb5e7dda715b9b0c757708e1e3e97d544b268ba89a9b.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Finnkino Itis",
@@ -1250,7 +1219,7 @@
       "search_title": "Primavera",
       "url": "https://kinoon.fi/esitysajat/primavera?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/6Giqb3a9ITCKhlkNeWtfzGWOxU0.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/8821ef52-d2a0-40f4-9683-3ee3d2aa7153/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Kino Engel",
@@ -1270,7 +1239,7 @@
       "search_title": "Nalle Puhin elokuva (dub)",
       "url": "https://kinoon.fi/esitysajat/nalle-puhin-elokuva-dub?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/xlNYE2RffqtglIREzU2pMopadIc.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/61f7cd2b-e6a7-4ea9-89bb-7dbee3d76fb8/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -1311,7 +1280,7 @@
       "search_title": "Lapin sota",
       "url": "https://kinoon.fi/esitysajat/lapin-sota?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/bxUSBHaEDkk7FG4FXychnKdDRsZ.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fc0d3f23c-21fb-48af-9fd5-1c3a89472804.7967b5e2eb6e97ef2c2aa7ebeeee5029f787194f81177f5269667c00a67152e8.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Gilda",
@@ -1337,6 +1306,11 @@
           "nimi": "Korjaamo Kino",
           "url": "https://korjaamo.fi/kino/",
           "html": "<a href=\"https://korjaamo.fi/kino/\" target=\"_blank\">Korjaamo Kino</a>"
+        },
+        {
+          "nimi": "RIVIERA Kallio",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">RIVIERA Kallio</a>"
         },
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -1377,16 +1351,6 @@
           "nimi": "Riviera Kallio",
           "url": "https://rivierakallio.fi/",
           "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Kallio</a>"
-        },
-        {
-          "nimi": "Kino Helios",
-          "url": "",
-          "html": "Kino Helios"
-        },
-        {
-          "nimi": "Riviera Punavuori",
-          "url": "https://rivierakallio.fi/",
-          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
         }
       ],
       "original_title": "Lapland War",
@@ -1402,7 +1366,7 @@
       "search_title": "Juice",
       "url": "https://kinoon.fi/esitysajat/juice?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/hfXFPMhNjLnCugBHMN0nrtKW7Ra.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/1bceda4b-639c-45e7-951b-940a75e43790/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Kino Konepaja",
@@ -1422,7 +1386,7 @@
       "search_title": "Vain toinen meistä / Lapsi numero 182",
       "url": "https://kinoon.fi/esitysajat/vain-toinen-meista?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/y442mGPt4B0GgetZYjQhPAnJEZZ.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fc8516524-d7a2-4882-89c0-b74fb70b0b41.731a5538af390be43738bbb9892da6d53f8a30e3f84795c7f4c436575d18b7c6.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Vuotalo",
@@ -1443,7 +1407,7 @@
       "search_title": "Pikku Kummitus Lapanen keppostelee",
       "url": "https://kinoon.fi/esitysajat/pikku-kummitus-lapanen-keppostelee?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/5GCtgYh1PbKl0ejOqUQWFWJucfR.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F118b6b23-b13d-4250-b861-cbc71254b34a.6c1a850511aa59bbe78b9bc6e3f67037e751af03725be63aa409973e046ee4e2.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Kulttuurimylly",
@@ -1484,7 +1448,7 @@
       "search_title": "Two Seasons, Two Strangers",
       "url": "https://kinoon.fi/esitysajat/two-seasons-two-strangers?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/kdJ6IsweeNqx4gRcWWmCaX2bgeW.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F94f55e77-b0c2-4348-aa8f-8a43a7c76a0b.2efaa9ea0a3b5f8f6e26b34486b522bcd2269a3d32e5c4d6b9825d33aa9a0226.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Gilda",
@@ -1529,7 +1493,7 @@
       "search_title": "Kerro kaikille",
       "url": "https://kinoon.fi/esitysajat/kerro-kaikille?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/8xQIf2gDgbinEClbghsGBy6v3Yu.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fb967e056-406c-4da2-be72-477c11a2b189.5a8f9487338b92fc97aed4c6a4c6a4de72ea9758bd01ac844cc921eb95b02bbf.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Engel",
@@ -1605,7 +1569,7 @@
       "search_title": "The Social Reckoning",
       "url": "https://kinoon.fi/esitysajat/the-social-reckoning?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/7jK6NuxVg1XuEV7UdNa6KO03IgZ.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdda26729-b4b7-4ab5-95d9-b1b8402f9182.94170bb97787a8ff18ed16ad33937169edd3d68eda92b4a80c0a77154a8e3dbd.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -1635,7 +1599,7 @@
       "search_title": "Noidat",
       "url": "https://kinoon.fi/esitysajat/noidat?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tjaElD6h67tqIfmitkt7CcS1WlJ.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fb19b1aa7-f3a1-48cf-b9cd-c217266ccf2e.ef4de70aaac67523c366e8c9f1be243486117c10ac1e7c38ee2f0c33597a968a.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Regina",
@@ -1656,7 +1620,7 @@
       "search_title": "Whalefall",
       "url": "https://kinoon.fi/esitysajat/whalefall?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fb13d503a-57ab-40c5-8d64-b7ff85c14204.014e3e1cacc678e7743e2828b2d580d0a95dcd0e8e8fe496c6311dcfa5592bc9.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -1696,7 +1660,7 @@
       "search_title": "The Furious",
       "url": "https://kinoon.fi/esitysajat/the-furious?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/dImWM7GJqryWJO9LHa3XQ8DD5NH.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F54603ef0-92a4-436a-9346-a20dac1b989e.6ac25fd8a1d2f986bf88e31a32e39dc8e9ff63a5f7f8e80ceadd33d8883ecc51.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -1716,7 +1680,7 @@
       "search_title": "Mandy",
       "url": "https://kinoon.fi/esitysajat/mandy?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F26e82e6f-e8a5-433f-b1df-583a4a994a6d.5cb6109dee88a93cef4aadf4459f96e4eada61388f14e8d2ad0c219dd579e970.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Bio Rex Lasipalatsi",
@@ -1736,7 +1700,7 @@
       "search_title": "Kaunarikuume",
       "url": "https://kinoon.fi/esitysajat/kaunarikuume?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ai4gsRGvgaBplIaY58EDEpGmATr.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F42294bd9-fefd-4ef7-823e-2dc01f27ef25.54d99242033789a66883c770c155b2f8a13f80ed736a678e4814057cfcb3fcba.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Cinema Orion",
@@ -1757,7 +1721,7 @@
       "search_title": "Father Mother Sister Brother",
       "url": "https://kinoon.fi/esitysajat/father-mother-sister-brother?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/96O3Ol3f2veMxAxYqsML8rOumB9.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F4d0a29a7-93ae-4fe8-bd29-ec36b1d5a7e9.282765ea6698ff3711353464dc28949b175e32a1807865dccc9e8e7fd8e0c5a6.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Engel",
@@ -1777,7 +1741,7 @@
       "search_title": "Leviticus",
       "url": "https://kinoon.fi/esitysajat/leviticus?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd9efef9c-ccd3-4aa3-961b-29b0277a277c.ee8a5bde646df8af1a1c5ea7cf46a12bf435a50bef70d49bcba5f1cf399b70dd.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "BioRex Redi",
@@ -1812,7 +1776,7 @@
       "search_title": "Lyhyt rakkaustarina",
       "url": "https://kinoon.fi/esitysajat/lyhyt-rakkaustarina?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/avqBTEK53Zqyr5sWIi6EuE51UaH.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F15f95506-5ba1-49f4-9319-f22872610db4.9d4705bb39c20d501be0ddd7cc1be2fc97533dcdf248607b84f6db894bb0943c.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -1833,7 +1797,7 @@
       "search_title": "Klara ja aurinko",
       "url": "https://kinoon.fi/esitysajat/klara-ja-aurinko?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F1e425c67-3a35-4ecf-a1e6-224a5e28d28c.3c42ca9fe9b3eab7adceadb9b4b2563a3fcd2e62f15368e0ea8d528a81eaf3fd.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Riviera Punavuori",
@@ -1854,7 +1818,7 @@
       "search_title": "Ulvova mylläri",
       "url": "https://kinoon.fi/esitysajat/ulvova-myllari?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/6M6vJ1mOL8YI0FysNVst7HHVOOh.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fb5381c33-268d-4a70-97ba-a7872f1e0372.2b1b691e5e118e34673f563e216711e06559a4e2312e6dfec47776552b83eaaf.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Cinema Orion",
@@ -1874,7 +1838,7 @@
       "search_title": "Berliinin sankari",
       "url": "https://kinoon.fi/esitysajat/berliinin-sankari?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/gmPute26B4JnsQNMZdgyWAfYfYj.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F39633529-881a-4871-af5e-78903de60552.c29e5b0054c0968c1b6fe95cbb89642bbcdb63407b5a427cfa8e3f91e747a808.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Gilda",
@@ -1925,7 +1889,7 @@
       "search_title": "Presidentin kyyditys",
       "url": "https://kinoon.fi/esitysajat/presidentin-kyyditys?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/mPDcWVVDZs3AlwOG6xVowJoFIIF.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/8146cdf1-7e5b-4dd4-8636-181a49a6493b/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Kino Myyri",
@@ -1956,7 +1920,7 @@
       "search_title": "Autofiktio",
       "url": "https://kinoon.fi/esitysajat/autofiktio?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/tn50Bw2XMBaEHbXsLrutDPIQ6op.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/fe1c179e-86f5-4b38-8fe5-ee4cc26be46f/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Kino Engel",
@@ -1987,7 +1951,7 @@
       "search_title": "Kätyrit ja Monsterit",
       "url": "https://kinoon.fi/esitysajat/katyrit-ja-monsterit?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/7894fadb-4517-4f75-8e21-832348830e81/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2013,7 +1977,7 @@
       "search_title": "Dracula",
       "url": "https://kinoon.fi/esitysajat/dracula?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/hCKkybW6EfSZoOW3xia9ZsQwaUd.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F5505a81f-0f03-4c89-8bce-5cb5a66570f8.63fc8cb1d591dadbb269c966de5e5ac58f6e8456ff16c5e8606f22d62f4c8247.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -2033,7 +1997,7 @@
       "search_title": "Street Fighter",
       "url": "https://kinoon.fi/esitysajat/street-fighter?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd562babc-a0e6-4ca0-9dcd-4704dccbb230.030580ae4e71a8f4b779f000c7963f5e39c3c818e04c91531af8c3508f5551e4.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2068,7 +2032,7 @@
       "search_title": "Evil Dead Burn",
       "url": "https://kinoon.fi/esitysajat/evil-dead-burn?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fdistributor%2F9f36c5cc-49ee-4947-b98d-9e2916302989.jpg&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2088,7 +2052,7 @@
       "search_title": "Angel's Egg",
       "url": "https://kinoon.fi/esitysajat/angel-s-egg?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/pV3ms3vXUxq1GKzPBHtZBdDYguY.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/7e519000-c49e-48e5-863d-ca663805397d/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Cinema Orion",
@@ -2109,7 +2073,7 @@
       "search_title": "Matka Piemonteen",
       "url": "https://kinoon.fi/esitysajat/matka-piemonteen?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/f5c9wYasVdcuF2h1CYRbf9T34gY.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Ffece2869-8354-4474-8939-e1f0fcec4615.064211f26b3712ef9dbe9a2a96afa6f6db5e23304d9dec8433cedc77a5271ae1.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Gilda",
@@ -2170,7 +2134,7 @@
       "search_title": "Verityn varjo",
       "url": "https://kinoon.fi/esitysajat/verityn-varjo?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/jRGyLBdTT2dM5LzQUimcsoLRffm.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fd8a96f3e-91c0-45ee-b3ff-6523e30dee30.65482cd071dff41d0f5566af660b4e55eee66d50dbed128c40ecda1aa719c2d4.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2211,7 +2175,7 @@
       "search_title": "Practical Magic: Lumotut sisaret",
       "url": "https://kinoon.fi/esitysajat/practical-magic-lumotut-sisaret?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ogwQOLbCfncjvBhFb5l0OmQH8KC.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F804778de-f706-456e-9189-fd4698a4f0b9.40b3b546a48715ee1f88c61e64c1803f6798a29d7cd3a3ba28702bb50ac7a994.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2232,7 +2196,7 @@
       "search_title": "One Night Only",
       "url": "https://kinoon.fi/esitysajat/one-night-only?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/f1v8IcYcQggeq1N0unoMJMrzTd9.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F7a4329bc-6658-46b6-ac0b-c1143a4ffe13.960656b400b4ea845252efe22e70f7c225473cd75d9a86457fbbca80b20f4f2b.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -2252,7 +2216,7 @@
       "search_title": "Ryhmä Hau: Dinoelokuva",
       "url": "https://kinoon.fi/esitysajat/ryhma-hau-dinoelokuva?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/cxXSF4aY5N2cOGwaga5OnpPFHzk.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F42d0bdbc-e7b8-48ad-9946-7fea6436f4de.ebcd8a93ee8e6923b33a7323652073d8a30babe52a3dfb8861e28ede1116f16c.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2278,7 +2242,7 @@
       "search_title": "Mutiny - Lavastettu syylliseksi",
       "url": "https://kinoon.fi/esitysajat/mutiny-lavastettu-syylliseksi?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/6pGae8yFCefaTH26rNmdvhhI3YS.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F6c88452c-97e4-40d2-aa46-3f29f5d21c8d.264decf87dc0fe8ec34740a8989f5e23272a96bce90fabd54560e4eb756da78b.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -2299,7 +2263,7 @@
       "search_title": "Yön lapsi",
       "url": "https://kinoon.fi/esitysajat/yon-lapsi?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/bLSrV2Him731C9tDCRuHq2drit5.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F02272242-2b56-421e-b138-b0c7e3fc05d0.11d47947a84c2a80a6ad572e4b8c716be023edd71a70c13e2a91680e1d5effab.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Cinema Orion",
@@ -2320,7 +2284,7 @@
       "search_title": "Rakkautta ja virtahepoja",
       "url": "https://kinoon.fi/esitysajat/rakkautta-ja-virtahepoja?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/9w5xW160NdjGOFKN9fmfcx4Azpu.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fda9b04f0-54ff-423e-ae39-10d568284b85.1fcbea162ce19c1b05ac239e4f764ca9359e7b11f33b5b5a344ae3b39e817940.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2346,7 +2310,7 @@
       "search_title": "Noiduttu",
       "url": "https://kinoon.fi/esitysajat/noiduttu?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/4dSrwXJNKtMtlkwJPgZMkjjuHvD.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F1e6badb8-f06f-4c3d-8c34-94cea968be1e.a6e2e5170195331c04c2f68123e720b265c0ba12c4e3c47db03622ccdd866bfc.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Regina",
@@ -2367,7 +2331,7 @@
       "search_title": "Pirjo i Sverige",
       "url": "https://kinoon.fi/esitysajat/pirjo-i-sverige?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/6mnmN8low3uCFuVi6TzI79HfelV.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F76778d1a-7875-4c33-9bfa-52d101508b05.b1efb561f9ea7a0dc22ebfd7ab0316c6a1c18ce9fa18a75551c18022c1128cda.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Finnkino Itis",
@@ -2403,7 +2367,7 @@
       "search_title": "Bamse ja meren salaisuus",
       "url": "https://kinoon.fi/esitysajat/bamse-ja-meren-salaisuus?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/kPPdjitatE1HKQHWO8XhKA64FjG.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fe3b20b82-c48f-461f-b03e-135ddd10a412.c62b0f42bca455cce0e80a9936866881d799c1fbf836764a7e5ccd2eae417ed3.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2424,7 +2388,7 @@
       "search_title": "Other Mommy",
       "url": "https://kinoon.fi/esitysajat/other-mommy?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F5f8a4acc-c45e-4db8-a36b-28eccae0d29e.86445684098929c48fb9a2749606d870fdf760b3ef4d29597ff8761c0fc60530.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "BioRex Redi",
@@ -2464,7 +2428,7 @@
       "search_title": "Siltalan pehtoori",
       "url": "https://kinoon.fi/esitysajat/siltalan-pehtoori?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/9b4OvoI9Eqad9oLFb1YeM3lmz0W.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F48ad79a9-1267-4797-aa9c-c6f4d1998f44.f5c27149354236a83beeb1662b2e2ffcf2078554de7b715a328c8bac252d532e.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kino Regina",
@@ -2484,7 +2448,7 @@
       "search_title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
       "url": "https://kinoon.fi/esitysajat/stray-kids-world-tour-run-it-live-viewing?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2F27c8f558-ff6f-4b0e-98f1-881241855c85.b0f5fe0484b8851f51a16693a2ba5fa5f1882742110d9845d96f5f72a2f58c9d.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Tennispalatsi Helsinki",
@@ -2563,7 +2527,7 @@
       "search_title": "Rammstein - Live in Mexico City",
       "url": "https://kinoon.fi/esitysajat/rammstein-live-in-mexico-city?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/jWASRyL51gUMeQJuZLdgDC3rTKa.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fc17ae6ff-10ab-4248-8c48-bb4c0ceed59d.ffb0e9822692fc35bd4d8984adf6a312c198d746f3d589d5910393aff2f2cb1f.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "BioRex Tripla",
@@ -2651,7 +2615,7 @@
       "search_title": "Minä ja Riikka Purra",
       "url": "https://kinoon.fi/esitysajat/mina-ja-riikka-purra?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/qLW8uFlzYOQNYFRVcJOaONJNX6w.jpg",
+      "poster_url": "https://kinoon.fi/_next/image?url=https%3A%2F%2Fbqomlakoqzjwtrqzdvtl.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fposters%2Fcac09248-0814-4bc1-a1f6-b956a13d2c6f.0cec4507e1935a929578b7c1848488644246cdc8bded308000d8bd30ef7e899f.webp&w=2560&q=75",
       "esityspaikat": [
         {
           "nimi": "Kinopalatsi Helsinki",
@@ -2671,7 +2635,7 @@
       "search_title": "Hetki ennen valoa",
       "url": "https://kinoon.fi/esitysajat/hetki-ennen-valoa?scope=helsinki",
       "source": "Kinoon.fi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/fq4KsxfoA1Q5hnBYldhr9V7Z4Kc.jpg",
+      "poster_url": "https://kinoon.fi/img/posters-baked/0194382c-0eb2-41f8-9842-9759360d46eb/1024.webp",
       "esityspaikat": [
         {
           "nimi": "Kino Myyri",
