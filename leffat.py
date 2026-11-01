@@ -10,8 +10,8 @@ import gzip
 import csv
 from playwright.sync_api import sync_playwright
 
-OMDB_API_KEY = os.getenv('OMDB_API_KEY', 'b52ccdd4') 
-TMDB_API_KEY = os.getenv('TMDB_API_KEY', 'e13cf7c579b9284c6e1b087d5cdb14e0')
+OMDB_API_KEY = os.getenv('OMDB_API_KEY') 
+TMDB_API_KEY = os.getenv('TMDB_API_KEY')
 
 THEATRE_URL_MAP = {
     "Tennispalatsi": "https://www.finnkino.fi/teatterit/tennispalatsi",
