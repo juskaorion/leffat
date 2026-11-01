@@ -1,4 +1,3 @@
-cat << 'EOF' > scraper.py
 import os
 import json
 import re
@@ -209,7 +208,6 @@ def fetch_metadata_via_dataset(movie_list, ratings_db):
                 
                 search_res = requests.get("https://api.themoviedb.org/3/search/movie", params=search_params, timeout=5).json()
                 
-                # Jos ei löydy vuodella, yritetään ilman vuosilukua
                 if not search_res.get("results") and expected_year:
                     search_params.pop("primary_release_year", None)
                     search_res = requests.get("https://api.themoviedb.org/3/search/movie", params=search_params, timeout=5).json()
@@ -324,4 +322,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-EOF
