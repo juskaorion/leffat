@@ -1,5 +1,5 @@
 {
-  "paivitetty": "päivitetty 01.11.2026 klo 16.48",
+  "paivitetty": "päivitetty 01.11.2026 klo 17.04",
   "elokuvat": [
     {
       "title": "Verityn varjo",
@@ -1327,6 +1327,16 @@
           "nimi": "Riviera Kallio",
           "url": "https://rivierakallio.fi/",
           "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Kallio</a>"
+        },
+        {
+          "nimi": "Kino Helios",
+          "url": "",
+          "html": "Kino Helios"
+        },
+        {
+          "nimi": "Riviera Punavuori",
+          "url": "https://rivierakallio.fi/",
+          "html": "<a href=\"https://rivierakallio.fi/\" target=\"_blank\">Riviera Punavuori</a>"
         }
       ],
       "original_title": "Lapland War",
