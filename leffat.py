@@ -3,6 +3,7 @@ import json
 import re
 import urllib.parse
 from datetime import datetime
+import time
 from bs4 import BeautifulSoup
 import requests
 import gzip
@@ -60,24 +61,55 @@ def get_kinoon_movies(page):
     print("Haetaan Kinoon.fi elokuvia...")
     movies, seen_titles = [], set()
     try:
-        page.goto("https://kinoon.fi/helsinki/elokuvat-ja-esitysajat", wait_until="domcontentloaded", timeout=45000)
+        page.goto("https://kinoon.fi/helsinki/elokuvat-ja-esitysajat", wait_until="networkidle", timeout=45000)
         page.wait_for_selector('[data-film-card-id]', timeout=20000)
+        
+        # 1. Rullataan sivu alas, jotta dynaaminen sisältö ja kuvat latautuvat
+        prev_height = 0
+        for _ in range(10):  # Rullataan tarvittaessa useamman kerran
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(1000)
+            curr_height = page.evaluate("document.body.scrollHeight")
+            if curr_height == prev_height:
+                break
+            prev_height = curr_height
+
         soup = BeautifulSoup(page.content(), 'html.parser')
         
         for card in soup.find_all('div', attrs={'data-film-card-id': True}):
             try:
-                link, img = card.find('a'), card.find('img', alt=True)
-                if not link or not img: continue
-                title = img['alt'].strip()
-                if title and title not in seen_titles:
-                    seen_titles.add(title)
-                    url = "https://kinoon.fi" + link.get('href', '')
-                    poster_url = img.get('src', '')
-                    if poster_url and not poster_url.startswith('http'): poster_url = "https://kinoon.fi" + poster_url
-                    movies.append({
-                        "title": title, "search_title": title, "url": url,
-                        "source": "Kinoon.fi", "poster_url": poster_url or None, "esityspaikat": []
-                    })
+                link = card.find('a')
+                if not link:
+                    continue
+                
+                # 2. Etsitään nimi ensisijaisesti tekstistä tai otsikosta, toissijaisesti kuvasta
+                title = ""
+                title_elem = card.find(['h2', 'h3', 'p', 'span'])
+                img = card.find('img')
+                
+                if img and img.get('alt'):
+                    title = img['alt'].strip()
+                elif title_elem:
+                    title = title_elem.get_text(strip=True)
+                
+                if not title or title in seen_titles:
+                    continue
+                
+                seen_titles.add(title)
+                url = "https://kinoon.fi" + link.get('href', '')
+                
+                poster_url = img.get('src', '') if img else ''
+                if poster_url and not poster_url.startswith('http'):
+                    poster_url = "https://kinoon.fi" + poster_url
+                
+                movies.append({
+                    "title": title,
+                    "search_title": title,
+                    "url": url,
+                    "source": "Kinoon.fi",
+                    "poster_url": poster_url or None,
+                    "esityspaikat": []
+                })
             except Exception:
                 continue
     except Exception as e:
